@@ -14,7 +14,11 @@ import os
 
 def extraer(path, file):
     path = path + file
+
     #------EXTRAE LAS EXPRESIONES TEMPORALES DEL XML-----#
+    """
+    La clase 'timex3Class' puede tomar unos valores determinados por los autores.
+    """
     df = pd.read_xml(path)
     df_time = pd.DataFrame(df, columns= ['begin','end','timex3Class'])
     df_time = df_time.loc[df_time['timex3Class'].isin(['DATE', 'TIME', 'DURATION', 'QUANTIFIER', 'SET', 'PREPOSTEXP', 'DOCTIME', 'DOCTIME'])]
@@ -39,6 +43,10 @@ def extraer(path, file):
         input_clear = input_.values[0]#.replace("\n\t", "  ")
 
     #------EXTRAE LAS EXPRESIONES TEMPORALES CORRESPONDIENTES AL TEXTO DEL XML-----#
+    """
+    Teniendo dos listas de pares, una 'begin' y otra 'end' que tienen el caracter inicial y final de cada expresión respecitavamente,
+    solo se recorre caracter a caracter cada pareja begin-end y lo guarda en un String 
+    """
     output_=[]
     
     for begin, end in zip(df_time['begin'], df_time['end']):
@@ -58,8 +66,6 @@ def extraer(path, file):
     -La forma más sencilla de eliminar los espacios sobrantes es con la función split, aunque podría buscarse una re que fuera más rápida.
     -El método más rápido para eliminar signos de puntuación es translate.
     """
-
-    
     output_clear = []
     for out in output_:
         #------ELIMINA SIGNOS DE PUNTUACIÓN----#
