@@ -38,9 +38,6 @@ def extraer(path, file):
     else: 
         input_clear = input_.values[0]#.replace("\n\t", "  ")
 
-    print("FILE:" + str(file))
-    print("TEXTO:" + str(input_clear))
-
     #------EXTRAE LAS EXPRESIONES TEMPORALES CORRESPONDIENTES AL TEXTO DEL XML-----#
     output_=[]
     
@@ -73,9 +70,9 @@ def extraer(path, file):
 
         output_clear.append(clear_string)
 
-
-    print(output_clear)
-    
+    #print("FILE:" + str(path))
+    #print("EXPRESIONES:" + str(output_clear))
+    #print("TEXTO:" + str(input_clear))    
 
 def heidelTime():
     False
