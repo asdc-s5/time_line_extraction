@@ -28,7 +28,8 @@ input_ = input_['sofaString']
 input_clear = input_.values[0]#.replace("\n\t", "  ")
 
 
-output=[]
+#------EXTRAE LAS EXPRESIONES TEMPORALES DEL XML-----#
+output_=[]
 
 for begin, end in zip(df_time['begin'], df_time['end']):
     texp = ""
@@ -37,10 +38,17 @@ for begin, end in zip(df_time['begin'], df_time['end']):
     while begin <= end:
         texp += input_clear[begin] 
         begin+=1
-    output.append(texp)
-print(output)
+    output_.append(texp)
 
-#ELIMINAR ESPACIOS FINALES DE LAS EXPRESIONES QUE SE SAQUEN DEL XML PARA QUE NO HAYA PROBLEMAS (CON LO DEL JOIN CREO QUE SE PUEDE)#
+#------ELIMINA LOS POSIBLES ESPACIOS FINALES Y SIGNOS DE PUNTUACIÓN DE LAS EXPRESIONES TEMPORALES-----#
+output_clear = []
+for out in output_:
+    output_clear.append(' '.join(out.split())
+
+
+print(output_clear)
+
+#ELIMINAR SIGNOS DE PUNTUACIÓN FINALES TAMBIÉN#
 #COMPLETAR PARA SACAR TODAS LAS EXPRESIONES Y TEXTO DEL XML EN FORMA DE CSV PARA GUARDARLO#
 #ESTRUCTURAR EL CÓDIGO CON MAIN Y MÉTODO PARA EXTRAER TEXTO Y EXPRESIONES DEL DATASET Y RESULTADOS DEL HEIDELTIME#
 
