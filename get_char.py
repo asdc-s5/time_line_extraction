@@ -18,14 +18,14 @@ import pandas as pd
 
 #------EXTRAE LAS EXPRESIONES TEMPORALES DEL XML-----#
 
-df = pd.read_xml('/Users/asdc/Library/CloudStorage/OneDrive-UNED/E3C-Corpus-2.0.0/data_annotation/Spanish/layer1/ES100050.xml')
+df = pd.read_xml('/Users/asdc/Library/CloudStorage/OneDrive-UNED/E3C-Corpus-2.0.0/data_annotation/Spanish/layer1/ES100042.xml')
 df_time = pd.DataFrame(df, columns= ['begin','end','timex3Class'])
 df_time = df_time.loc[df_time['timex3Class'].isin(['DATE', 'TIME', 'DURATION', 'QUANTIFIER', 'SET', 'PREPOSTEXP', 'DOCTIME', 'DOCTIME'])]
 
 #------EXTRAE EL TEXTO CLÍNICO DEL XML-----#
 input_ = df.loc[df['id'] == 12]
 input_ = input_['sofaString']
-input_clear = input_.values[0].replace("\n\t", "  ")
+input_clear = input_.values[0]#.replace("\n\t", "  ")
 
 
 output=[]
@@ -38,8 +38,9 @@ for begin, end in zip(df_time['begin'], df_time['end']):
         texp += input_clear[begin] 
         begin+=1
     output.append(texp)
+print(output)
 
-
+#ELIMINAR ESPACIOS FINALES DE LAS EXPRESIONES QUE SE SAQUEN DEL XML PARA QUE NO HAYA PROBLEMAS (CON LO DEL JOIN CREO QUE SE PUEDE)#
 #COMPLETAR PARA SACAR TODAS LAS EXPRESIONES Y TEXTO DEL XML EN FORMA DE CSV PARA GUARDARLO#
 #ESTRUCTURAR EL CÓDIGO CON MAIN Y MÉTODO PARA EXTRAER TEXTO Y EXPRESIONES DEL DATASET Y RESULTADOS DEL HEIDELTIME#
 
