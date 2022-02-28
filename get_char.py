@@ -5,6 +5,11 @@ import pandas as pd
 import string
 import re
 import os
+import csv
+
+FIELDS_E3C = ['file','string','begin', 'end', 'value', 'timex3Class'] 
+FILENAME_E3C = "time_expresions.csv"
+PATH = '/Users/asdc/Library/CloudStorage/OneDrive-UNED/E3C-Corpus-2.0.0/data_annotation/Spanish/layer1/'
 
 
 #MIRAR QUÉ FICHEROS SE UTILIZAN PARA LOS TEST Y COGER ESOS#
@@ -12,15 +17,17 @@ import os
 #FICHERO TEXTO EXPRESIONES#
 #ESTRUCTURAR EL CÓDIGO CON MAIN Y MÉTODO PARA EXTRAER TEXTO Y EXPRESIONES DEL DATASET Y RESULTADOS DEL HEIDELTIME#
 
-def extraer(path, file):
-    path = path + file
+
+
+def extraer(PATH, file):
+    PATH = PATH + file
 
     #------EXTRAE LAS EXPRESIONES TEMPORALES DEL XML-----#
     """
     La clase 'timex3Class' puede tomar unos valores determinados por los autores.
     """
-    df = pd.read_xml(path)
-    df_time = pd.DataFrame(df, columns= ['begin','end','timex3Class'])
+    df = pd.read_xml(PATH)
+    df_time = pd.DataFrame(df, columns= ['begin','end','timex3Class', 'value'])
     df_time = df_time.loc[df_time['timex3Class'].isin(['DATE', 'TIME', 'DURATION', 'QUANTIFIER', 'SET', 'PREPOSTEXP', 'DOCTIME', 'DOCTIME'])]
 
     #------EXTRAE EL TEXTO CLÍNICO DEL XML-----#
@@ -48,7 +55,7 @@ def extraer(path, file):
     solo se recorre caracter a caracter cada pareja begin-end y lo guarda en un String 
     """
     output_=[]
-    
+
     for begin, end in zip(df_time['begin'], df_time['end']):
         texp = ""
         begin = int(begin)
@@ -57,7 +64,7 @@ def extraer(path, file):
             texp += input_clear[begin] 
             begin+=1
         output_.append(texp)
-    
+
 
     #------ELIMINA LOS POSIBLES ESPACIOS FINALES Y SIGNOS DE PUNTUACIÓN DE LAS EXPRESIONES TEMPORALES-----#
     """
@@ -75,18 +82,58 @@ def extraer(path, file):
         clear_string = ' '.join(clear_string.split())
 
         output_clear.append(clear_string)
+    
 
-    #print("FILE:" + str(path))
+    write_csv(file, output_clear, df_time['begin'], df_time['end'], df_time['value'], df_time['timex3Class'])
+
+    #print("FILE:" + str(PATH))
     #print("EXPRESIONES:" + str(output_clear))
     #print("TEXTO:" + str(input_clear))    
+
+
+#------ESCRIBE EN UN CSV LAS EXPRESIONES TEMPORALES, SU VALOR, BEGIN, END Y CLASE, ASÍ COMO DE QUÉ FICHERO PROVIENEN-----#
+"""
+output_clear es una lista con todas las expresiones, por lo que hay que separarlas de 1 en 1
+y emparejarlas con su begin, end, value y class, como vienen en orden no pasa nada.
+"""
+def write_csv(file, output_clear, begin, end, value, timex3Class):
+    rows = []
+
+    for beg, end_, val, timex3, output in zip(begin, end, value, timex3Class, output_clear):
+        row = [str(file), str(output), str(int(beg)), str(int(end_)), str(val), str(timex3)]
+        rows.append(row)
+        #print("FILE:" + str(file))
+        #print("BEGINING:" + str(int(beg)))
+        #print("END:" + str(int(end_)))
+        #print("VALUE:" + str(val))
+        #print("TIMEX3CLASS:" + str(timex3))
+        #print("OUTPUT:" + str(output))
+    # writing to csv file 
+    with open(FILENAME_E3C, 'a') as csvfile: 
+        #creating a csv writer object 
+        csvwriter = csv.writer(csvfile) 
+            
+        #writing the data rows 
+        csvwriter.writerows(rows)
+
+
+def create_csv():
+
+    with open(FILENAME_E3C, 'w') as csvfile: 
+        # creating a csv writer object 
+        csvwriter = csv.writer(csvfile) 
+            
+        # writing the FIELDS_E3C 
+        csvwriter.writerow(FIELDS_E3C) 
+
+
 
 def heidelTime():
     False
 
-
 def pruebas():
-    path = '/Users/asdc/Library/CloudStorage/OneDrive-UNED/E3C-Corpus-2.0.0/data_annotation/Spanish/layer1/ES100688.xml'
-    df = pd.read_xml(path)
+    PATH = '/Users/asdc/Library/CloudStorage/OneDrive-UNED/E3C-Corpus-2.0.0/data_annotation/Spanish/layer1/ES100688.xml'
+    df = pd.read_xml(PATH)
     input_id = df.loc[df['id'] == 1]
     input_id = input_id['sofa']
     input_id = int(input_id.values[0])
@@ -104,10 +151,10 @@ def pruebas():
     
 
 def main():
-    path = '/Users/asdc/Library/CloudStorage/OneDrive-UNED/E3C-Corpus-2.0.0/data_annotation/Spanish/layer1/'
-    
-    for file in  os.listdir(path):
-        extraer(path, file)
+
+    create_csv()
+    for file in  os.listdir(PATH):
+        extraer(PATH, file)
     #pruebas()
 
 
