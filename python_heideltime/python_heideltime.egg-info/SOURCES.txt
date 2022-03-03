@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+python_heideltime/__init__.py
+python_heideltime/config_Heideltime.py
+python_heideltime/python_heideltime.py
+python_heideltime.egg-info/PKG-INFO
+python_heideltime.egg-info/SOURCES.txt
+python_heideltime.egg-info/dependency_links.txt
+python_heideltime.egg-info/top_level.txt
