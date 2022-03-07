@@ -1,12 +1,17 @@
 import difflib as dl
 from turtle import clear
+from xml.etree.ElementInclude import FatalIncludeError
 import unidecode
 import pandas as pd
 import string
 import re
 import os
 import csv
+import sys
 
+sys.path.insert(0, '/Users/asdc/Proyectos/time_line_extraction/python_heideltime/python_heideltime')
+
+from python_heideltime import Heideltime
 from xml.etree import cElementTree as ET
 
 #------GLOBAL VARIABLES-----#
@@ -15,9 +20,7 @@ FILENAME_E3C = "time_expresions.csv"
 PATH = '/Users/asdc/Library/CloudStorage/OneDrive-UNED/E3C-Corpus-2.0.0/data_annotation/Spanish/layer1/'
 
 
-#MIRAR QUÉ FICHEROS SE UTILIZAN PARA LOS TEST Y COGER ESOS#
-#COMPLETAR PARA SACAR TODAS LAS EXPRESIONES Y TEXTO DEL XML EN FORMA DE CSV PARA GUARDARLO#
-#FICHERO TEXTO EXPRESIONES#
+#SACAR LA FECHA DE REGISTRO DEL FICHERO PARA PASARSELA COMO REFERENCIA EL HEIDEL#
 #ESTRUCTURAR EL CÓDIGO CON MAIN Y MÉTODO PARA EXTRAER TEXTO Y EXPRESIONES DEL DATASET Y RESULTADOS DEL HEIDELTIME#
 
     
@@ -129,9 +132,25 @@ def extract_timex3(file):
     input_clear = extract_text(file)
     output_clear = extract_expresions(df_time, input_clear)
 
-    write_csv(file, output_clear, df_time['begin'], df_time['end'], df_time['value'], df_time['timex3Class']) 
+    write_timex_to_csv(file, output_clear, df_time['begin'], df_time['end'], df_time['value'], df_time['timex3Class']) 
+
+def extract_text_to_csv(filename):
+       
+    rows = []
+    files = []
+    for file in  os.listdir(PATH):
+        row = [str(file), str(extract_text(file))]
+        rows.append(row)
+    
+    with open(filename, 'a') as csvfile: 
+        #creating a csv writer object 
+        csvwriter = csv.writer(csvfile) 
+            
+        #writing the data rows 
+        csvwriter.writerows(rows)
 
 
+    False
 
 #------WRITE_CSV()-----#
 """
@@ -140,7 +159,7 @@ Escribe en un CSV las expresiones y distintos valores relacionados
 y emparejarlas con su begin, end, value y class, como vienen en orden no pasa nada.
 """
 #Cambiar begin, end, etc por una lista para poder reutilizarlo
-def write_csv(file, output_clear, begin, end, value, timex3Class):
+def write_timex_to_csv(file_dest, file, output_clear, begin, end, value, timex3Class):
     rows = []
     
     #Generates the rows for the csv
@@ -148,7 +167,7 @@ def write_csv(file, output_clear, begin, end, value, timex3Class):
         row = [str(file), str(output), str(int(beg)), str(int(end_)), str(val), str(timex3)]
         rows.append(row)
     # writing to csv file 
-    with open(FILENAME_E3C, 'a') as csvfile: 
+    with open(file_dest, 'a') as csvfile: 
         #creating a csv writer object 
         csvwriter = csv.writer(csvfile) 
             
@@ -159,28 +178,89 @@ def write_csv(file, output_clear, begin, end, value, timex3Class):
 """
 Crea un csv según los parametros definidos en las constantes globales
 """
-def create_csv():
+def create_csv(filename_e3c, fields_e3c):
 
-    with open(FILENAME_E3C, 'w') as csvfile: 
+    with open(filename_e3c, 'w') as csvfile: 
         # creating a csv writer object 
         csvwriter = csv.writer(csvfile) 
             
         # writing the FIELDS_E3C 
-        csvwriter.writerow(FIELDS_E3C) 
+        csvwriter.writerow(fields_e3c) 
 
 
 
-def heidelTime():
-    False
+def heidelTime(file):
+
+    df = pd.read_csv('/Users/asdc/Proyectos/time_line_extraction/inputs_clear.csv')
+
+    input_clear = df.head(1).input_clear
+
+    heideltime_parser = Heideltime()
+    heideltime_parser.set_output_type('XMI')
+    heideltime_parser.set_language('SPANISH')
+    heideltime_parser.set_document_type('NARRATIVES')
+    #print(heideltime_parser.parse(input_clear[0]))
+
+    output_clear= heideltime_parser.parse(input_clear[0])
+
+    myfile = open('/Users/asdc/Proyectos/time_line_extraction/prueba.xml', "w")
+    myfile.write(output_clear)
+
+"""
+    for file_name, input_clear in zip(df.file, df.input_clear):
+        heideltime_parser = Heideltime()
+        heideltime_parser.set_language('SPANISH')
+        heideltime_parser.set_document_type('NARRATIVES')
+        print(heideltime_parser.parse(input_clear))
+"""
+
+def transform_heidel(file):
+
+    file = '/Users/asdc/Proyectos/time_line_extraction/prueba.csv'
+    """
+    Extrae las expresiones temporales según las anotaciones timex3 que saca heideltime. Las clases son 'timexType' y los valores 'timexValue'
+    El heidel saca anotaciones más completas sobre las expresiones, pero en las anotaciones del E3C no hay más detalle, así que no vale para nada.
+    """
+    df = pd.read_xml('/Users/asdc/Proyectos/time_line_extraction/prueba.xml')
+    df_time = pd.DataFrame(df, columns= ['begin','end','timexType', 'timexValue'])
+    df_time = df_time.loc[df_time['timexType'].isin(['DATE', 'TIME', 'DURATION', 'QUANTIFIER', 'SET', 'PREPOSTEXP', 'DOCTIME', 'DOCTIME'])]
     
+    df_text = pd.read_xml('/Users/asdc/Proyectos/time_line_extraction/prueba.xml')
+    input_clear = df_text.loc[df_text['id'] == 1]
+    input_clear = input_clear['sofaString']
+    input_clear = input_clear.values[0]
 
+    output_clear = extract_expresions(df_time, input_clear)
+
+    print(df_time['begin'])
+    print( df_time['end'])
+
+    write_timex_to_csv(file, 'JAJAJAJAJ', output_clear, df_time['begin'], df_time['end'], df_time['timexValue'], df_time['timexType'])  
+
+
+    
 def main():
 
-    #create_csv()
-    #for file in  os.listdir(PATH):
-        #extract_timex3(PATH, file)
-    extract_events('ES100001.xml')
+    """Extract TEXT from the xml data_annotation/spanish/layer1 ('PATH') into a csv ('filename') with the columns ('fields')"""
+    #fields = ['file', 'input_clear']
+    #filename = 'inputs_clear.csv'
+    #create_csv(filename_e3c=filename, fields_e3c=fields)
+    #extract_text_to_csv(filename)
 
+    """Extract TIME EXPRESSIONS from the xml data_annotation/spanish/layer1 ('PATH') into a csv ('FILENAME_E3C') with the columns ('FIELDS_E3C')"""
+
+    #create_csv(filename_e3c=FILENAME_E3C, fields_e3c=FIELDS_E3C)
+    #for file in  os.listdir(PATH):
+    #    extract_timex3(file)
+
+    """Extract EVENTS from the xml data_annotation/spanish/layer1 ('PATH') into a csv (' ') with the columns (' ')"""
+
+    #extract_events('ES100001.xml')
+    
+    #heidelTime('')
+    #create_csv(filename_e3c='/Users/asdc/Proyectos/time_line_extraction/prueba.csv', fields_e3c=['file','string','begin','end','value','timex3Class'])
+    transform_heidel('')
+    #print(sys.path)
     
 
 if __name__ == "__main__":
