@@ -1,0 +1,69 @@
+f,i,l,e
+I,/,F
+B,/,M
+h,e,i,d,e,l
+h,e,i,d,e,l,_,t,y,p,e
+c,o,r,p,u,s
+c,o,r,p,u,s,_,t,y,p,e
+ES100042.xml,I,B,diaria,SET,diaria nocturna,SET
+ES100727.xml,I,B,3 años,DURATION,3 años de postoperatorio,DURATION
+ES100736.xml,I,B,los 2 meses,DURATION,los 2 meses anteriores,DURATION
+ES100819.xml,I,B,la mañana,TIME,la mañana siguiente,TIME
+ES100561.xml,I,B,4 meses,DURATION,4 meses mas,DURATION
+ES100686.xml,I,M,Cinco días,DURATION,Cinco días más tarde,DATE
+ES100320.xml,I,M,tres semanas,DURATION,tres semanas más tarde,DATE
+ES100280.xml,I,M,Seis meses,DURATION,Seis meses después,DATE
+ES100519.xml,I,M,4 días,DURATION,4 días antes,DATE
+ES100521.xml,I,M,14 años,DURATION,14 años antes,DATE
+ES100521.xml,I,M,4 meses,DURATION,4 meses y medio,DURATION
+ES100284.xml,I,M,siete meses,DURATION,siete meses antes,DATE
+ES100284.xml,I,M,3 meses,DURATION,3 meses más tarde,DATE
+ES100423.xml,I,M,Quince días,DURATION,Quince días antes,DATE
+ES100030.xml,I,M,18 meses,DURATION,18 meses antes,DATE
+ES100178.xml,I,M,10 años,DURATION,10 años antes,DATE
+ES100178.xml,I,M,tres días,DURATION,tres días después,DATE
+ES100178.xml,I,M,7 días,DURATION,7 días después,DATE
+ES100420.xml,I,M,Dos meses,DURATION,Dos meses antes,DATE
+ES100420.xml,I,M,2 días,DURATION,2 días después,DATE
+ES100001.xml,I,M,un año,DURATION,un año antes,DATE
+ES100809.xml,I,M,aproximadamente 8 horas,DURATION,aproximadamente 8 horas al día,SET
+ES100410.xml,I,M,once años,DURATION,once años antes,DATE
+ES100002.xml,I,M,Ocho meses,DURATION,Ocho meses antes,DATE
+ES100994.xml,I,M,Dos años,DURATION,Dos años antes,DATE
+ES100994.xml,I,M,Un año,DURATION,Un año después,DATE
+ES100177.xml,I,M,Diez horas,DURATION,Diez horas más tarde,TIME
+ES100177.xml,I,M,un año,DURATION,un año después,DATE
+ES100832.xml,I,M,2 horas,DURATION,2 horas más tarde,TIME
+ES100819.xml,I,M,1 hora,DURATION,1 hora 50 minutos,DURATION
+ES100978.xml,I,M,hace un mes,DATE,hace un mes aproximadamente,DURATION
+ES100064.xml,I,M,20 años,DURATION,20 años antes,DATE
+ES100688.xml,I,M,al mes,SET,al mes post operatorio,DURATION
+ES100112.xml,I,M,Tres días,DURATION,Tres días después,DATE
+ES100686.xml,F,B,cuatro semanas,DURATION,intervalos de cuatro semanas,DURATION
+ES100526.xml,F,B,8 meses,DURATION,el término de 8 meses,DURATION
+ES100848.xml,F,B,5 meses,DURATION,otros 5 meses,DURATION
+ES100737.xml,F,B,el 12 de junio de 2002,DATE,12 de junio de 2002,DATE
+ES100284.xml,F,B,cinco meses,DURATION,los restantes cinco meses,DURATION
+ES100278.xml,F,B,2 años,DURATION,un plazo de 2 años,DURATION
+ES100423.xml,F,B,un año,DURATION,hacía un año,DURATION
+ES100423.xml,F,B,años,DURATION,hacía años,DURATION
+ES100809.xml,F,B,al día,SET,aproximadamente 8 horas al día,SET
+ES100947.xml,F,B,al día,SET,2 veces al día,SET
+ES100561.xml,F,B,de 10 de noviembre,DATE,10 de noviembre,DATE
+ES100713.xml,F,B,15 días,DURATION,hacía 15 días,DURATION
+ES100098.xml,F,B,22 meses,DURATION,un periodo de 22 meses,DURATION
+ES100304.xml,F,B,3 meses,DURATION,los primeros 3 meses,DURATION
+ES100091.xml,F,M,4 horas,DURATION,cada 34 horas,SET
+ES100631.xml,F,M,actual,DATE,la fecha actual,DATE
+ES100778.xml,F,M,30 minutos,DURATION,cada 30 minutos,SET
+ES100797.xml,F,M,hace 2 años,DATE,2 años,DURATION
+ES100797.xml,F,M,la semana,DATE,2 a la semana,SET
+ES100178.xml,F,M,6 horas,DURATION,56 horas,DURATION
+ES100420.xml,F,M,6 horas,DURATION,cada 6 horas,SET
+ES100214.xml,F,M,2 horas,DURATION,cada 2 horas,SET
+ES100417.xml,F,M,18 semanas,DURATION,las 16 y 18 semanas,DURATION
+ES100819.xml,F,M,50 minutos,DURATION,1 hora 50 minutos,DURATION
+ES100978.xml,F,M,12 horas,DURATION,cada 12 horas,SET
+ES100937.xml,F,M,24 horas,DURATION,las siguientes 24 horas,DURATION
+ES100688.xml,F,M,una semana,DURATION,intervalos de una semana,SET
+ES100310.xml,F,M,3 meses,DURATION,hacía 3 meses,DATE

@@ -1,4 +1,5 @@
 import difflib as dl
+from pickle import FALSE
 from turtle import clear
 from xml.etree.ElementInclude import FatalIncludeError
 import unidecode
@@ -18,6 +19,7 @@ from xml.etree import cElementTree as ET
 FIELDS_E3C = ['file','string','begin', 'end', 'value', 'timex3Class'] 
 FILENAME_E3C = "time_expresions.csv"
 PATH = '/Users/asdc/Library/CloudStorage/OneDrive-UNED/E3C-Corpus-2.0.0/data_annotation/Spanish/layer1/'
+PATH_HEIDEL = '/Users/asdc/Library/CloudStorage/OneDrive-UNED/E3C-Corpus-2.0.0/data_annotation_heidel/'
 
 
 #SACAR LA FECHA DE REGISTRO DEL FICHERO PARA PASARSELA COMO REFERENCIA EL HEIDEL#
@@ -95,9 +97,22 @@ se ha utilizado otra librería para tratar el XML. Primero filtra por la etiquet
 (en la primera fila) y después filtra por las etiquetas correspondientes (begin, end, etc.), todo eso lo mete en un dataframe
 para poder pasarlo a un csv más tarde.
 """
-def extract_events(file):
-    path = PATH + file
-
+def extract_events():
+    create_csv(filename_e3c='/Users/asdc/Proyectos/time_line_extraction/events.csv', fields_e3c=['file', 'id_event', 'string', 'begin', 'end', 'ALINK', 'TLINK', 'contextualAspect', 'contextualModality', 'degree', 'docTimeRel', 'eventType', 'permanence', 'polarity'])
+    for file in  os.listdir(PATH):
+        path = PATH + file
+        if path != '/Users/asdc/Library/CloudStorage/OneDrive-UNED/E3C-Corpus-2.0.0/data_annotation/Spanish/layer1/.DS_Store':
+            df = pd.read_xml(path)
+            df_event = pd.DataFrame(df, columns= ['id','begin','end','ALINK', 'TLINK', 'contextualAspect', 'contextualModality', 'degree', 'docTimeRel', 'eventType', 'permanence', 'polarity'])
+            df_event = df_event.loc[df_event['permanence'].isin(['FINITE', 'PERMANENT'])]
+            input_clear = extract_text(file)
+            output_clear = extract_expresions(df_event, input_clear)
+            df_event = df_event.fillna(0)
+            #print(df_event)
+            write_events_to_csv(file, df_event['id'], output_clear, df_event['begin'], df_event['end'], df_event['ALINK'], df_event['TLINK'], df_event['contextualAspect'], df_event['contextualModality'], df_event['degree'], df_event['docTimeRel'], df_event['eventType'], df_event['permanence'], df_event['polarity'])
+        
+    #La forma original con la que sacaba los eventos. Mucho más enrevesado y menos eficiente.
+    """
     dfcols = ['begin', 'end']
     df_event = pd.DataFrame(columns=dfcols)
     root = ET.parse(path)
@@ -106,14 +121,61 @@ def extract_events(file):
     for row in rows:
         #print(row.attrib['begin'])
         begin = row.attrib['begin']
-        end = row.attrib['end']
-        print(begin, end)
+        end = row.attrib['end'] 
+        #print(begin, end)
         df_event = df_event.append(pd.Series([begin, end], index=dfcols), ignore_index=True)
+    """
+
+#------EXTRACT_CLINENTITY-----#
+def extract_clienentity():
+    dfcols = ['begin', 'end']
+    create_csv(filename_e3c='/Users/asdc/Proyectos/time_line_extraction/clinentity.csv', fields_e3c=dfcols)
+    df_clinEntities = pd.DataFrame(columns=dfcols)
+    file_ = []
+    strings = []
+    begin = []
+    end = []
+    entityID = []
+    for file in  os.listdir(PATH):
+        path = PATH + file
+        if path != '/Users/asdc/Library/CloudStorage/OneDrive-UNED/E3C-Corpus-2.0.0/data_annotation/Spanish/layer1/.DS_Store':
+            for event, elem in ET.iterparse(path):
+                if elem.tag == '{http:///webanno/custom.ecore}CLINENTITY':
+                    file_.append(file)
+                    begin.append(elem.attrib['begin'])
+                    end.append(elem.attrib['end'])
+                    entityID.append(elem.attrib['entityID'])
+            input_clear = extract_text(file)
+            df_clinEntities = pd.DataFrame(list(zip(begin, end)), columns = ['begin', 'end'])
+            output_clear = extract_expresions(df_clinEntities, input_clear)
+            print(output_clear)
+            write_clinentity_to_csv(file, output_clear, begin, end, entityID)
+            begin.clear()
+            file_.clear()
+            end.clear()
+            entityID.clear()
+            df_clinEntities.iloc[0:0]
+#SACAR EL STRING TAMBIÉN
+
+    #df_prueba = pd.DataFrame(list(zip(file_, begin, end, entityID)), columns = ['file','begin', 'end', 'CLINENTITY'])
+    """
+    Esto es un intento de sacarlo pero que no va. La idea es ya teniendo qué begin y end son de qué file pues sacar el string. No sé porqué no va
+    for file in os.listdir(PATH):
+            input_clear = extract_text(file)
+            output_clear = extract_expresions(df_prueba, input_clear)
+            print(output_clear)
+            strings.append(output_clear)
+    """
+
+    #print(df_prueba)
+    #create_csv(filename_e3c='clinentity.csv', fields_e3c=['begin', 'end', 'CLINENTITY'])
+    #df_prueba.to_csv('clinentity.csv')
+
+#------EXTRACT_TLINKS()-----#
+def extract_tlinks():
     
-    input_clear = extract_text(file)
-    output_clear = extract_expresions(df_event, input_clear)
-    print(output_clear)
-    #Faltaría que escribiera en un csv, pero ya se verá qué hace falta y si hace falta
+
+    False      
 
 #------EXTRACT_TIMEX3-----#
 """
@@ -152,7 +214,7 @@ def extract_text_to_csv(filename):
 
     False
 
-#------WRITE_CSV()-----#
+#------WRITE_TIMEX_TO_CSV()-----#
 """
 Escribe en un CSV las expresiones y distintos valores relacionados
 -output_clear es una lista con todas las expresiones, por lo que hay que separarlas de 1 en 1
@@ -174,7 +236,44 @@ def write_timex_to_csv(file_dest, file, output_clear, begin, end, value, timex3C
         #writing the data rows 
         csvwriter.writerows(rows)
 
-#------WRITE_CSV()-----#
+#------WRITE_EVENTS_TO_CSV()-----#
+def write_events_to_csv(file, id_event, output_clear, begin, end, ALINK, TLINK, contextualAspect, contextualModality, degree, docTimeRel, eventType, permanence, polarity):
+    file_output = '/Users/asdc/Proyectos/time_line_extraction/events.csv'
+    rows = []
+
+    for begin_, end_, id_event_, ALINK_, TLINK_, contextualAspect_, contextualModality_, degree_, docTimeRel_, eventType_, permanence_, polarity_, output in zip(begin, end, id_event, ALINK, TLINK, contextualAspect, contextualModality, degree, docTimeRel, eventType, permanence, polarity, output_clear):
+        row = [str(file), str(int(id_event_)), str(output), str(int(begin_)), str(int(end_)), str(ALINK_), str(TLINK_), str(contextualAspect_), str(contextualModality_), str(degree_), str(docTimeRel_), str(eventType_), str(permanence_), str(polarity_)]
+        rows.append(row)
+    # writing to csv file 
+    with open(file_output, 'a') as csvfile: 
+        #creating a csv writer object 
+        csvwriter = csv.writer(csvfile) 
+            
+        #writing the data rows 
+        csvwriter.writerows(rows)
+
+
+#------WRITE_CLINENTITY_TO_CSV()-----#
+def write_clinentity_to_csv(file, output_clear, begin, end, clinentity):
+    rows = []
+    file_output = '/Users/asdc/Proyectos/time_line_extraction/clinentity.csv'
+    #Generates the rows for the csv
+    for beg, end_, clinentity_, output in zip(begin, end, clinentity, output_clear):
+        row = [str(file), str(output), str(int(beg)), str(int(end_)), str(clinentity_)]
+        rows.append(row)
+    # writing to csv file 
+    with open(file_output, 'a') as csvfile: 
+        #creating a csv writer object 
+        csvwriter = csv.writer(csvfile) 
+            
+        #writing the data rows 
+        csvwriter.writerows(rows)
+
+#------WRITE_TLINKS_TO_CSV()-----#
+def write_tlink_to_csv():
+    False
+
+#------CREATE_CSV()-----#
 """
 Crea un csv según los parametros definidos en las constantes globales
 """
@@ -188,54 +287,49 @@ def create_csv(filename_e3c, fields_e3c):
         csvwriter.writerow(fields_e3c) 
 
 
+#------HEIDELTIME()-----#
+"""
+Extrae el texto y el nombre del fichero de inputs_clear.csv y crea las anotaciones de heidel para textos narrativos en español en la carpeta data_annotation_heidel. 
+Un fichero para cada texto con el mismo nombre que tiene en el corpus del E3C.
+"""
+def heidelTime():
 
-def heidelTime(file):
-
+    
     df = pd.read_csv('/Users/asdc/Proyectos/time_line_extraction/inputs_clear.csv')
-
-    input_clear = df.head(1).input_clear
-
+    
     heideltime_parser = Heideltime()
     heideltime_parser.set_output_type('XMI')
     heideltime_parser.set_language('SPANISH')
     heideltime_parser.set_document_type('NARRATIVES')
-    #print(heideltime_parser.parse(input_clear[0]))
 
-    output_clear= heideltime_parser.parse(input_clear[0])
-
-    myfile = open('/Users/asdc/Proyectos/time_line_extraction/prueba.xml', "w")
-    myfile.write(output_clear)
-
-"""
     for file_name, input_clear in zip(df.file, df.input_clear):
-        heideltime_parser = Heideltime()
-        heideltime_parser.set_language('SPANISH')
-        heideltime_parser.set_document_type('NARRATIVES')
-        print(heideltime_parser.parse(input_clear))
+        output_clear= heideltime_parser.parse(input_clear)
+        myfile = open('/Users/asdc/Library/CloudStorage/OneDrive-UNED/E3C-Corpus-2.0.0/data_annotation_heidel/' + file_name, "w")
+        myfile.write(output_clear)
+
+
+#------TRANSFORM_HEIDEL()-----#
 """
-
-def transform_heidel(file):
-
-    file = '/Users/asdc/Proyectos/time_line_extraction/prueba.csv'
-    """
-    Extrae las expresiones temporales según las anotaciones timex3 que saca heideltime. Las clases son 'timexType' y los valores 'timexValue'
-    El heidel saca anotaciones más completas sobre las expresiones, pero en las anotaciones del E3C no hay más detalle, así que no vale para nada.
-    """
-    df = pd.read_xml('/Users/asdc/Proyectos/time_line_extraction/prueba.xml')
-    df_time = pd.DataFrame(df, columns= ['begin','end','timexType', 'timexValue'])
-    df_time = df_time.loc[df_time['timexType'].isin(['DATE', 'TIME', 'DURATION', 'QUANTIFIER', 'SET', 'PREPOSTEXP', 'DOCTIME', 'DOCTIME'])]
+Extrae las expresiones temporales según las anotaciones timex3 que saca heideltime. Las clases son 'timexType' y los valores 'timexValue'
+El heidel saca anotaciones más completas sobre las expresiones, pero en las anotaciones del E3C no hay más detalle, así que no vale para nada.
+"""
+def transform_heidel():
     
-    df_text = pd.read_xml('/Users/asdc/Proyectos/time_line_extraction/prueba.xml')
-    input_clear = df_text.loc[df_text['id'] == 1]
-    input_clear = input_clear['sofaString']
-    input_clear = input_clear.values[0]
+    file_output = '/Users/asdc/Proyectos/time_line_extraction/time_expresions_heidel.csv'
+    create_csv(filename_e3c=file_output, fields_e3c=['file','string','begin','end','value','timex3Class'])
 
-    output_clear = extract_expresions(df_time, input_clear)
+    for file in  os.listdir(PATH_HEIDEL):        
+        df = pd.read_xml(PATH_HEIDEL + file)
+        df_time = pd.DataFrame(df, columns= ['begin','end','timexType', 'timexValue'])
+        df_time = df_time.loc[df_time['timexType'].isin(['DATE', 'TIME', 'DURATION', 'QUANTIFIER', 'SET', 'PREPOSTEXP', 'DOCTIME', 'DOCTIME'])]
+        
+        input_clear = df.loc[df['id'] == 1]
+        input_clear = input_clear['sofaString']
+        input_clear = input_clear.values[0]
 
-    print(df_time['begin'])
-    print( df_time['end'])
+        output_clear = extract_expresions(df_time, input_clear)
 
-    write_timex_to_csv(file, 'JAJAJAJAJ', output_clear, df_time['begin'], df_time['end'], df_time['timexValue'], df_time['timexType'])  
+        write_timex_to_csv(file_output, file, output_clear, df_time['begin'], df_time['end'], df_time['timexValue'], df_time['timexType'])  
 
 
     
@@ -254,12 +348,14 @@ def main():
     #    extract_timex3(file)
 
     """Extract EVENTS from the xml data_annotation/spanish/layer1 ('PATH') into a csv (' ') with the columns (' ')"""
-
-    #extract_events('ES100001.xml')
+    #create_csv(filename_e3c='events.csv', fields_e3c=['file', 'id_event', 'string', 'begin', 'end', 'ALINK', 'TLINK', 'contextualAspect', 'contextualModality', 'degree', 'docTimeRel', 'eventType', 'permanence', 'polarity'])
+    #extract_events()
     
-    #heidelTime('')
-    #create_csv(filename_e3c='/Users/asdc/Proyectos/time_line_extraction/prueba.csv', fields_e3c=['file','string','begin','end','value','timex3Class'])
-    transform_heidel('')
+    """Extract CLINENTITY from the xml data_annotation/spanish/layer1 ('PATH') into a csv (' ') with the columns (' ')"""
+    extract_clienentity()
+
+    #heidelTime()
+    #transform_heidel()
     #print(sys.path)
     
 
