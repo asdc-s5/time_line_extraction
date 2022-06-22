@@ -1,0 +1,45 @@
+
+
+Summary: Medical Entity Recognizer on Spanish Medical Texts.
+
+The tool we present has the following novel aspects:
+ -High precision and coverage, close to 85%, for medical entities of the type: illness or symptom, medication, part of the body (or location) and modifiers (severe, mild, type II, ...).
+ -Speed, allowing to analyze thousands of words and documents in a short time.
+ -Simplicity, by not requiring any type of dictionary. It only takes as input the original text and obtains as output the text annotated with medical entities.
+
+The tool is the result of numerous research works that have been presented and accepted in internationally prestigeous journals and conferences:
+
+Maite Oronoz, Koldo Gojenola, Alicia Pérez, Arantza Díaz de Ilarraza, Arantza Casillas (2015). On the creation of a clinical gold standard corpus in Spanish: Mining adverse drug reactions. Journal of Biomedical Informatics, Volume 56, August 2015, Pages 318–332, doi:10.1016/j.jbi.2015.06.016
+
+Arantza Casillas, Arantza Díaz de Ilarraza, Koldo Gojenola, Luis Mendarte, Maite Oronoz, Javier Peral, Alicia Perez (2016). Deteami research-transference project: natural language processing technologies to the aid of pharmacy and pharmacosurveillance. Procesamiento del Lenguaje Natural, 57, 155-158.
+
+Arantza Casillas, Arantza Diaz de Ilarraza, Kike Fernandez, Koldo Gojenola, Maite Oronoz, Alicia Pérez, Sara Santiso (2016). IXAmed-IE: on-line medical entity identification and ADR event extraction in Spanish. IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Shenzhen, China, pages 846-849. Dec 15-18, 2016.
+
+Arantza Casillas, Koldo Gojenola, Alicia Pérez, Maite Oronoz (2016). Clinical text mining for efficient extraction of drug-allergy reactions. IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Shenzhen, China, Dec 15-18, 2016
+
+Rebecka Weegar, Arantza Casillas, Arantza Diaz de Ilarraza, Maite Oronoz, Alicia Pérez, Koldo Gojenola (2016). The impact of simple feature engineering in multilingual medical NER. Proceedings of the Clinical Natural Language Processing Workshop (Coling), pages 1–6, Osaka, Japan, December 11-17 2016. 
+
+Alicia Pérez, Rebecka Weegar, Arantza Casillas, Koldo Gojenola, Maite Oronoz, Hercules Dalianis (2017). Semi-supervised medical entity recognition: A study on Spanish and Swedish clinical corpora. Journal of Biomedical Informatics, Volume 71, July 2017, Pages 16-30, ISSN 1532-0464.
+
+S. Santiso, A. Casillas, A. Pérez, M. Oronoz (2017). Medical Entity Recognition and Negation Extraction: Assessment of NegEx on Health Records in Spanish. Bioinformatics and Biomedical Engineering. 5th International Work-Conference, IWBBIO 2017, Granada, Spain, April 26–28, 2017, Proceedings, Part I. DOI: 10.1007/978-3-319-56148-6 . Part of the Lecture Notes in Computer Science book series (LNCS, volume 10208).
+
+Rebecka Weegar, Alicia Pérez, Hercules Dalianis, Koldo Gojenola, Arantza Casillas, Maite Oronoz (2018). Ensembles for clinical entity extraction. Revista: Procesamiento del Lenguaje Natural, Vol 60, p. 13-20, mar. 2018. ISSN 1989-7553.
+
+This tools allows to recognize entities of the medical domain in a document. More precisely, 4 types of entities corresponding to:
+ -Drugs and substances, for example Clamoxyl, penicillin, ...
+ -Diseases and symptoms, such as "myocardial infarction", "headache", ...
+ -Anatomical elements (associated with diseases): "pulmonary", "lower extremities", ...
+ -Qualifiers (associated with diseases): "severe", "mild", "type III", ...
+
+The system is based on a supervised statistical algorithm, which has been learned from a large set of medical texts written down by hospital experts.
+
+
+
+You can use the tool to analyze a document as follows:
+
+java -jar perceptron.jar abstracts-example.txt
+
+Contact:
+
+koldo.gojenola@ehu.eus
+iakesg@gmail.com
