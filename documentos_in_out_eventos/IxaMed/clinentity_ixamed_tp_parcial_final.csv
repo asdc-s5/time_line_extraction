@@ -1,0 +1,21 @@
+,file,string,begin,end,type
+0,ES100447.xml,disminuida,301,311,B-Grp_Enfermedad
+1,ES100042.xml,lesiones nodulares,1489,1506,B-Grp_Enfermedad
+2,ES100042.xml,lesiones vesicales macroscópicamente,1942,1964,B-Grp_Enfermedad
+3,ES100042.xml,congestión vascular,2263,2275,B-Grp_Enfermedad
+4,ES100650.xml,hipoplásico,626,637,B-Grp_Enfermedad
+5,ES100519.xml,trombosados,2022,2033,B-Grp_Enfermedad
+6,ES100727.xml,deglución,705,714,B-Grp_Enfermedad
+7,ES100727.xml,cornetes nasales,1461,1477,B-Grp_Enfermedad
+8,ES100079.xml,lesión,3126,3132,B-Grp_Enfermedad
+9,ES100091.xml,comunicación del quíste hidatídico,1763,1797,B-Grp_Enfermedad
+10,ES100791.xml,cuadro doloroso,218,233,B-Grp_Enfermedad
+11,ES100363.xml,placas antracosis,2048,2065,B-Grp_Enfermedad
+12,ES100412.xml,necróticos,1957,1967,B-Grp_Enfermedad
+13,ES100063.xml,hábito cushingoide,358,376,B-Grp_Enfermedad
+14,ES100063.xml,dolor,609,614,B-Grp_Enfermedad
+15,ES100063.xml,Murphy,685,691,B-Grp_Enfermedad
+16,ES100840.xml,líquido libre,1630,1643,B-Grp_Enfermedad
+17,ES100663.xml,lesiones vertebrales,689,709,B-Grp_Enfermedad
+18,ES100715.xml,tablas óseas,2042,2054,B-Grp_Enfermedad
+19,ES100112.xml,tumor maligno fusocelular renal,1826,1857,B-Grp_Enfermedad

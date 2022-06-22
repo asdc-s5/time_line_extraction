@@ -1,0 +1,1346 @@
+file,string,begin,end,entityID
+ES100447.xml,obesidad mórbida,104,120,C0028756
+ES100447.xml,esteatosis hepática,147,166,C2711227
+ES100447.xml,síndrome malabsortivo,172,193,CUILESS
+ES100447.xml,anemia crónica,236,250,C0581384
+ES100447.xml,actividad de protrombina disminuida,276,311,C0553733
+ES100447.xml,ceguera nocturna,491,507,C0028077
+ES100447.xml,sensación de cuerpo extraño,561,588,C0423602
+ES100447.xml,ojo rojo,591,599,C0235267
+ES100447.xml,BUT muy disminuido,715,733,C3665775
+ES100447.xml,xerosis conjuntival,735,754,C3665609
+ES100447.xml,manchas de Bitot,757,773,C0423178
+ES100447.xml,fino punteado,827,840,C1718687
+ES100447.xml,moteado blanquecino,1016,1035,CUILESS
+ES100447.xml,nefrolitiasis,1405,1418,C0392525
+ES100447.xml,absceso,1431,1438,C0000833
+ES100447.xml,sangrado,1499,1507,C0019080
+ES100447.xml,síntomas,1828,1836,C1457887
+ES100686.xml,mancha azulada,45,59,C0343042
+ES100686.xml,masa,217,221,C0577559
+ES100686.xml,lesión,344,350,C0221198
+ES100686.xml,estrabismo,364,374,C0038379
+ES100686.xml,hemangioma,551,561,C0018916
+ES100526.xml,deformidad,45,55,C0302142
+ES100526.xml,engrosamiento,102,115,C0205400
+ES100526.xml,dolor espontáneo,317,333,C1997216
+ES100526.xml,dolorosas,596,605,C0030193
+ES100526.xml,tumores blandos,617,632,C0746416
+ES100526.xml,linfedema,918,927,C0024236
+ES100526.xml,tumoraciones,1084,1096,C0577559
+ES100526.xml,deformidad,1111,1121,C0302142
+ES100526.xml,tumoraciones,1433,1445,C0577559
+ES100526.xml,tumoraciones,1573,1585,C0577559
+ES100526.xml,lesiones,1859,1867,C0221198
+ES100526.xml,citoesteatonecrosis,1953,1972,C4087387
+ES100042.xml,hipertensión arterial,65,86,C0020538
+ES100042.xml,hernia de hiato,88,103,C3489393
+ES100042.xml,estreñimiento,105,118,C0009806
+ES100042.xml,síndrome miccional irritativo,152,181,CUILESS
+ES100042.xml,disuria,218,225,C0013428
+ES100042.xml,polaquiuria,228,239,C0042023
+ES100042.xml,urgencias miccionales,253,274,C0085606
+ES100042.xml,infección del tracto urinario,385,414,C0042029
+ES100042.xml,leucocituria,617,629,C0555120
+ES100042.xml,disuria,1012,1019,C0013428
+ES100042.xml,polaquiuria,1022,1033,C0042023
+ES100042.xml,urgencias,1074,1083,C0085606
+ES100042.xml,infección urinaria,1174,1192,C0042029
+ES100042.xml,tumor urotelial del tracto urinario,1316,1351,C1644719
+ES100042.xml,lesiones,1498,1506,C0221198
+ES100042.xml,edema,1603,1608,C0013604
+ES100042.xml,factores de riesgo,1736,1754,C0035648
+ES100042.xml,TBC,1760,1763,C0041296
+ES100042.xml,lesiones vesicales,1946,1964,C0577180
+ES100042.xml,tuberculomas,2003,2015,C0041295
+ES100042.xml,lesiones,2121,2129,C0221198
+ES100042.xml,ulceración de la mucosa,2192,2215,C0236053
+ES100042.xml,infiltrado,2231,2241,C0332448
+ES100042.xml,congestión,2265,2275,C0700148
+ES100650.xml,síntomas,39,47,C1457887
+ES100650.xml,masa,308,312,C0577559
+ES100650.xml,masa,510,514,C0577559
+ES100650.xml,útero hipoplásico,620,637,C0266399
+ES100650.xml,masa pélvica,773,785,C0347944
+ES100650.xml,signos,920,926,C0311392
+ES100650.xml,infiltración,930,942,C0332448
+ES100650.xml,ascitis,963,970,C0003962
+ES100650.xml,adenomegalias,974,987,C1504555
+ES100650.xml,mucocele apendicular,1068,1088,C0026684
+ES100650.xml,líquido libre,1120,1133,C0013687
+ES100650.xml,mucocele,1484,1492,C0026683
+ES100650.xml,tumor,1506,1511,C0027651
+ES100650.xml,malignidad,1558,1568,C0006826
+ES100650.xml,invasión,1610,1618,CUILESS
+ES100650.xml,calcificación,1632,1645,C0006663
+ES100650.xml,neoplasia,1744,1753,C0027651
+ES100320.xml,tos seca,84,92,C0850149
+ES100320.xml,disnea,94,100,C0013404
+ES100320.xml,fiebre,127,133,C0015967
+ES100320.xml,astenia,135,142,C0004093
+ES100320.xml,anorexia,144,152,C0003123
+ES100320.xml,náuseas,154,161,C0027497
+ES100320.xml,vómitos,164,171,C0042963
+ES100320.xml,infección,195,204,C0009450
+ES100320.xml,caquexia,331,339,C0006625
+ES100320.xml,muguet,399,405,CUILESS
+ES100320.xml,acropaquias,407,418,C0149651
+ES100320.xml,adenopatías,420,431,C0497156
+ES100320.xml,crepitantes,556,567,C0034642
+ES100320.xml,soplo sistólico,579,594,C0232257
+ES100320.xml,hepatomegalia,612,625,C0019209
+ES100320.xml,condilomas vulvares,652,671,C0341851
+ES100320.xml,masa mediastínica,1103,1120,C0240318
+ES100320.xml,infiltrado,1178,1188,C0332448
+ES100320.xml,adenopatías axilares,1326,1346,C0578735
+ES100320.xml,masa mediastínica,1386,1403,C0240318
+ES100320.xml,engrosamiento,1492,1505,C0205400
+ES100320.xml,líquido libre,1560,1573,C0013687
+ES100320.xml,insuficiencia respiratoria,1771,1797,C0035229
+ES100320.xml,insuficiencia respiratoria,1896,1922,C0035229
+ES100320.xml,crisis,2002,2008,C0231224
+ES100320.xml,hemiparesia izquierda,2048,2069,C0457436
+ES100320.xml,masa,2118,2122,C0577559
+ES100320.xml,lesión intracraneal,2399,2418,C0495785
+ES100320.xml,adenopatía,2449,2459,C0497156
+ES100320.xml,metástasis,2496,2506,C0027627
+ES100320.xml,tumor maligno,2510,2523,C1306459
+ES100320.xml,neumonía,3146,3154,C0032285
+ES100320.xml,linfoma,3218,3225,C0024299
+ES100320.xml,tumor de células germinales extragonadal,3438,3478,C3544268
+ES100320.xml,tumor,3746,3751,C0027651
+ES100280.xml,glomerulonefritis,23,40,C0017658
+ES100280.xml,peritonitis,232,243,C0031154
+ES100280.xml,dolor abdominal,476,491,C0000737
+ES100280.xml,efecto masa,494,505,CUILESS
+ES100280.xml,engrosamiento,541,554,C0205400
+ES100280.xml,colección líquida pélvica,567,592,C1697454
+ES100280.xml,dilatación gástrica e intestinal,635,667,C0520562
+ES100280.xml,dilatación gástrica,635,654,C0038353
+ES100280.xml,oclusión intestinal,747,766,C0021843
+ES100280.xml,deterioro del estado general,786,814,C0877211
+ES100519.xml,hipertensión arterial,68,89,C0020538
+ES100519.xml,asma,92,96,C0004096
+ES100519.xml,alergias,102,110,C0020517
+ES100519.xml,mareo,171,176,C0012833
+ES100519.xml,sudoración profusa,179,197,C0700590
+ES100519.xml,taquicárdica,214,226,C0039231
+ES100519.xml,caída accidental,264,280,C0000921
+ES100519.xml,traumatismo,299,310,C3263723
+ES100519.xml,lesiones cutáneas,367,384,C0037284
+ES100519.xml,edema,443,448,C0013604
+ES100519.xml,bullas,451,457,C0005758
+ES100519.xml,dolor,490,495,C0030193
+ES100519.xml,leucocitosis,580,592,C0023518
+ES100519.xml,lesiones,788,796,C0221198
+ES100519.xml,edema,831,836,C0013604
+ES100519.xml,tumefacción,839,850,C0038999
+ES100519.xml,crepitación,856,867,C0231592
+ES100519.xml,flictenas,882,891,C0347555
+ES100519.xml,epidermolisis,902,915,C0333472
+ES100519.xml,dolor local severo,918,936,C0278140
+ES100519.xml,hemorrágico,990,1001,C0019080
+ES100519.xml,lesiones,1009,1017,C0221198
+ES100519.xml,dolor,1023,1028,C0030193
+ES100519.xml,fascitis necrosante,1098,1117,C0238124
+ES100519.xml,caída casual,1246,1258,C0000921
+ES100519.xml,heridas,1264,1271,C0043250
+ES100519.xml,lesiones,1275,1283,C0221198
+ES100519.xml,infección,1524,1533,C0009450
+ES100519.xml,infección,1593,1602,C0009450
+ES100519.xml,fascitis necrotizante,1918,1939,C0238124
+ES100519.xml,isquemia,1978,1986,C0022116
+ES100519.xml,necrosis,1989,1997,C0151799
+ES100519.xml,vasos trombosados,2016,2033,C0040053
+ES100519.xml,fenómenos hemorrágicos,2036,2058,C0019080
+ES100519.xml,necrosis,2325,2333,C0151799
+ES100519.xml,absceso,2360,2367,C0000833
+ES100519.xml,complicación,3564,3576,C0009566
+ES100727.xml,dificultad de fonación,63,85,C0564119
+ES100727.xml,patrón facial III,169,186,C0424610
+ES100727.xml,hipoplasia maxilar,199,217,C0266085
+ES100727.xml,apiñamientos dentarios,219,241,C0040433
+ES100727.xml,mordida abierta anterior,275,299,C0266060
+ES100727.xml,úvula bífida,301,313,C4551488
+ES100727.xml,macroglosia,320,331,C0024421
+ES100727.xml,defecto en la pared abdominal,444,473,C5229466
+ES100727.xml,síndrome de BeckwithWiedmann,581,610,C0004903
+ES100727.xml,problemas de deglución fonación,692,724,C0564119
+ES100727.xml,problemas de deglución,692,714,C0011168
+ES100727.xml,dificultades respiratorias,727,753,C0476273
+ES100727.xml,macroglosia,785,796,C0024421
+ES100727.xml,problemas relacionados con el habla,1209,1244,C1456703
+ES100727.xml,sangrado,1293,1301,C0019080
+ES100727.xml,hipertrofía de los cornetes nasales,1442,1477,C0155840
+ES100727.xml,lesiones,2167,2175,C0221198
+ES100727.xml,hematoma,2302,2310,C0018944
+ES100727.xml,sangrado postoperatorio,2324,2347,C0032788
+ES100727.xml,sangrado,2372,2380,C0019080
+ES100727.xml,complicación,2717,2729,C0009566
+ES100727.xml,pérdida sensitiva o gustativa,3103,3132,C2364111
+ES100727.xml,pérdida sensitiva,3103,3120,C0278134
+ES100727.xml,discrepancia,3288,3300,C1290905
+ES100848.xml,odinofagia,70,80,C0221150
+ES100848.xml,sangrado oral,83,96,C0029163
+ES100848.xml,úlcera,139,145,C0041582
+ES100848.xml,carcinoma epidermoide,263,284,C0007137
+ES100848.xml,adenopatías,310,321,C0497156
+ES100848.xml,carcinoma epidermoide,500,521,C0007137
+ES100848.xml,astenia,1058,1065,C0004093
+ES100848.xml,inestabilidad,1067,1080,C0231444
+ES100848.xml,dolor abdominal,1083,1098,C0000737
+ES100848.xml,hematemesis masiva,1110,1128,C0858247
+ES100848.xml,tumoración,1226,1236,C0577559
+ES100848.xml,carcinoma epidermoide,1389,1410,C0007137
+ES100848.xml,metástasis,1426,1436,C0027627
+ES100848.xml,carcinoma de laringe,1440,1460,C0595989
+ES100848.xml,sangrado,1586,1594,C0019080
+ES100848.xml,sangrado,1832,1840,C0019080
+ES100848.xml,diseminación metastásica,1941,1965,C0563521
+ES100445.xml,agenesia de cuerpo calloso,144,170,C0175754
+ES100445.xml,anomalías de la migración neuronal,190,224,C0431374
+ES100445.xml,epilepsia en la infancia,249,273,C0393672
+ES100445.xml,hipsarritmia,402,414,C0684276
+ES100445.xml,papila completa en el ojo derecho,465,498,CUILESS
+ES100445.xml,pigmento peripapilar,500,520,CUILESS
+ES100445.xml,lagunas coriorretinianas hipopigmentadas peripapilares,532,586,CUILESS
+ES100445.xml,disco óptico colobomatoso,724,749,C0155299
+ES100445.xml,áreas hipopigmentadas coriorretinales,761,798,CUILESS
+ES100445.xml,malformaciones,818,832,C0000768
+ES100445.xml,retardo psicomotor muy severo,978,1007,CUILESS
+ES100079.xml,masa renal,75,85,C0262613
+ES100079.xml,crisis,183,189,C0231224
+ES100079.xml,hiperuricemia,261,274,C0740394
+ES100079.xml,hematuria,319,328,C0018965
+ES100079.xml,trombo tumoral,508,522,C3163918
+ES100079.xml,trombo,728,734,C0087086
+ES100079.xml,trombo,1120,1126,C0087086
+ES100079.xml,infiltración,1140,1152,C0332448
+ES100079.xml,la extensión retrohepática del trombo,1208,1245,C0333211
+ES100079.xml,infiltración,1271,1283,C0332448
+ES100079.xml,adenopatías,1298,1309,C0497156
+ES100079.xml,trombo,1382,1388,C0087086
+ES100079.xml,neoformación renal,1464,1482,C0022665
+ES100079.xml,trombo tumoral,1503,1517,C3163918
+ES100079.xml,la vena renal trombosada,1870,1894,CUILESS
+ES100079.xml,trombos,2222,2229,C0087086
+ES100079.xml,infiltración,2348,2360,C0332448
+ES100079.xml,adenocarcinoma renal,2656,2676,C0007134
+ES100079.xml,trombo,2826,2832,C0087086
+ES100079.xml,lesión,2981,2987,C0221198
+ES100079.xml,una lesión,3122,3132,C0221198
+ES100079.xml,lesión,3233,3239,C0221198
+ES100079.xml,recidiva,3453,3461,C2825055
+ES100737.xml,cefalea,205,212,C0018681
+ES100737.xml,estrabismo convergente,270,292,C0014877
+ES100737.xml,diplopia,313,321,C0012569
+ES100737.xml,estrabismo convergente,449,471,C0014877
+ES100737.xml,nistagmo horizontal,523,542,C0271385
+ES100737.xml,masa,697,701,C0577559
+ES100737.xml,edema,867,872,C0013604
+ES100737.xml,tumoración,1124,1134,C0577559
+ES100737.xml,proliferación,1178,1191,C0334094
+ES100737.xml,tumor,1305,1310,C0027651
+ES100737.xml,meningioma atípico,1316,1334,C0431122
+ES100737.xml,tumor,1649,1654,C0027651
+ES100737.xml,estrabismo convergente,1826,1848,C0014877
+ES100737.xml,signos,2011,2017,C0311392
+ES100737.xml,recidiva,2021,2029,C2825055
+ES100051.xml,síntomas,155,163,C1457887
+ES100051.xml,prostatismo,167,178,C0242453
+ES100051.xml,calcificaciones,356,371,C0006663
+ES100051.xml,elevación de PSA,496,512,C0178415
+ES100051.xml,nevus azul,645,655,C0206736
+ES100051.xml,inflamación crónica,709,728,C0021376
+ES100051.xml,reacción granulomatosa,731,753,C0018188
+ES100051.xml,malignidad,882,892,C0006826
+ES100521.xml,sobrepeso,92,101,C0497406
+ES100521.xml,sepsis,112,118,C0243026
+ES100521.xml,fallo multiorgánico,145,164,C0026766
+ES100521.xml,mala perfusión,376,390,C0520547
+ES100521.xml,sepsis,407,413,C0243026
+ES100521.xml,lesiones,426,434,C0221198
+ES100521.xml,lesiones,784,792,C0221198
+ES100521.xml,lesiones,869,877,C0221198
+ES100521.xml,complicación,986,998,C0009566
+ES100521.xml,necrosis,1027,1035,C0151799
+ES100521.xml,escara,1065,1071,C0521172
+ES100521.xml,necrosis,1169,1177,C0151799
+ES100521.xml,úlcera,1222,1228,C0041582
+ES100521.xml,escaras,1438,1445,C0521172
+ES100521.xml,dolor,1553,1558,C0030193
+ES100521.xml,sobreinfección,1709,1723,C0038826
+ES100521.xml,sobreinfección,2697,2711,C0038826
+ES100521.xml,heridas,3124,3131,C0043250
+ES100284.xml,Colitis Ulcerosa,149,165,C0009324
+ES100284.xml,CU,167,169,C0009324
+ES100284.xml,artralgias,407,417,C0003862
+ES100284.xml,dolor,466,471,C0030193
+ES100284.xml,claudicación,713,725,C1456822
+ES100284.xml,osteoporosis,965,977,C0029456
+ES100284.xml,osteopenia,1018,1028,C0029453
+ES100284.xml,NA,1122,1124,CUILESS
+ES100284.xml,lesión osteocondral,1232,1251,C3495890
+ES100284.xml,lesiones,1399,1407,C0221198
+ES100284.xml,necrosis,1411,1419,C0151799
+ES100284.xml,hundimiento,1599,1610,CUILESS
+ES100284.xml,osteoporosis,1720,1732,C0029456
+ES100736.xml,leucemia linfoblástica aguda preB,75,109,C0349636
+ES100736.xml,complicaciones,466,480,C0009566
+ES100736.xml,trombocitopenia,1186,1201,C0040034
+ES100736.xml,trombocitopenia,1321,1336,C0040034
+ES100736.xml,ciatalgia derecha,1465,1482,C0857188
+ES100736.xml,dolor radicular,1521,1536,C0278147
+ES100736.xml,pérdida de fuerza,1547,1564,C0151786
+ES100736.xml,paraparesia,1613,1624,C0221166
+ES100736.xml,alteraciones de la sensibilidad ni de los esfínteres,1739,1791,CUILESS
+ES100736.xml,alteraciones de la sensibilidad,1739,1770,CUILESS
+ES100736.xml,hematoma,1871,1879,C0018944
+ES100736.xml,lesión,2074,2080,C0221198
+ES100736.xml,coágulo sanguíneo,2322,2339,C0302148
+ES100736.xml,hematoma,2464,2472,C0018944
+ES100736.xml,coágulo,2667,2674,C0302148
+ES100736.xml,lesiones,2828,2836,C0221198
+ES100736.xml,hematoma,2882,2890,C0018944
+ES100736.xml,complicaciones,3053,3067,C0009566
+ES100736.xml,alteraciones esfinterianas,3171,3197,CUILESS
+ES100736.xml,dolor radicular,3201,3216,C0278147
+ES100736.xml,acorchamiento,3248,3261,C0020580
+ES100736.xml,complicaciones,3437,3451,C0009566
+ES100736.xml,fracaso multiorgánico,3493,3514,C0026766
+ES100050.xml,tumoración,75,85,C0577559
+ES100050.xml,dolorosa,98,106,C0030193
+ES100050.xml,nódulos,371,378,C0028259
+ES100050.xml,calcificaciones,510,525,C0006663
+ES100050.xml,nódulo,537,543,C0028259
+ES100050.xml,nódulos,611,618,C0028259
+ES100050.xml,aumento de la vascularización,634,663,C0027686
+ES100050.xml,nódulos,803,810,C0028259
+ES100050.xml,teratocarcinomas,827,843,C0206664
+ES100050.xml,teratoma maduro,845,860,C1368910
+ES100050.xml,carcinoma embrionario,863,884,C0206659
+ES100050.xml,masas,925,930,C0577559
+ES100050.xml,calcificaciones,998,1013,C0006663
+ES100050.xml,necrosis,1025,1033,C0151799
+ES100050.xml,seminoma,1069,1077,C0036631
+ES100642.xml,adenocarcinoma gástrico,57,80,C0278701
+ES100642.xml,alergia,258,265,C0020517
+ES100642.xml,fístula,330,337,C0016169
+ES100642.xml,deterioro,523,532,C0684336
+ES100642.xml,desorientación,560,574,C0233407
+ES100642.xml,bradipsiquia,576,588,C0233633
+ES100642.xml,tendencia al sueño,590,608,C0013144
+ES100642.xml,nistagmus horizontal,610,630,C0271385
+ES100642.xml,oftalmoparesia,633,647,CUILESS
+ES100091.xml,sudoración,69,79,C0038990
+ES100091.xml,fiebre,82,88,C0015967
+ES100091.xml,dolor lumbar,93,105,C0024031
+ES100091.xml,pesadez,117,124,C0581912
+ES100091.xml,disuria,151,158,C0013428
+ES100091.xml,DM,261,263,C0011849
+ES100091.xml,HTA,268,271,C0020538
+ES100091.xml,alergias,276,284,C0020517
+ES100091.xml,fumador,299,306,C0337664
+ES100091.xml,hematuria,321,330,C0018965
+ES100091.xml,cólicos,335,342,C0423605
+ES100091.xml,ITUs,347,351,C0042029
+ES100091.xml,febrícula,401,410,C1397229
+ES100091.xml,sudoración,422,432,C0038990
+ES100091.xml,pesadez,434,441,C0581912
+ES100091.xml,dolor lumbar,466,478,C0024031
+ES100091.xml,disuria,536,543,C0013428
+ES100091.xml,entrecortado,548,560,C0232855
+ES100091.xml,goteo,565,570,C0149671
+ES100091.xml,urgencia,575,583,C0085606
+ES100091.xml,efecto masa,744,755,CUILESS
+ES100091.xml,lesiones,839,847,C0221198
+ES100091.xml,Eosinofilia,934,945,C0014457
+ES100091.xml,efecto masa,1047,1058,CUILESS
+ES100091.xml,quistes en riñón,1152,1168,C3887499
+ES100091.xml,lesiones,1216,1224,C0221198
+ES100091.xml,enfermedad hidatídica,1271,1292,C0013502
+ES100091.xml,del quíste hidatídico,1776,1797,C0341683
+ES100278.xml,edemas,56,62,C0013604
+ES100278.xml,amiloidosis renal no filiada,110,138,C0268382
+ES100278.xml,resistencia al permanganato,191,218,C0569989
+ES100278.xml,amiloidosis AA,244,258,C3536715
+ES100278.xml,amiloidosis AL,353,367,C0268381
+ES100278.xml,edemas,492,498,C0013604
+ES100278.xml,síndrome nefrótico,594,612,C0027726
+ES100278.xml,depósito hialino,972,988,C0333440
+ES100278.xml,amiloidosis,1159,1170,C0002726
+ES100278.xml,amiloidosis,1333,1344,C0002726
+ES100278.xml,amiloidosis,2010,2021,C0002726
+ES100278.xml,neuropatía autonómica,2390,2411,C0259749
+ES100278.xml,afectación hepática,2493,2512,C0151763
+ES100278.xml,amiloidosis familiar,2565,2585,C0740340
+ES100278.xml,afectación preferentemente renal y hepática,2591,2634,C0151763
+ES100278.xml,afectación preferentemente renal,2591,2623,CUILESS
+ES100278.xml,rotura esplénica,2968,2984,C0038000
+ES100278.xml,depósito de amiloide,3023,3043,C0011560
+ES100791.xml,hernia discal,52,65,C0242362
+ES100791.xml,doloroso,225,233,CUILESS
+ES100578.xml,infección,21,30,C0009450
+ES100578.xml,hepatitis C,50,61,C0019196
+ES100578.xml,astenia,148,155,C0004093
+ES100578.xml,lesiones cutáneas,174,191,C0037284
+ES100578.xml,esplenomegalia,303,317,C0038002
+ES100578.xml,spiders,336,343,C0085666
+ES100578.xml,hipertrofia,698,709,C0020564
+ES100578.xml,varices esofágicas ni gástricas,801,832,C0017145
+ES100578.xml,varices esofágicas,801,819,C0014867
+ES100578.xml,signos,837,843,C0311392
+ES100578.xml,gastropatía de hipertensión portal,847,881,C0580174
+ES100578.xml,astenia,1115,1122,C0004093
+ES100578.xml,disnea de moderados esfuerzos,1125,1154,C0425448
+ES100578.xml,síndrome hepatopulmonar,1176,1199,C0600452
+ES100578.xml,cortocircuito cardiaco,1423,1445,C0232180
+ES100578.xml,síndrome hepatopulmonar,1492,1515,C0600452
+ES100578.xml,sangrado,1563,1571,C0019080
+ES100578.xml,spiders,1576,1583,C0085666
+ES100578.xml,sangrado,1763,1771,C0019080
+ES100578.xml,sangrado,1865,1873,C0019080
+ES100578.xml,lesiones,1905,1913,C0221198
+ES100587.xml,fumador,119,126,C0337664
+ES100587.xml,Amigdalitis,128,139,C0040425
+ES100587.xml,atrofia moderada de las vellosidades intestinales,378,427,C0267456
+ES100587.xml,infiltrado,443,453,C0332448
+ES100182.xml,trauma cráneoencefálico,70,94,C0018674
+ES100182.xml,fracturas en extremidades superior e inferior derechas y costales,96,161,C0035522
+ES100182.xml,fracturas en extremidades superior e inferior,96,141,C1542178
+ES100182.xml,fracturas en extremidades superior,96,130,C0178316
+ES100182.xml,enfisema subcutáneo,167,186,C0038536
+ES100182.xml,hematuria,198,207,C0018965
+ES100182.xml,fractura cerrada de huesos pelvianos,341,377,C0272576
+ES100182.xml,lesión vesical,485,499,C0577180
+ES100182.xml,perforación,608,619,C0549099
+ES100182.xml,fracturas,797,806,C0016658
+ES100633.xml,estreñimiento,29,42,C0009806
+ES100633.xml,dolor en hemiabdomen superior,45,74,C0232492
+ES100633.xml,masa,153,157,C0577559
+ES100633.xml,tumor de células fusiformes,295,322,C0334230
+ES100633.xml,GANT,435,439,C0238198
+ES100633.xml,recidiva,468,476,C2825055
+ES100633.xml,recidivas,716,725,C2825055
+ES100633.xml,metástasis,729,739,C0027627
+ES100631.xml,ictericia,111,120,C0022346
+ES100631.xml,coluria,143,150,C0159076
+ES100631.xml,prurito generalizado,153,173,C0475858
+ES100631.xml,tuberculosis,226,238,C0041296
+ES100631.xml,hipercolesterolemia,248,267,C0020443
+ES100631.xml,tabaquismo,295,305,C0425291
+ES100631.xml,hipergammaglobulinemia,525,547,C0020455
+ES100631.xml,parotidis,807,816,C0026780
+ES100631.xml,dilatación,950,960,C0012359
+ES100631.xml,lesión,1066,1072,C0221198
+ES100631.xml,dilatación,1112,1122,C0012359
+ES100631.xml,pancreatitis autoinmune,1558,1581,C2609129
+ES100631.xml,fibrosis retroperitoneal,1586,1610,C0035357
+ES100631.xml,prurito,1636,1643,C0033774
+ES100631.xml,colestasis,1649,1659,C0008370
+ES100631.xml,lesión,1743,1749,C0221198
+ES100631.xml,neoplasia pancreática,1794,1815,C0030297
+ES100631.xml,neoplasia,2048,2057,C0027651
+ES100631.xml,pancreatitis autoinmune,2080,2103,C2609129
+ES100631.xml,dilatación,2185,2195,C0012359
+ES100631.xml,estenosis,2231,2240,C1261287
+ES100631.xml,PAI,2502,2505,C2609129
+ES100631.xml,lesiones,2706,2714,C0221198
+ES100631.xml,fibrosis retroperitoneal,2811,2835,C0035357
+ES100631.xml,recurrencia,3085,3096,C2825055
+ES100631.xml,pancreatitis autoinmune,3103,3126,C2609129
+ES100631.xml,fibrosis retroperitoneal,3136,3160,C0035357
+ES100143.xml,tumoración,94,104,C0577559
+ES100143.xml,lesión,267,273,C0221198
+ES100143.xml,Ureterocele,363,374,C0041960
+ES100143.xml,dilatación urinaria,428,447,C0521620
+ES100143.xml,lesión,515,521,C0221198
+ES100143.xml,quiste parauretral de Skene,554,581,C4288032
+ES100143.xml,lesión,648,654,C0221198
+ES100143.xml,tumoración,747,757,C0577559
+ES100143.xml,secuela,798,805,C0543419
+ES100962.xml,inadecuada posición del canino inferior izquierdo,144,193,C0155940
+ES100962.xml,inclusión dentaria,439,457,CUILESS
+ES100962.xml,inclusión del canino inferior izquierdo,597,636,CUILESS
+ES100962.xml,transmigración del canino,802,827,CUILESS
+ES100962.xml,irritación,1092,1102,C1706307
+ES100962.xml,herida,1601,1607,C0043250
+ES100962.xml,complicación,1969,1981,C0009566
+ES100552.xml,cefalea,54,61,C0018681
+ES100552.xml,inestabilidad a la marcha,107,132,C0231444
+ES100552.xml,migraña,151,158,C0149931
+ES100552.xml,parálisis facial periférica,160,187,C3266178
+ES100552.xml,depresión,228,237,C0011581
+ES100552.xml,dismetría,278,287,C0234162
+ES100552.xml,parálisis facial,348,364,C0015469
+ES100552.xml,lesión,482,488,C0221198
+ES100552.xml,lesión,692,698,C0221198
+ES100552.xml,edema,777,782,C0013604
+ES100552.xml,masa,831,835,C0577559
+ES100552.xml,hidrocefalia,977,989,C0020255
+ES100552.xml,tumoración,1059,1069,C0577559
+ES100552.xml,tumoración,1281,1291,C0577559
+ES100552.xml,Glioblastoma multiforme,1446,1469,C1621958
+ES100552.xml,necrosis,1528,1536,C0151799
+ES100552.xml,abscesificación,1539,1554,C0000833
+ES100552.xml,recidiva,2051,2059,C2825055
+ES100552.xml,tumor,2064,2069,C0027651
+ES100778.xml,DM tipo II,61,71,C0011860
+ES100778.xml,complicaciones,103,117,C0009566
+ES100778.xml,polineuropatía,132,146,C0152025
+ES100778.xml,HTA,148,151,C0020538
+ES100778.xml,obesa,169,174,C0028754
+ES100778.xml,depresión respiratoria,1168,1190,C0235063
+ES100778.xml,alteraciones neurológicas,1192,1217,CUILESS
+ES100778.xml,efectos secundarios,1228,1247,C0041755
+ES100778.xml,efecto secundario,1481,1498,C0041755
+ES100803.xml,SDRC en ambas extremidades inferiores,60,97,C4543483
+ES100803.xml,traumatismo,102,113,C3263723
+ES100803.xml,Dolor,148,153,C0030193
+ES100634.xml,epigastralgias,29,43,C0232493
+ES100634.xml,síndrome constitucional,46,69,C3665919
+ES100634.xml,masa,111,115,C0577559
+ES100634.xml,metástasis hepáticas,171,191,C0563490
+ES100634.xml,tumor,296,301,C0027651
+ES100634.xml,GANT,423,427,C0238198
+ES100634.xml,metástasis hepáticas,582,602,C0563490
+ES100634.xml,recidiva local,666,680,C0027643
+ES100797.xml,lumbociatalgia,180,194,C0452160
+ES100797.xml,dolor,425,430,C0030193
+ES100797.xml,lumbociatalgia,472,486,C0452160
+ES100797.xml,alteraciones del sueño,524,546,C0150079
+ES100797.xml,disestesias,556,567,C0392699
+ES100797.xml,cicatriz,585,593,C2004491
+ES100797.xml,hipoestesia,597,608,C0020580
+ES100797.xml,deshidratación,769,783,C0011175
+ES100797.xml,cambios degenerativos artrósicos,802,834,CUILESS
+ES100797.xml,neuropatía axonal,1112,1129,C0270921
+ES100797.xml,cicatriz,1374,1382,C2004491
+ES100797.xml,cicatriz,1484,1492,C2004491
+ES100797.xml,cicatriz,1546,1554,C2004491
+ES100797.xml,neuralgia,1650,1659,C0027796
+ES100594.xml,EPOC,88,92,C0024117
+ES100594.xml,disfagia,164,172,C0011168
+ES100594.xml,anorexia,198,206,C0003123
+ES100594.xml,pérdida de peso,209,224,C1262477
+ES100594.xml,masa,314,318,C0577559
+ES100594.xml,neoplasia,539,548,C0027651
+ES100594.xml,engrosamiento,637,650,C0205400
+ES100594.xml,estenosis,929,938,C1261287
+ES100594.xml,lesión,1056,1062,C0221198
+ES100594.xml,adenopatía,1425,1435,C0497156
+ES100594.xml,cáncer,1651,1657,C0006826
+ES100594.xml,adenopatías,1744,1755,C0497156
+ES100594.xml,metástasis hepáticas,2056,2076,C0563490
+ES100423.xml,pérdida de visión súbita bilateral,71,105,C2881385
+ES100423.xml,higroma subdural,160,176,C0751533
+ES100423.xml,absceso occipital,188,205,C2062424
+ES100423.xml,complicación postquirúrgica,242,269,C0032787
+ES100423.xml,Malformación de ArnoldChiari I,361,392,C0750929
+ES100423.xml,cefaleas,460,468,C0018681
+ES100423.xml,inestabilidad,489,502,C0231444
+ES100423.xml,mareos,504,510,C0012833
+ES100423.xml,vómitos,523,530,C0042963
+ES100423.xml,nistagmus vertical,568,586,C0271386
+ES100423.xml,malformación congénita,664,686,C0000768
+ES100423.xml,colitis ulcerosa,747,763,C0009324
+ES100423.xml,defecto pupilar aferente relativo,921,954,C0549122
+ES100423.xml,nistagmus en sacudida,970,991,C0271389
+ES100423.xml,hemorragia retrohialoidea premacular,1064,1100,C4703547
+ES100423.xml,ST,1236,1238,CUILESS
+ES100423.xml,hematoma,1435,1443,C0018944
+ES100423.xml,membrana epirretiniana,1703,1725,C0339543
+ES100423.xml,nistagmus,1787,1796,C0028738
+ES100423.xml,hemovítreo bilateral,1836,1856,CUILESS
+ES100569.xml,dolor abdominal,94,109,C0000737
+ES100569.xml,lesión quística hepática,322,346,C0577053
+ES100569.xml,malignidad,555,565,C0006826
+ES100569.xml,lesión quística,648,663,C0010709
+ES100569.xml,quiste hepático ciliado,1031,1054,C2960506
+ES100030.xml,adenocarcinoma rectal,87,108,C0149978
+ES100030.xml,aumento del tamaño peneano,144,170,C0269011
+ES100030.xml,doloroso,172,180,CUILESS
+ES100030.xml,lesiones eritematosas,211,232,C0234913
+ES100030.xml,linfedema,335,344,C0024236
+ES100030.xml,metástasis,485,495,C0027627
+ES100030.xml,adenocarcinoma intestinal,534,559,C0948209
+ES100030.xml,infiltración tumoral,605,625,C4060690
+ES100030.xml,excrecencia,689,700,CUILESS
+ES100030.xml,tumor,794,799,C0027651
+ES100030.xml,adenocarcinoma,818,832,C0001418
+ES100178.xml,Hepatitis,53,62,C0019158
+ES100178.xml,Cistinuria,120,130,C0010691
+ES100178.xml,HTA,249,252,C0020538
+ES100178.xml,litiasis,264,272,C0023869
+ES100178.xml,dolor intenso,387,400,C0458256
+ES100178.xml,hematoma,462,470,C0018944
+ES100178.xml,hematoma,510,518,C0018944
+ES100178.xml,hematoma,623,631,C0018944
+ES100420.xml,astenia,31,38,C0004093
+ES100420.xml,fatiga,41,47,C0015672
+ES100420.xml,arteritis de la temporal,75,99,C1956391
+ES100420.xml,disminución de agudeza visual,207,236,C0234632
+ES100420.xml,dolor,243,248,C0030193
+ES100420.xml,lagrimeo,250,258,C0152227
+ES100420.xml,exoftalmos,329,339,C0015300
+ES100420.xml,defecto pupilar aferente,439,463,C0549122
+ES100420.xml,hiperemia conjuntival,505,526,C1761613
+ES100420.xml,restricciones en las supraducciones del OD,528,570,CUILESS
+ES100420.xml,diplopia,575,583,C0012569
+ES100420.xml,exoftalmos,600,610,C0015300
+ES100420.xml,párpados edematosos,627,646,CUILESS
+ES100420.xml,edema,805,810,C0013604
+ES100420.xml,palidez,814,821,C0030232
+ES100420.xml,cataratas,878,887,C0086543
+ES100420.xml,engrosamiento,982,995,C0205400
+ES100420.xml,aumento de la grasa orbitaria,1127,1156,C0423143
+ES100420.xml,reducción concéntrica,1460,1481,C1720306
+ES100420.xml,cataratas,1563,1572,C0086543
+ES100420.xml,palidez papilar,1625,1640,C0235039
+ES100420.xml,una ocupación,1667,1680,CUILESS
+ES100420.xml,engrosamiento,1754,1767,C0205400
+ES100420.xml,pseudotumor orbitario,1837,1858,C0085270
+ES100363.xml,anorexia,83,91,C0003123
+ES100363.xml,edema,134,139,C0013604
+ES100363.xml,rectorragia,183,194,C0267596
+ES100363.xml,edema con fóvea,233,248,C0333243
+ES100363.xml,RS3PE,353,358,C2919482
+ES100363.xml,edema,426,431,C0013604
+ES100363.xml,lesiones,1367,1375,C0221198
+ES100363.xml,infiltrado,1454,1464,C0332448
+ES100363.xml,infiltrado,1570,1580,C0332448
+ES100363.xml,bronquiectasias cilíndricas,1713,1740,C0264358
+ES100363.xml,engrosamiento de língula y pleura,1768,1802,C0264545
+ES100363.xml,engrosamiento,1838,1851,C0205400
+ES100363.xml,hipertrofia prostática,1899,1921,C1739363
+ES100363.xml,antracosis,2055,2065,C0003165
+ES100363.xml,infiltración,2208,2220,C0332448
+ES100363.xml,masa,2259,2263,C0577559
+ES100363.xml,sangrado,2371,2379,C0019080
+ES100363.xml,edema,2637,2642,C0013604
+ES100363.xml,enfermedad de Poncet,2891,2911,C0553577
+ES100363.xml,edema,3006,3011,C0013604
+ES100001.xml,elevación progresiva de las cifras de PSA,46,87,C0178415
+ES100001.xml,elevación del PSA,281,298,C0178415
+ES100001.xml,lesión,381,387,C0221198
+ES100001.xml,lesión,506,512,C0221198
+ES100001.xml,lesión,653,659,C0221198
+ES100001.xml,ADK próstata,780,792,C0007112
+ES100571.xml,deterioro del estado general,33,61,C0877211
+ES100571.xml,astenia,63,70,C0004093
+ES100571.xml,anorexia,72,80,C0003123
+ES100571.xml,pérdida de peso,83,98,C1262477
+ES100571.xml,adenocarcinoma de próstata,137,163,C0007112
+ES100571.xml,cambio del ritmo intestinal,389,416,C0497179
+ES100571.xml,diarrea,437,444,C0011991
+ES100571.xml,estreñimiento,447,460,C0009806
+ES100571.xml,dolores cólicos,463,478,C0423605
+ES100571.xml,urgencia,506,514,C0581361
+ES100571.xml,tenesmo defecatorio,517,536,C0232726
+ES100571.xml,doloroso,621,629,CUILESS
+ES100571.xml,signos,677,683,C0311392
+ES100571.xml,masas,698,703,C0577559
+ES100571.xml,megalias,707,715,CUILESS
+ES100571.xml,adenopatías,720,731,C0497156
+ES100571.xml,fiebre,733,739,C0015967
+ES100571.xml,leucocitosis,803,815,C0023518
+ES100571.xml,colestasis,1132,1142,C0008370
+ES100571.xml,estenosis,1575,1584,C1261287
+ES100571.xml,inflamación aguda y crónica,1688,1715,C0021376
+ES100571.xml,colitis,1833,1840,C0009319
+ES100571.xml,engrosamiento,1912,1925,C0205400
+ES100571.xml,adenopatías,2039,2050,C0497156
+ES100571.xml,masas abdominales,2069,2086,C0000734
+ES100571.xml,engrosamiento,2117,2130,C0205400
+ES100571.xml,engrosamiento,2320,2333,C0205400
+ES100571.xml,engrosamiento parietal,2505,2527,C3888534
+ES100571.xml,enteritis,2579,2588,C0014335
+ES100571.xml,eosinofilia,2835,2846,C0014457
+ES100571.xml,deterioro progresivo del estado general,3056,3095,C0563273
+ES100571.xml,eosinofilia,3251,3262,C0014457
+ES100571.xml,enteritis,3496,3505,C0014335
+ES100571.xml,eosinofilia,3517,3528,C0014457
+ES100809.xml,alergias medicamentosas,65,88,C0013182
+ES100809.xml,aplastamiento,208,221,C0332679
+ES100809.xml,pérdida de consciencia,448,470,C0041657
+ES100809.xml,contusión pulmonar,827,845,C0347625
+ES100809.xml,fracturas costales de pelvis,855,883,C0149531
+ES100809.xml,fractura,941,949,C0016658
+ES100809.xml,diástasis,1005,1014,C0036679
+ES100809.xml,pequeña avulsión ósea del borde iliaco superomedial,1090,1141,CUILESS
+ES100809.xml,policontusionado,1306,1322,CUILESS
+ES100809.xml,signos,1570,1576,C0311392
+ES100809.xml,irritación,1580,1590,C1706307
+ES100809.xml,hematuria macroscópica,1616,1638,C0473237
+ES100809.xml,hepatopatía aguda tóxica,2018,2042,C0348754
+ES100809.xml,fallo hepático,2047,2061,C0085605
+ES100809.xml,hepatomegalia,2079,2092,C0019209
+ES100809.xml,ictericia,2099,2108,C0022346
+ES100809.xml,dolor,2391,2396,C0030193
+ES100809.xml,sintomatología vegetativa,2735,2760,CUILESS
+ES100809.xml,distimia,2877,2885,C0013415
+ES100809.xml,doloroso,3442,3450,CUILESS
+ES100410.xml,hiperlipemia,53,65,C0020473
+ES100410.xml,disnea,184,190,C0013404
+ES100410.xml,angina a pequeños esfuerzos,193,220,C0577698
+ES100410.xml,enfermedad coronaria,316,336,C0010068
+ES100410.xml,obstrucción,355,366,C0028778
+ES100410.xml,insuficiencia renal,547,566,C0035078
+ES100410.xml,síndrome general,682,698,CUILESS
+ES100410.xml,astenia,703,710,C0004093
+ES100410.xml,anorexia,713,721,C0003123
+ES100410.xml,empeoramiento de su función renal,784,817,C0232807
+ES100410.xml,eosinofilia,857,868,C0014457
+ES100410.xml,insuficiencia renal aguda,919,944,C1565662
+ES100410.xml,signos,1064,1070,C0311392
+ES100410.xml,unas manchas purpúreas,1083,1105,C0085642
+ES100410.xml,lívido reticularis,1131,1149,C0085642
+ES100410.xml,émbolos de colesterol,1174,1195,C0149649
+ES100410.xml,microhemorragia,1460,1475,C0859253
+ES100410.xml,émbolos de colesterol,1506,1527,C0149649
+ES100410.xml,émbolos,1575,1582,C0149649
+ES100410.xml,insuficiencia cardíaca,1658,1680,C0018801
+ES100410.xml,signos,1696,1702,C0311392
+ES100410.xml,síntomas,1705,1713,C1457887
+ES100410.xml,isquemia aguda periférica,1717,1742,C0235490
+ES100410.xml,obnubilación,1783,1795,C0683369
+ES100410.xml,émbolos de colesterol,1907,1928,C0149649
+ES100412.xml,dolor ocular,72,84,C0151827
+ES100412.xml,pérdida visual,107,121,CUILESS
+ES100412.xml,masa,194,198,C0577559
+ES100412.xml,glaucoma agudo,328,342,C0281773
+ES100412.xml,masa,362,366,C0577559
+ES100412.xml,masa,424,428,C0577559
+ES100412.xml,melanoma ocular,587,602,CUILESS
+ES100412.xml,masa,687,691,C0577559
+ES100412.xml,melanoma de coroides,797,817,C0346388
+ES100412.xml,diseminación metastásica,893,917,C0563521
+ES100412.xml,invasión,1180,1188,CUILESS
+ES100412.xml,masa,1551,1555,C0577559
+ES100412.xml,proliferación,1720,1733,C0334094
+ES100412.xml,focos hemorrágicos y necróticos,1936,1967,CUILESS
+ES100412.xml,focos hemorrágicos,1936,1954,CUILESS
+ES100412.xml,melanoma uveal,2030,2044,C0220633
+ES100412.xml,perforación,2057,2068,C0549099
+ES100002.xml,hipertrofia benigna de próstata,54,85,C1704272
+ES100002.xml,hematuria,109,118,C0018965
+ES100002.xml,ureteropielocaliectasia,208,231,CUILESS
+ES100002.xml,anulación funcional de riñón,282,310,C0232807
+ES100002.xml,alergias,551,559,C0020517
+ES100002.xml,HTA,571,574,C0020538
+ES100002.xml,Diabetes Mellitus tipo II,576,601,C0011860
+ES100002.xml,Miocardiopatía hipertrófica,603,630,C0007194
+ES100002.xml,Aneurisma carotídeo,632,651,C0340639
+ES100002.xml,doloroso,763,771,CUILESS
+ES100002.xml,megalias,776,784,CUILESS
+ES100002.xml,signos,841,847,C0311392
+ES100002.xml,HBP,889,892,C1704272
+ES100002.xml,carcinoma de células transicionales,1102,1137,C0007138
+ES100002.xml,Defecto de replección a nivel de uréter,1203,1242,C0476379
+ES100002.xml,infiltración,1316,1328,C0332448
+ES100002.xml,Aneurisma de Aorta infrarrenal,1455,1485,C0741151
+ES100002.xml,Atrofia hidronefrótica de riñón derecho,1487,1526,C4707574
+ES100002.xml,adenopatías,1593,1604,C0497156
+ES100002.xml,tumor de vías de uréter,1659,1682,C0153619
+ES100002.xml,pielonefritis crónica,1883,1904,C0085697
+ES100002.xml,arteriosclerosis,1918,1934,C0003850
+ES100002.xml,lesión inflamatoria,1945,1964,C3872830
+ES100002.xml,infiltrado,1998,2008,C0332448
+ES100002.xml,erosión de urotelio,2044,2063,C4285682
+ES100002.xml,HBP,2220,2223,C1704272
+ES100994.xml,metrorragias,106,118,C0025874
+ES100994.xml,miomas,133,139,C0027086
+ES100994.xml,osteoporosis,195,207,C0029456
+ES100994.xml,fractura,418,426,C0016658
+ES100994.xml,dolor mecánico,462,476,C0234252
+ES100994.xml,inflamación,519,530,C0021368
+ES100994.xml,dolor a la movilización,690,713,C2363726
+ES100994.xml,alteraciones de la estática de pies,754,789,CUILESS
+ES100994.xml,fractura de estrés en el 2o MTT,915,946,C2711739
+ES100994.xml,edema,970,975,C0013604
+ES100994.xml,osteoporosis,1524,1536,C0029456
+ES100994.xml,dolor,1739,1744,C0030193
+ES100994.xml,síntomas,1798,1806,C1457887
+ES100994.xml,fractura,1890,1898,C0016658
+ES100994.xml,fractura de estrés,1921,1939,C0016664
+ES100994.xml,edema,2035,2040,C0013604
+ES100994.xml,tenosinovitis,2107,2120,C0039520
+ES100994.xml,fracturas,2441,2450,C0016658
+ES100994.xml,osteoporosis,2573,2585,C0029456
+ES100994.xml,obesa,2639,2644,C0028754
+ES100994.xml,traumatismos,2666,2678,C3263723
+ES100994.xml,factores de riesgo,2688,2706,C0035648
+ES100994.xml,dolor,2745,2750,C0030193
+ES100994.xml,sobrecarga del pie izquierdo,3062,3090,CUILESS
+ES100994.xml,fracturas de estrés,3128,3147,C0016664
+ES100214.xml,fallo renal agudo,75,92,C0022660
+ES100214.xml,shock séptico,95,108,C0036983
+ES100214.xml,coagulación intravascular diseminada,174,210,C0012739
+ES100214.xml,CID,212,215,C0012739
+ES100214.xml,oligoanuria,295,307,C1963924
+ES100605.xml,enfermedad de Hodgkin,60,81,C0019829
+ES100605.xml,signos,160,166,C0311392
+ES100605.xml,hemorragia digestiva,170,190,C0017181
+ES100605.xml,melenas,192,199,C0025222
+ES100605.xml,insuficiencia hepática aguda,414,442,C0162557
+ES100605.xml,signos,448,454,C0311392
+ES100605.xml,encefalopatía,458,471,C0085584
+ES100605.xml,hemorragia digestiva masiva,474,501,C0585175
+ES100605.xml,daño hepático,534,547,C0151763
+ES100605.xml,lesiones,570,578,C0221198
+ES100605.xml,lesión inflamatoria,677,696,C3872830
+ES100605.xml,infección herpética,769,788,C0019372
+ES100163.xml,tumoración perineal,138,157,C0240715
+ES100163.xml,antecedente traumático,309,331,C3263723
+ES100163.xml,tumoración perineal,361,380,C0240715
+ES100163.xml,dolorosa,440,448,C0030193
+ES100163.xml,hematoma perineal,555,572,C0473491
+ES100163.xml,hematoma,1036,1044,C0018944
+ES100177.xml,HTA esencial,43,55,C0085580
+ES100177.xml,Hipercolesterolemia,95,114,C0020443
+ES100177.xml,Litiasis,117,125,C0023869
+ES100177.xml,litiasis,271,279,C0023869
+ES100177.xml,hematoma,386,394,C0018944
+ES100177.xml,dolor lumbar,440,452,C0024031
+ES100177.xml,abombamiento,524,536,CUILESS
+ES100177.xml,hematoma cutáneo,546,562,C0475852
+ES100177.xml,hematoma,603,611,C0018944
+ES100177.xml,Palidez,645,652,C0030232
+ES100177.xml,hematoma,951,959,C0018944
+ES100417.xml,estrabismo,68,78,C0038379
+ES100417.xml,endotropía,89,99,CUILESS
+ES100417.xml,hipertropía,122,133,C0020575
+ES100417.xml,fijación excéntrica,379,398,C0262461
+ES100417.xml,convulsiones febriles,438,459,C0009952
+ES100417.xml,varicela,524,532,C0008049
+ES100417.xml,síndrome de Alport,612,630,C1567741
+ES100417.xml,lesiones,765,773,C0221198
+ES100417.xml,retinocoroiditis,853,869,C0008513
+ES100417.xml,atrofia parapapilar,1063,1082,C1719838
+ES100417.xml,atrofia coriorretiniana,1110,1133,C4048273
+ES100417.xml,ectasia escleral,1276,1292,C5234913
+ES100417.xml,nistagmo,1329,1337,C0028738
+ES100417.xml,lesiones oculares,1348,1365,C0743711
+ES100417.xml,infección ocular,1437,1453,C0015403
+ES100417.xml,coriomeningitis linfocitaria,1583,1611,C0024266
+ES100417.xml,coriomeningitis linfocitaria,2263,2291,C0024266
+ES100417.xml,coloboma macular,2547,2563,CUILESS
+ES100417.xml,hipercalciuria,2714,2728,C0020438
+ES100417.xml,hipomagnesemia,2731,2745,C0151723
+ES100417.xml,coloboma,3194,3202,CUILESS
+ES100832.xml,endometriosis,73,86,C0014175
+ES100832.xml,fiebre,128,134,C0015967
+ES100832.xml,odinofagia,152,162,C0221150
+ES100832.xml,vómitos,278,285,C0042963
+ES100832.xml,deposiciones diarreicas,295,318,C0011991
+ES100832.xml,síndrome febril,341,356,C0015967
+ES100832.xml,empeoramiento del estado general,509,541,C0877211
+ES100832.xml,hipotensión,547,558,C0020649
+ES100832.xml,cefalea,578,585,C0018681
+ES100832.xml,dorsalgia,588,597,C0004604
+ES100832.xml,taquipnea,741,750,C0231835
+ES100832.xml,taquicardia,763,774,C0039231
+ES100832.xml,rigidez de nuca,903,918,C1320474
+ES100832.xml,leucocitopenia,1017,1031,C0023530
+ES100832.xml,acidosis metabólica,1045,1064,C0220981
+ES100832.xml,shock,1424,1429,C0036974
+ES100832.xml,exantema,1552,1560,C0015230
+ES100832.xml,petequias,1667,1676,C0031256
+ES100832.xml,Congestión pulmonar,1789,1808,C0242073
+ES100832.xml,edema pulmonar,1822,1836,C0034063
+ES100832.xml,Derrame pleural,1916,1931,C0032227
+ES100832.xml,Derrame pericárdico,1941,1960,C0031039
+ES100832.xml,hemorrágico,2105,2116,C0019080
+ES100832.xml,congestivo,2234,2244,C0700148
+ES100832.xml,edematoso,2247,2256,C0013604
+ES100832.xml,quiste,2297,2303,C0010709
+ES100832.xml,derrame pleural,2574,2589,C0032227
+ES100832.xml,congestión,3147,3157,C0700148
+ES100832.xml,edema,3160,3165,C0013604
+ES100832.xml,meningioma transicionalpsamomatoso,3196,3231,C0334607
+ES100832.xml,hemorragia,3263,3273,C0019080
+ES100832.xml,signos,3299,3305,C0311392
+ES100832.xml,shock,3320,3325,C0036974
+ES100832.xml,CID,3392,3395,C0012739
+ES100832.xml,esplenomegalia,3420,3434,C0038002
+ES100832.xml,miocarditis,3444,3455,C0027059
+ES100832.xml,fallo multiorgánico,3636,3655,C0026766
+ES100832.xml,septicemia,3674,3684,C0036690
+ES100775.xml,fiebre,48,54,C0015967
+ES100775.xml,adenopatía axilar,93,110,C0578735
+ES100775.xml,fiebre,393,399,C0015967
+ES100775.xml,adenopatía,421,431,C0497156
+ES100775.xml,Enfermedad por Arañazo de Gato,444,474,C0007361
+ES100775.xml,fiebre,578,584,C0015967
+ES100946.xml,tumefacción,29,40,C0038999
+ES100946.xml,lesión,120,126,C0221198
+ES100946.xml,lesión,267,273,C0221198
+ES100946.xml,destrucción de la cortical ósea,288,319,C0238790
+ES100946.xml,ameloblastoma,364,377,C0002448
+ES100946.xml,lesión,419,425,C0221198
+ES100946.xml,tumoración,537,547,C0577559
+ES100946.xml,complicaciones,733,747,C0009566
+ES100946.xml,pleomorfimso,2572,2584,C0032219
+ES100946.xml,mitosis atípicas,2595,2611,CUILESS
+ES100946.xml,PIN,2752,2755,C0282612
+ES100946.xml,delección del brazo largo del cromosoma 22,3397,3439,C4511759
+ES100947.xml,fumador,63,70,C0337664
+ES100947.xml,enrojecimiento de la mucosa,339,366,C0858646
+ES100947.xml,sangramiento,450,462,C0019080
+ES100947.xml,defecto óseo periimplantario marginal,843,880,CUILESS
+ES100947.xml,infiltrado,1602,1612,C0332448
+ES100760.xml,LMC,51,54,C0023473
+ES100760.xml,síntomas,183,191,C1457887
+ES100760.xml,cansancio,205,214,C0015672
+ES100760.xml,dolor,216,221,C0030193
+ES100760.xml,quemazón,223,231,C0085624
+ES100760.xml,hinchazón,234,243,C0038999
+ES100760.xml,edemas,256,262,C0013604
+ES100760.xml,lesiones,290,298,C0221198
+ES100760.xml,tos persistente,852,867,C0562483
+ES100760.xml,astenia,870,877,C0004093
+ES100760.xml,pancitopenia,979,991,C0030312
+ES100760.xml,infiltración,996,1008,C0332448
+ES100760.xml,crisis,1059,1065,C0231224
+ES100760.xml,crisis,1197,1203,C0231224
+ES100760.xml,intolerancia,1575,1587,C0277585
+ES100760.xml,dolor osteomuscular,1614,1633,C0026858
+ES100760.xml,astenia,1635,1642,C0004093
+ES100760.xml,elevación de tensión arterial,1645,1674,C0497247
+ES100819.xml,migrañas,54,62,C0149931
+ES100819.xml,ciática,75,82,C0036396
+ES100819.xml,hernia discal,111,124,C0242362
+ES100819.xml,complicaciones,1019,1033,C0009566
+ES100819.xml,hernia discal,2021,2034,C0242362
+ES100819.xml,pérdida hemática,2048,2064,CUILESS
+ES100819.xml,burbuja de gas,2613,2627,C0333139
+ES100819.xml,migrañosos,2967,2977,C0149931
+ES100819.xml,discromatopsias,3362,3377,C0858618
+ES100789.xml,dolor,54,59,C0030193
+ES100789.xml,espondiloartrosis,113,130,C0949691
+ES100789.xml,dolor,305,310,C0030193
+ES100789.xml,dolor,485,490,C0030193
+ES100789.xml,dolor,638,643,C0030193
+ES100561.xml,herida,528,534,C0043250
+ES100561.xml,hepatitis B,945,956,C0019163
+ES100561.xml,signo,1015,1020,C0311392
+ES100561.xml,síntoma,1023,1030,C1457887
+ES100561.xml,tuberculosis,1046,1058,C0041296
+ES100561.xml,pápula,1187,1193,C0332563
+ES100561.xml,dolorosa,1217,1225,C0030193
+ES100561.xml,adenopatías axilares,1296,1316,C0578735
+ES100561.xml,lesión,1376,1382,C0221198
+ES100561.xml,lesión,1420,1426,C0221198
+ES100561.xml,lesión,1554,1560,C0221198
+ES100561.xml,dermatitis granulomatosa,1607,1631,C0743086
+ES100561.xml,necrosis,1637,1645,C0151799
+ES100561.xml,dermatitis,1674,1684,C0011603
+ES100561.xml,dermatitis granulomatosa,1743,1767,C0743086
+ES100561.xml,dermatitis,1782,1792,C0011603
+ES100561.xml,Tuberculosis Cutánea,2257,2277,C0041309
+ES100978.xml,dificultad para caminar,32,55,C0311394
+ES100978.xml,debilidad,100,109,C3714552
+ES100978.xml,dolor,112,117,C0030193
+ES100978.xml,lumbalgia,203,212,C0024031
+ES100978.xml,cambios en la voz,237,254,C0518179
+ES100978.xml,disfónica,272,281,C1527344
+ES100978.xml,debilidad,349,358,C3714552
+ES100978.xml,trastorno ocular,411,427,C0015397
+ES100978.xml,labilidad emocional,500,519,C0085633
+ES100978.xml,trastorno adaptativo,557,577,C0001546
+ES100978.xml,calambres,614,623,C0026821
+ES100978.xml,hipertenso,681,691,C0020538
+ES100978.xml,diabético tipo 2,694,710,C0011860
+ES100978.xml,Esclerosis lateral amiotrófica,781,811,C0002736
+ES100978.xml,ELA,813,816,C0002736
+ES100978.xml,hipofónica,865,875,C0521007
+ES100978.xml,Fasciculaciones linguales,937,962,C0239548
+ES100978.xml,debilidad,967,976,C3714552
+ES100978.xml,paraparesia,1022,1033,C0221166
+ES100978.xml,debilidad,1109,1118,C3714552
+ES100978.xml,déficit sensitivo,1146,1163,C0020580
+ES100978.xml,Fasciculaciones,1304,1319,C0015644
+ES100978.xml,Atrofia muscular,1372,1388,C0026846
+ES100978.xml,enfermedad de motoneurona,1657,1682,C0085084
+ES100978.xml,denervación,1829,1840,C0877271
+ES100978.xml,enfermedad de motoneurona,1938,1963,C0085084
+ES100978.xml,ELA,1974,1977,C0002736
+ES100978.xml,ELA,2087,2090,C0002736
+ES100978.xml,paraparesia,2366,2377,C0221166
+ES100978.xml,atrofia muscular,2411,2427,C0026846
+ES100978.xml,disfagia,2445,2453,C0011168
+ES100978.xml,miopatía,2620,2628,C0026848
+ES100978.xml,miopatía,2645,2653,C0026848
+ES100978.xml,miopatía por cuerpos de inclusión,2699,2732,C0238190
+ES100978.xml,enfermedad primaria del musculo esquelético,2853,2896,C1533847
+ES100978.xml,denervación,2947,2958,C0877271
+ES100978.xml,síntomas,3015,3023,C1457887
+ES100978.xml,debilidad,3040,3049,C3714552
+ES100978.xml,Atrofia,3096,3103,C0333641
+ES100978.xml,Fasciculaciones,3174,3189,C0015644
+ES100978.xml,afonía,3249,3255,C0003564
+ES100978.xml,enfermedad de motoneurona,3298,3323,C0085084
+ES100978.xml,ELA,3334,3337,C0002736
+ES100978.xml,shock séptico,3524,3537,C0036983
+ES100978.xml,complicaciones,3570,3584,C0009566
+ES100978.xml,trastorno adaptativo,3692,3712,C0001546
+ES100937.xml,fiebre,44,50,C0015967
+ES100937.xml,irritabilidad,86,99,C0022107
+ES100937.xml,mucosidad nasal,101,116,CUILESS
+ES100937.xml,exantema,155,163,C0015230
+ES100937.xml,infección bacteriana,566,586,C0004623
+ES100937.xml,Febril,789,795,C0015967
+ES100937.xml,irritabilidad,835,848,C0022107
+ES100937.xml,mal color y estado general,850,876,C0424579
+ES100937.xml,exantema,898,906,C0015230
+ES100937.xml,dificultad respiratoria,922,945,C0476273
+ES100937.xml,infiltrados,1250,1261,C0332448
+ES100937.xml,edema agudo de pulmón,1348,1369,C0155919
+ES100937.xml,pancitopenia,1391,1403,C0030312
+ES100937.xml,infección por parvovirus B19,1772,1800,C1959635
+ES100937.xml,insuficiencia respiratoria,1802,1828,C0035229
+ES100937.xml,pancitopenia,1831,1843,C0030312
+ES100937.xml,complicaciones,1957,1971,C0009566
+ES100937.xml,eritema infeccioso,2031,2049,C0085273
+ES100513.xml,asimetría facial,43,59,C1306710
+ES100513.xml,hipoplasia,72,82,C0243069
+ES100513.xml,anquílosis,124,134,C0003090
+ES100513.xml,retracción,165,175,C0332523
+ES100513.xml,microrretrognatia,197,214,CUILESS
+ES100513.xml,maloclusión,295,306,C0024636
+ES100513.xml,bloque anquilótico de la articulación témporomandibular derecha,368,431,CUILESS
+ES100063.xml,dolor en hipocondrio derecho,75,103,C0578057
+ES100063.xml,alteración del hábito intestinal,146,178,C0497179
+ES100063.xml,síndrome general,192,208,CUILESS
+ES100063.xml,obesidad,329,337,C0028754
+ES100063.xml,cushingoide,365,376,C5234856
+ES100063.xml,virilización,392,404,C0042755
+ES100063.xml,masas,570,575,C0577559
+ES100063.xml,organomegalias,578,592,C4075263
+ES100063.xml,leve dolor,604,614,C0278138
+ES100063.xml,signo de Murphy,676,691,C0277977
+ES100063.xml,tumoración,917,927,C0577559
+ES100063.xml,metástasis hepáticas,1001,1021,C0563490
+ES100063.xml,masa,1043,1047,C0577559
+ES100063.xml,infiltración,1167,1179,C0332448
+ES100063.xml,afectación ganglionar retroperitoneal,1216,1253,CUILESS
+ES100063.xml,metástasis,1257,1267,C0027627
+ES100063.xml,trombosis tumoral,1320,1337,C2242635
+ES100063.xml,infiltración,1538,1550,C0332448
+ES100063.xml,masa suprarrenal,1584,1600,C0342500
+ES100063.xml,tumoración,1776,1786,C0577559
+ES100063.xml,masa,2027,2031,C0577559
+ES100063.xml,complicaciones,2171,2185,C0009566
+ES100063.xml,proliferación,2513,2526,C0334094
+ES100063.xml,necrosis,2755,2763,C0151799
+ES100063.xml,invasión,2779,2787,CUILESS
+ES100063.xml,LEIOMIOSARCOMA,2872,2886,C0023269
+ES100705.xml,fístula oronasal,100,116,C1299894
+ES100705.xml,dehiscencia,343,354,C0149663
+ES100705.xml,fístula oronasal,356,372,C1299894
+ES100705.xml,rinofonía,388,397,C0751513
+ES100705.xml,reflujo nasal,400,413,CUILESS
+ES100705.xml,fístula oronasal,475,491,C1299894
+ES100705.xml,fístula,627,634,C0016169
+ES100705.xml,fístula,919,926,C0016169
+ES100705.xml,fístula,1042,1049,C0016169
+ES100705.xml,fístula oronasal,1440,1456,C1299894
+ES100705.xml,isquemia,1614,1622,C0022116
+ES100705.xml,fístula,1720,1727,C0016169
+ES100705.xml,dehiscencia,1753,1764,C0149663
+ES100659.xml,diabetes,64,72,C0011849
+ES100659.xml,pancreatitis aguda,94,112,C0001339
+ES100659.xml,dolor agudo en hemiabdomen,161,187,C0740577
+ES100659.xml,náuseas,200,207,C0027497
+ES100659.xml,síntomas,219,227,C1457887
+ES100659.xml,irritación,305,315,C1706307
+ES100659.xml,síncope,455,462,C0039070
+ES100659.xml,pseudoquiste pancreático hemorrágico,616,652,C5243899
+ES100840.xml,bocio difuso,36,48,C0342114
+ES100840.xml,mioma uterino,67,80,C0042133
+ES100840.xml,dolor abdominal,208,223,C0000737
+ES100840.xml,distensión abdominal,241,261,C0000731
+ES100840.xml,deposiciones líquidas,271,292,C2129214
+ES100840.xml,cicatrices,567,577,C2004491
+ES100840.xml,doloroso,605,613,CUILESS
+ES100840.xml,signos,699,705,C0311392
+ES100840.xml,irritación,709,719,C1706307
+ES100840.xml,masas,746,751,C0577559
+ES100840.xml,visceromegalias,755,770,C0042782
+ES100840.xml,peristaltismo disminuido,772,796,C0232475
+ES100840.xml,leucocitosis,845,857,C0023518
+ES100840.xml,dilatación,1083,1093,C0012359
+ES100840.xml,calcificaciones,1199,1214,C0006663
+ES100840.xml,mioma,1238,1243,C0027086
+ES100840.xml,hiperperistaltismo,1298,1316,C0232474
+ES100840.xml,líquido libre,1344,1357,C0013687
+ES100840.xml,dilatación,1432,1442,C0012359
+ES100840.xml,acumulación de líquido libre,1615,1643,C0013687
+ES100840.xml,miomatoso,1679,1688,C0027086
+ES100840.xml,calcificaciones,1693,1708,C0006663
+ES100840.xml,líquido libre,2043,2056,C0013687
+ES100840.xml,dilatación,2065,2075,C0012359
+ES100840.xml,engrosamiento,2092,2105,C0205400
+ES100840.xml,retracción,2196,2206,C0332523
+ES100840.xml,adenopatías,2233,2244,C0497156
+ES100840.xml,miomatoso,2299,2308,C0027086
+ES100840.xml,adherencias,2584,2595,C0001511
+ES100840.xml,fibrosis,2598,2606,C0016059
+ES100840.xml,estroma endometrial,2717,2736,C0334695
+ES100840.xml,infiltrado,2775,2785,C0332448
+ES100840.xml,fibrosis,2801,2809,C0016059
+ES100840.xml,hipertrofia,2839,2850,C0020564
+ES100840.xml,lesión,2900,2906,C0221198
+ES100840.xml,endometriosis ileocecal,2951,2974,C0269115
+ES100840.xml,complicaciones,3023,3037,C0009566
+ES100713.xml,tumoración,84,94,C0577559
+ES100713.xml,dolorosa,126,134,C0030193
+ES100713.xml,traumatismo,203,214,C3263723
+ES100713.xml,lesión,254,260,C0221198
+ES100713.xml,lesión,430,436,C0221198
+ES100713.xml,calcificación,472,485,C0006663
+ES100713.xml,lesión medular redondeada,571,596,C1268661
+ES100713.xml,infiltración,673,685,C0332448
+ES100713.xml,lesión osteolítica,753,771,C0302313
+ES100713.xml,infiltración de partes blandas,857,887,C0349679
+ES100713.xml,lesión vascular,977,992,C0158570
+ES100713.xml,lesión,1054,1060,C0221198
+ES100713.xml,lesión,1091,1097,C0221198
+ES100713.xml,lesión,1240,1246,C0221198
+ES100713.xml,hemangioma,1730,1740,C0018916
+ES100713.xml,malformación venosa intraósea,1914,1943,C1847197
+ES100896.xml,llanto persistente,61,79,C0438697
+ES100896.xml,tos,81,84,C0010200
+ES100896.xml,dificultad respiratoria,94,117,C0476273
+ES100896.xml,vómitos,162,169,C0042963
+ES100896.xml,rechazo parcial de la alimentación,171,205,CUILESS
+ES100896.xml,rinorrea,208,216,C1260880
+ES100896.xml,broncoespasmo,289,302,C0006266
+ES100896.xml,asma,359,363,C0004096
+ES100896.xml,irritable,679,688,C0022107
+ES100896.xml,respiración entrecortada,743,767,C1313952
+ES100896.xml,sibilancias espiratorias,881,905,C0231875
+ES100896.xml,hiperémica,999,1009,C0020452
+ES100896.xml,hiperemia,1073,1082,C0020452
+ES100896.xml,atrapamiento aéreo,1264,1282,C0231819
+ES100896.xml,enfisema subcutáneo,1362,1381,C0038536
+ES100896.xml,neumomediastino,1429,1444,C0025062
+ES100896.xml,broncoespasmo,1456,1469,C0006266
+ES100896.xml,signos,1686,1692,C0311392
+ES100896.xml,síntomas,1696,1704,C1457887
+ES100896.xml,dificultad respiratoria,1708,1731,C0476273
+ES100064.xml,disestesia facial,50,67,C3697179
+ES100064.xml,ptosis palpebral izquierda,70,96,C2143081
+ES100064.xml,proptosis del globo ocular del mismo lado,99,140,CUILESS
+ES100064.xml,hipertensión arterial,170,191,C0020538
+ES100064.xml,ulcus duodenal,230,244,C0013295
+ES100064.xml,poliposis,265,274,C0013295
+ES100064.xml,adenocarcinoma prostático,335,360,C0007112
+ES100064.xml,metástasis óseas,501,517,C0153690
+ES100064.xml,adormecimiento facial derecho,752,781,C4543254
+ES100064.xml,ptosis palpebral izquierda,841,867,C2143081
+ES100064.xml,protrusión,876,886,C0333056
+ES100064.xml,diplopía,907,915,C0012569
+ES100064.xml,dolor facial ni ocular,917,939,C0151827
+ES100064.xml,dolor facial,917,929,C0015468
+ES100064.xml,ptosis palpebral izquierda,1035,1061,C2143081
+ES100064.xml,salida del ojo del mismo lado,1066,1095,CUILESS
+ES100064.xml,soplo,1101,1106,CUILESS
+ES100064.xml,paresia,1121,1128,C0427055
+ES100064.xml,alteraciones en la sensibilidad de la mitad derecha de la cara,1180,1242,C0239517
+ES100064.xml,lesiones isquémicas,1489,1508,C0349419
+ES100064.xml,masa,1528,1532,C0577559
+ES100064.xml,ocupación del seno frontal,1691,1717,C0345672
+ES100064.xml,masa,1736,1740,C0577559
+ES100064.xml,infiltración,1854,1866,C0332448
+ES100064.xml,obliteración de la grasa,1871,1895,C0015668
+ES100064.xml,proptosis,1965,1974,C0015300
+ES100064.xml,masa,2003,2007,C0577559
+ES100064.xml,interrupción del suelo de la órbita derecha,2127,2170,C0339151
+ES100064.xml,invasión,2173,2181,CUILESS
+ES100064.xml,infiltración,2411,2423,C0332448
+ES100064.xml,alteraciones viscerales,2455,2478,CUILESS
+ES100064.xml,metástasis,2499,2509,C0027627
+ES100064.xml,adenocarcinoma prostático,2513,2538,C0007112
+ES100064.xml,afectación orbitaria extraconal inferior derecha y superior izquierda,2593,2662,CUILESS
+ES100064.xml,ceguera,2715,2722,C0456909
+ES100064.xml,proptosis,3130,3139,C0015300
+ES100273.xml,hipertensa,39,49,C0020538
+ES100273.xml,diabética,51,60,C0011849
+ES100273.xml,obesa,62,67,C0028754
+ES100273.xml,dislipémica,69,80,C0242339
+ES100273.xml,enfermedad renal crónica,87,111,C1561643
+ES100273.xml,ERC,113,116,C1561643
+ES100273.xml,diabetes,144,152,C0011849
+ES100273.xml,nefroangiosclerosis,157,176,C0948347
+ES100273.xml,infecciones de puerta de entrada del catéter,455,499,C0860239
+ES100273.xml,fiebre,531,537,C0015967
+ES100273.xml,escalofríos,540,551,C0036973
+ES100273.xml,infección en PEC,660,676,C0860239
+ES100924.xml,lesiones cutáneas,132,149,C0037284
+ES100924.xml,placas lineales pigmentadas,230,257,CUILESS
+ES100924.xml,prurito,441,448,C0033774
+ES100924.xml,dolor,450,455,C0030193
+ES100924.xml,malestar general,459,475,C0231218
+ES100924.xml,quemadura,508,517,C0006434
+ES100924.xml,reacción fototóxica,602,621,C1304045
+ES100924.xml,síntomas,787,795,C1457887
+ES100688.xml,SMR,241,244,C0025235
+ES100688.xml,aumento de volumen,259,277,CUILESS
+ES100688.xml,aumento de volumen,414,432,CUILESS
+ES100688.xml,QG,559,561,C0600268
+ES100688.xml,SMR,576,579,C0025235
+ES100688.xml,epilepsia,815,824,C0014544
+ES100688.xml,retraso mental leve,841,860,C0026106
+ES100688.xml,hipotiroidismo,862,876,C0020676
+ES100688.xml,resistencia a la insulina,878,903,C0021655
+ES100688.xml,alergia al yodo,906,921,C0571818
+ES100688.xml,aumento de volumen,1107,1125,CUILESS
+ES100688.xml,lengua depapilada,1183,1200,C0017677
+ES100688.xml,lengua fisurada,1269,1284,C0040412
+ES100688.xml,macroglosia,1307,1318,C0024421
+ES100688.xml,dolor,1527,1532,C0030193
+ES100663.xml,obesidad,78,86,C0028754
+ES100663.xml,HTA,88,91,C0020538
+ES100663.xml,fibromialgia,93,105,C0016053
+ES100663.xml,hernia discal,108,121,C0242362
+ES100663.xml,lumbociática,227,239,CUILESS
+ES100663.xml,disfagia,316,324,C0011168
+ES100663.xml,pérdida de peso,338,353,C1262477
+ES100663.xml,efecto masa,415,426,CUILESS
+ES100663.xml,masa,549,553,C0577559
+ES100663.xml,múltiples lesiones vertebrales,679,709,C0037937
+ES100663.xml,aplastamientos vertebrales osteoporóticos,751,792,C0410549
+ES100663.xml,lumbociática,867,879,CUILESS
+ES100663.xml,lesiones vertebrales,884,904,C0037937
+ES100663.xml,masa esofágica,959,973,C0577008
+ES100663.xml,lumbalgia,1066,1075,C0024031
+ES100663.xml,disfagia,1146,1154,C0011168
+ES100663.xml,hepatomegalia,1301,1314,C0019209
+ES100663.xml,dolor,1337,1342,C0030193
+ES100663.xml,lesión,1482,1488,C0221198
+ES100663.xml,adenopatías,1618,1629,C0497156
+ES100663.xml,metástasis hepáticas,1692,1712,C0563490
+ES100663.xml,masa tumoral,1903,1915,C3273930
+ES100663.xml,metástasis hepáticas múltiples y óseas,1974,2012,C0153690
+ES100663.xml,metástasis hepáticas,1974,1994,C0563490
+ES100663.xml,melanoma maligno,2071,2087,C0025202
+ES100663.xml,necrosis,2140,2148,C0151799
+ES100715.xml,aumento de volumen,113,131,CUILESS
+ES100715.xml,hipertensión,258,270,C0020538
+ES100715.xml,diabetes tipo 2,273,288,C0011860
+ES100715.xml,tabaquismo,369,379,C0425291
+ES100715.xml,aumento de volumen,444,462,CUILESS
+ES100715.xml,doloroso,518,526,CUILESS
+ES100715.xml,lesión,576,582,C0221198
+ES100715.xml,linfoadenopatías,620,636,CUILESS
+ES100715.xml,compromiso neurológico,668,690,C0521654
+ES100715.xml,lesión,813,819,C0221198
+ES100715.xml,abombamiento,1016,1028,CUILESS
+ES100715.xml,adelgazamiento,1030,1044,CUILESS
+ES100715.xml,perforación,1047,1058,C0549099
+ES100715.xml,lesión,1170,1176,C0221198
+ES100715.xml,lesión,1455,1461,C0221198
+ES100715.xml,tumor odontogénico queratoquístico,1467,1501,C1708604
+ES100715.xml,dolor,1641,1646,C0030193
+ES100715.xml,impotencia funcional,1649,1669,CUILESS
+ES100715.xml,lesión,1960,1966,C0221198
+ES100715.xml,franca destrucción de tablas óseas,2020,2054,C0238790
+ES100715.xml,lesión,2251,2257,C0221198
+ES100715.xml,pérdida de la estratificación epitelial,2609,2648,CUILESS
+ES100715.xml,pleomorfismo,2650,2662,C0032219
+ES100715.xml,proliferación,2763,2776,C0334094
+ES100715.xml,proliferación epitelial,2926,2949,C0334097
+ES100715.xml,carcinoma de células escamosas,3115,3145,C0007137
+ES100715.xml,metástasis,3342,3352,C0027627
+ES100715.xml,tumores,3366,3373,C0027651
+ES100715.xml,neumonía,3463,3471,C0032285
+ES100098.xml,EPOC,37,41,C0024117
+ES100098.xml,fumador,147,154,C0337664
+ES100098.xml,uretrorragia,274,286,C0241558
+ES100098.xml,imposibilidad para la micción,289,318,C0849752
+ES100098.xml,globo vesical,539,552,CUILESS
+ES100098.xml,neoplasia vesical,769,786,C0005695
+ES100098.xml,estenosis uretral,825,842,C0041974
+ES100098.xml,tumor sólido,914,926,C0280100
+ES100098.xml,proliferación,1343,1356,C0334094
+ES100098.xml,tumor fibroso solitario,1386,1409,C1266119
+ES100098.xml,leiomiosarcoma,1597,1611,C0023269
+ES100098.xml,pleomorfismo,1675,1687,C0032219
+ES100098.xml,necrosis,1706,1714,C0151799
+ES100098.xml,necrosis,1752,1760,C0151799
+ES100098.xml,cambio mixoide,1796,1810,CUILESS
+ES100098.xml,inflamación,1820,1831,C0021368
+ES100098.xml,Infiltración,1853,1865,C0332448
+ES100098.xml,reacción fibrosa,1962,1978,C0016059
+ES100098.xml,tumor,2023,2028,C0027651
+ES100098.xml,leiomiosarcoma,2291,2305,C0023269
+ES100098.xml,infiltración,2324,2336,C0332448
+ES100259.xml,crisis hipertensivas,60,80,C0020546
+ES100259.xml,sudoración profusa,120,138,C0700590
+ES100259.xml,enrojecimiento generalizado,140,167,C0858965
+ES100259.xml,cefalea,169,176,C0018681
+ES100259.xml,dolor lumbar,196,208,C0024031
+ES100259.xml,eritema malar y palmar,342,364,C0014745
+ES100259.xml,eritema malar,342,355,C0277942
+ES100259.xml,masa retroperitoneal,692,712,C0267771
+ES100259.xml,masa retroperitoneal,906,926,C0267771
+ES100259.xml,defecto de repleción intracava infrarrenal,1184,1226,CUILESS
+ES100259.xml,paraganglioma,1271,1284,C0030421
+ES100259.xml,tumoración,1445,1455,C0577559
+ES100259.xml,tumor,1527,1532,C0027651
+ES100259.xml,complicaciones,1577,1591,C0009566
+ES100259.xml,paraganglioma,1765,1778,C0030421
+ES100112.xml,síndrome constitucional,76,99,C3665919
+ES100112.xml,anemia,101,107,C0002871
+ES100112.xml,masa,110,114,C0577559
+ES100112.xml,accidente cerebro vascular,186,212,C0038454
+ES100112.xml,fibrilación auricular,262,283,C0004238
+ES100112.xml,enfermedad pulmonar obstructiva crónica,299,338,C0024117
+ES100112.xml,anorexia,422,430,C0003123
+ES100112.xml,astenia,432,439,C0004093
+ES100112.xml,pérdida de 12 kilogramos de peso,443,475,C1262477
+ES100112.xml,dolor,533,538,C0030193
+ES100112.xml,masa,670,674,C0577559
+ES100112.xml,anemia normocítica y normocrómica,751,784,C0271899
+ES100112.xml,masa renal,931,941,C0262613
+ES100112.xml,hematoma,1067,1075,C0018944
+ES100112.xml,masa,1149,1153,C0577559
+ES100112.xml,infiltración,1229,1241,C0332448
+ES100112.xml,adenopatías,1276,1287,C0497156
+ES100112.xml,trombosis vascular,1292,1310,C2586211
+ES100112.xml,masa tumoral,1361,1373,C3273930
+ES100112.xml,masa tumoral,1552,1564,C3273930
+ES100112.xml,masa tumoral,1680,1692,C3273930
+ES100112.xml,un tumor maligno fusocelular renal,1823,1857,C0740457
+ES100112.xml,infiltración,1920,1932,C0332448
+ES100112.xml,masas,2228,2233,C0577559
+ES100112.xml,infiltración,2372,2384,C0332448
+ES100112.xml,metástasis de carcinoma renal,2565,2594,C0919989
+ES100112.xml,lesiones,2648,2656,C0221198
+ES100112.xml,mareo,2723,2728,C0012833
+ES100112.xml,distensión abdominal,2730,2750,C0000731
+ES100112.xml,anemia,2753,2759,C0002871
+ES100112.xml,masa retroperitoneal,2889,2909,C0267771
+ES100112.xml,hemorrágico,2934,2945,C0019080
+ES100112.xml,hematoma,2993,3001,C0018944
+ES100112.xml,tumoración,3044,3054,C0577559
+ES100112.xml,tumoración maligna,3166,3184,C1306459
+ES100112.xml,recidiva,3250,3258,C2825055
+ES100112.xml,tumor renal,3262,3273,C0022665
+ES100112.xml,hematoma,3331,3339,C0018944
+ES100310.xml,carcinoma epidermoide,34,55,C0007137
+ES100310.xml,disfagia,175,183,C0011168
+ES100310.xml,pérdida ponderal,250,266,C1262477
+ES100310.xml,sangrado,468,476,C0019080
+ES100310.xml,estenosis,492,501,C1261287
+ES100304.xml,enfermedad metabólica,175,196,C0025517
+ES100304.xml,microcefalia,256,268,C0025958
+ES100304.xml,retraso mental severo,271,292,C0036857
+ES100304.xml,malformación cardiaca,346,367,C0018798
+ES100304.xml,retraso mental levemoderado,725,753,C0026106
+ES100304.xml,PKU,1159,1162,C0031485
+ES100304.xml,trastornos en el metabolismo de las pterinas,1221,1265,C0597300
+ES100304.xml,Fenilcetonuria,1499,1513,C0031485
+ES100304.xml,PKU,1680,1683,C0031485
+ES100304.xml,PKU,2613,2616,C0031485

@@ -1,0 +1,1491 @@
+,file,string,begin,end,type
+1,ES100569.xml,hipocondrio derecho,127,146,B-Estructura_Corporal
+2,ES100569.xml,hepático,231,239,B-Estructura_Corporal
+3,ES100569.xml,abdominal,286,295,B-Estructura_Corporal
+6,ES100569.xml,segmentos 4-5 hepáticos,442,465,B-Estructura_Corporal
+7,ES100569.xml,hilio hepático,504,518,B-Estructura_Corporal
+9,ES100569.xml,hilio hepático,709,723,B-Estructura_Corporal
+10,ES100569.xml,bifurcación portal,758,776,B-Estructura_Corporal
+11,ES100569.xml,vena suprahepática media,782,806,B-Estructura_Corporal
+13,ES100789.xml,dolor,54,59,B-Grp_Enfermedad
+15,ES100789.xml,columna vertebral lumbar,163,187,B-Estructura_Corporal
+16,ES100789.xml,fentanilo,217,226,B-Grp_Medicamento
+17,ES100789.xml,dolor,305,310,B-Grp_Enfermedad
+18,ES100789.xml,fentanilo genérico,380,398,B-Grp_Medicamento
+19,ES100789.xml,dolor,485,490,B-Grp_Enfermedad
+26,ES100848.xml,pilar amigdalino,192,208,B-Estructura_Corporal
+29,ES100848.xml,submaxilares,359,371,B-Estructura_Corporal
+31,ES100848.xml,orofaringe,545,555,B-Estructura_Corporal
+32,ES100848.xml,Estadio IVa,568,579,B-Calificador
+41,ES100848.xml,esófago distal,1252,1266,B-Estructura_Corporal
+42,ES100848.xml,cardias,1274,1281,B-Estructura_Corporal
+43,ES100848.xml,curvatura mayor,1298,1313,B-Estructura_Corporal
+44,ES100848.xml,cara anterior,1316,1329,B-Estructura_Corporal
+45,ES100848.xml,estómago,1345,1353,B-Estructura_Corporal
+48,ES100848.xml,carcinoma,1440,1449,B-Grp_Enfermedad
+49,ES100848.xml,laringe,1453,1460,B-Estructura_Corporal
+50,ES100848.xml,somatostatina,1555,1568,B-Grp_Medicamento
+52,ES100848.xml,digestiva,1775,1784,B-Estructura_Corporal
+53,ES100848.xml,sangrado,1832,1840,B-Grp_Enfermedad
+60,ES100098.xml,suprapúbica,434,445,B-Estructura_Corporal
+61,ES100098.xml,vesical,545,552,B-Estructura_Corporal
+63,ES100098.xml,vejiga,604,610,B-Estructura_Corporal
+64,ES100098.xml,polipoideas parietales,667,689,B-Grp_Enfermedad
+65,ES100098.xml,vejiga,717,723,B-Estructura_Corporal
+66,ES100098.xml,divertículo,732,743,B-Grp_Enfermedad
+70,ES100098.xml,cara lateral,965,977,B-Estructura_Corporal
+76,ES100098.xml,bajo grado,1615,1625,B-Calificador
+78,ES100098.xml,gran aumento,1652,1664,B-Calificador
+80,ES100098.xml,necrosis intratumoral,1706,1727,B-Grp_Enfermedad
+81,ES100098.xml,necrosis celular,1752,1768,B-Grp_Enfermedad
+82,ES100098.xml,mixoide,1803,1810,B-Estructura_Corporal
+84,ES100098.xml,peritumoral,1840,1851,B-Estructura_Corporal
+86,ES100098.xml,pared diverticular,1891,1909,B-Estructura_Corporal
+87,ES100098.xml,tejido adiposo peridiverticular,1919,1950,B-Estructura_Corporal
+88,ES100098.xml,fibrosa peritumoral,1971,1990,B-Grp_Enfermedad
+91,ES100098.xml,muscular,2130,2138,B-Estructura_Corporal
+97,ES100098.xml,bajo grado,2309,2319,B-Calificador
+98,ES100098.xml,infiltración,2324,2336,B-Grp_Enfermedad
+99,ES100098.xml,toracoabdominal,2574,2589,B-Estructura_Corporal
+100,ES100098.xml,ósea,2607,2611,B-Estructura_Corporal
+101,ES100098.xml,pélvica,2622,2629,B-Estructura_Corporal
+108,ES100098.xml,urinaria,3119,3127,B-Estructura_Corporal
+114,ES100587.xml,ligera,260,266,B-Calificador
+116,ES100587.xml,duodenal,362,370,B-Estructura_Corporal
+118,ES100587.xml,vellosidades intestinales,402,427,B-Estructura_Corporal
+120,ES100587.xml,estadio 3b,508,518,B-Calificador
+123,ES100705.xml,paladar,271,278,B-Estructura_Corporal
+124,ES100705.xml,duro,279,283,B-Grp_Enfermedad
+127,ES100705.xml,intraoral,450,459,B-Estructura_Corporal
+129,ES100705.xml,unión del paladar primario,498,524,B-Estructura_Corporal
+130,ES100705.xml,colgajo lingual de base anterior,642,674,B-Grp_Enfermedad
+132,ES100705.xml,anestesia,728,737,B-Grp_Medicamento
+133,ES100705.xml,nasotraqueal,761,773,B-Estructura_Corporal
+135,ES100705.xml,mucosa,884,890,B-Estructura_Corporal
+138,ES100705.xml,lengua,1146,1152,B-Estructura_Corporal
+139,ES100705.xml,platina acrílica,1159,1175,B-Grp_Medicamento
+140,ES100705.xml,lengua,1253,1259,B-Estructura_Corporal
+141,ES100705.xml,colgajo,1287,1294,B-Estructura_Corporal
+142,ES100705.xml,colgajo lingual,1319,1334,B-Estructura_Corporal
+143,ES100705.xml,colgajo,1423,1430,B-Estructura_Corporal
+148,ES100705.xml,pequeña,1745,1752,B-Calificador
+151,ES100578.xml,hepatitis C,50,61,B-Grp_Enfermedad
+152,ES100578.xml,genotipo,63,71,B-Calificador
+155,ES100578.xml,tórax,195,200,B-Estructura_Corporal
+156,ES100578.xml,destaca ligera,288,302,B-Grp_Enfermedad
+158,ES100578.xml,región nasal,347,359,B-Estructura_Corporal
+159,ES100578.xml,tórax,362,367,B-Estructura_Corporal
+162,ES100578.xml,abdominal,641,650,B-Estructura_Corporal
+163,ES100578.xml,hígado,652,658,B-Estructura_Corporal
+165,ES100578.xml,lóbulo,714,720,B-Estructura_Corporal
+166,ES100578.xml,Bazo,756,760,B-Estructura_Corporal
+167,ES100578.xml,digestiva,782,791,B-Estructura_Corporal
+169,ES100578.xml,gástricas,823,832,B-Estructura_Corporal
+172,ES100578.xml,ribavirina,968,978,B-Grp_Medicamento
+174,ES100578.xml,astenia,1115,1122,B-Grp_Enfermedad
+177,ES100578.xml,arterial,1226,1234,B-Estructura_Corporal
+178,ES100578.xml,contraste,1322,1331,B-Grp_Medicamento
+179,ES100578.xml,aurícula derecha,1380,1396,B-Estructura_Corporal
+183,ES100578.xml,tórax,1602,1607,B-Estructura_Corporal
+184,ES100578.xml,tamoxifeno,1724,1734,B-Grp_Medicamento
+187,ES100578.xml,lesiones,1905,1913,B-Grp_Enfermedad
+189,ES100050.xml,dolorosa,98,106,B-Grp_Enfermedad
+190,ES100050.xml,testículo derecho,113,130,B-Estructura_Corporal
+192,ES100050.xml,testículo izquierdo,248,267,B-Estructura_Corporal
+194,ES100050.xml,sólidos,451,458,B-Grp_Medicamento
+201,ES100050.xml,arteriales de baja,675,693,B-Estructura_Corporal
+202,ES100050.xml,resistencia,694,705,B-Grp_Enfermedad
+208,ES100050.xml,necrosis,1025,1033,B-Grp_Enfermedad
+211,ES100994.xml,miomas,133,139,B-Grp_Enfermedad
+213,ES100994.xml,cuello femoral,278,292,B-Estructura_Corporal
+214,ES100994.xml,hábitos tóxicos,357,372,B-Grp_Enfermedad
+217,ES100994.xml,pie izquierdo,483,496,B-Estructura_Corporal
+218,ES100994.xml,inflamación,519,530,B-Grp_Enfermedad
+219,ES100994.xml,AINEs,623,628,B-Grp_Medicamento
+221,ES100994.xml,antepié izquierdo,718,735,B-Estructura_Corporal
+222,ES100994.xml,pies,785,789,B-Estructura_Corporal
+223,ES100994.xml,pies,818,822,B-Estructura_Corporal
+225,ES100994.xml,pie izquierdo,885,898,B-Estructura_Corporal
+228,ES100994.xml,vitamina D,1067,1077,B-Grp_Medicamento
+229,ES100994.xml,renal,1187,1192,B-Estructura_Corporal
+230,ES100994.xml,urinario,1215,1223,B-Estructura_Corporal
+231,ES100994.xml,vitamina D,1288,1298,B-Grp_Medicamento
+232,ES100994.xml,AINEs,1420,1425,B-Grp_Medicamento
+233,ES100994.xml,magnetoterapia,1428,1442,B-Grp_Medicamento
+235,ES100994.xml,lumbar,1545,1551,B-Estructura_Corporal
+236,ES100994.xml,SERMS,1613,1618,B-Grp_Medicamento
+237,ES100994.xml,bazedoxifeno,1620,1632,B-Grp_Medicamento
+238,ES100994.xml,vitamina,1673,1681,B-Grp_Medicamento
+240,ES100994.xml,pie izquierdo,1810,1823,B-Estructura_Corporal
+241,ES100994.xml,fractura,1890,1898,B-Grp_Enfermedad
+243,ES100994.xml,pie izquierdo,1987,2000,B-Estructura_Corporal
+245,ES100994.xml,escafoides,2081,2091,B-Grp_Enfermedad
+246,ES100994.xml,astrágalo,2094,2103,B-Grp_Enfermedad
+248,ES100994.xml,tibial posterior,2125,2141,B-Estructura_Corporal
+249,ES100994.xml,ósea,2179,2183,B-Estructura_Corporal
+250,ES100994.xml,columna lumbar,2211,2225,B-Estructura_Corporal
+251,ES100994.xml,bazedoxifeno,2286,2298,B-Grp_Medicamento
+252,ES100994.xml,vitamina D,2304,2314,B-Grp_Medicamento
+253,ES100994.xml,mineral ósea,2401,2413,B-Estructura_Corporal
+259,ES100994.xml,pie izquierdo,3077,3090,B-Estructura_Corporal
+262,ES100278.xml,renal,165,170,B-Estructura_Corporal
+264,ES100278.xml,arterial,466,474,B-Estructura_Corporal
+267,ES100278.xml,renal,848,853,B-Estructura_Corporal
+268,ES100278.xml,renal,887,892,B-Estructura_Corporal
+271,ES100278.xml,disposición nodular,992,1011,B-Grp_Enfermedad
+273,ES100278.xml,vasos,1077,1082,B-Estructura_Corporal
+275,ES100278.xml,sustancia amiloide común,1286,1310,B-Estructura_Corporal
+278,ES100278.xml,sustancia amiloide,1546,1564,B-Estructura_Corporal
+281,ES100278.xml,cadena,1706,1712,B-Estructura_Corporal
+283,ES100278.xml,AI,1806,1808,B-Estructura_Corporal
+284,ES100278.xml,AI,1814,1816,B-Estructura_Corporal
+287,ES100278.xml,medular,1950,1957,B-Estructura_Corporal
+289,ES100278.xml,medular,1979,1986,B-Estructura_Corporal
+290,ES100278.xml,AI,2064,2066,B-Estructura_Corporal
+291,ES100278.xml,AI,2274,2276,B-Estructura_Corporal
+297,ES100278.xml,renal,2618,2623,B-Estructura_Corporal
+298,ES100278.xml,hepática,2626,2634,B-Estructura_Corporal
+299,ES100278.xml,renal,2681,2686,B-Estructura_Corporal
+300,ES100278.xml,renal,2739,2744,B-Estructura_Corporal
+301,ES100278.xml,peritoneal,2824,2834,B-Estructura_Corporal
+302,ES100278.xml,renal,2900,2905,B-Estructura_Corporal
+306,ES100278.xml,bazo,3047,3051,B-Estructura_Corporal
+311,ES100447.xml,disminuida,301,311,B-Grp_Enfermedad
+313,ES100447.xml,progresión,511,521,B-Grp_Enfermedad
+315,ES100447.xml,ojo rojo,591,599,B-Estructura_Corporal
+317,ES100447.xml,ambos ojos,656,666,B-Estructura_Corporal
+320,ES100447.xml,ambos ojos,777,787,B-Estructura_Corporal
+321,ES100447.xml,corneal,862,869,B-Estructura_Corporal
+322,ES100447.xml,fluoresceína,888,900,B-Grp_Medicamento
+326,ES100447.xml,pancreáticos,1255,1267,B-Estructura_Corporal
+327,ES100447.xml,intramuscular,1331,1344,B-Estructura_Corporal
+332,ES100447.xml,intramuscular,1772,1785,B-Estructura_Corporal
+335,ES100412.xml,ojo izquierdo,139,152,B-Estructura_Corporal
+337,ES100412.xml,ángulo iridocorneal,216,235,B-Estructura_Corporal
+339,ES100412.xml,masa,362,366,B-Grp_Enfermedad
+340,ES100412.xml,cámara anterior,379,394,B-Estructura_Corporal
+342,ES100412.xml,gran tamaño,443,454,B-Calificador
+343,ES100412.xml,ocular,554,560,B-Estructura_Corporal
+345,ES100412.xml,gran tamaño,606,617,B-Calificador
+347,ES100412.xml,discretamente,710,723,B-Calificador
+348,ES100412.xml,hiperintensa,724,736,B-Grp_Enfermedad
+349,ES100412.xml,hipointensa,745,756,B-Grp_Enfermedad
+351,ES100412.xml,coroides,809,817,B-Grp_Medicamento
+353,ES100412.xml,ocular,1126,1132,B-Estructura_Corporal
+355,ES100412.xml,ocular,1263,1269,B-Estructura_Corporal
+356,ES100412.xml,ocular,1313,1319,B-Estructura_Corporal
+358,ES100412.xml,binocular,1469,1478,B-Estructura_Corporal
+359,ES100412.xml,ocular,1533,1539,B-Estructura_Corporal
+361,ES100412.xml,crecimiento endofítico,1575,1597,B-Grp_Enfermedad
+362,ES100412.xml,coroides,1630,1638,B-Estructura_Corporal
+363,ES100412.xml,cuerpo ciliar,1659,1672,B-Estructura_Corporal
+364,ES100412.xml,iris,1675,1679,B-Grp_Enfermedad
+366,ES100412.xml,epitelioides,1758,1770,B-Estructura_Corporal
+367,ES100412.xml,citoplasma,1775,1785,B-Grp_Medicamento
+368,ES100412.xml,núcleos ovalados,1806,1822,B-Grp_Enfermedad
+370,ES100412.xml,necróticos,1957,1967,B-Grp_Enfermedad
+373,ES100412.xml,pared escleral,2075,2089,B-Estructura_Corporal
+376,ES100737.xml,ojo izquierdo,297,310,B-Estructura_Corporal
+378,ES100737.xml,ojo izquierdo,475,488,B-Estructura_Corporal
+379,ES100737.xml,ocular,503,509,B-Estructura_Corporal
+382,ES100737.xml,tórax,634,639,B-Estructura_Corporal
+383,ES100737.xml,cráneo,676,682,B-Estructura_Corporal
+385,ES100737.xml,ventrículo lateral derecho,748,774,B-Estructura_Corporal
+386,ES100737.xml,atrio,787,792,B-Estructura_Corporal
+387,ES100737.xml,asta temporal,795,808,B-Grp_Enfermedad
+390,ES100737.xml,circunvolución temporal media,1045,1074,B-Grp_Enfermedad
+391,ES100737.xml,tumoración,1124,1134,B-Grp_Enfermedad
+394,ES100737.xml,2-3-mitosis,1441,1442,B-Grp_Enfermedad
+395,ES100737.xml,gran aumento,1469,1481,B-Calificador
+397,ES100737.xml,anticuerpo,1585,1595,B-Grp_Medicamento
+398,ES100737.xml,ojo derecho,1852,1863,B-Estructura_Corporal
+408,ES100320.xml,VIH,209,212,B-Grp_Enfermedad
+409,ES100320.xml,inmunológicos,267,280,B-Grp_Medicamento
+414,ES100320.xml,supraclavicular derecha,473,496,B-Estructura_Corporal
+418,ES100320.xml,VI polifocal,598,610,B-Estructura_Corporal
+420,ES100320.xml,costal,643,649,B-Estructura_Corporal
+422,ES100320.xml,neurológica,711,722,B-Estructura_Corporal
+425,ES100320.xml,arterial,999,1007,B-Estructura_Corporal
+426,ES100320.xml,tórax,1082,1087,B-Estructura_Corporal
+428,ES100320.xml,tráquea,1165,1172,B-Estructura_Corporal
+430,ES100320.xml,abdominal,1257,1266,B-Estructura_Corporal
+431,ES100320.xml,torácico,1273,1281,B-Estructura_Corporal
+432,ES100320.xml,abdominal,1283,1292,B-Estructura_Corporal
+433,ES100320.xml,pélvico,1295,1302,B-Estructura_Corporal
+435,ES100320.xml,gran,1381,1385,B-Calificador
+437,ES100320.xml,vena cava superior,1427,1445,B-Estructura_Corporal
+438,ES100320.xml,pulmonar,1467,1475,B-Estructura_Corporal
+440,ES100320.xml,pared de asas intestinales,1509,1535,B-Estructura_Corporal
+442,ES100320.xml,transtorácico,1613,1626,B-Estructura_Corporal
+443,ES100320.xml,cotrimoxazol,1695,1707,B-Grp_Medicamento
+444,ES100320.xml,levofloxacino,1709,1722,B-Grp_Medicamento
+446,ES100320.xml,insuficiencia respiratoria,1896,1922,B-Grp_Enfermedad
+449,ES100320.xml,craneal,2092,2099,B-Estructura_Corporal
+451,ES100320.xml,pared gruesa,2126,2138,B-Estructura_Corporal
+452,ES100320.xml,encrucijada témporo-parieto-occipital derecha,2181,2226,B-Estructura_Corporal
+453,ES100320.xml,sulfadiacina,2252,2264,B-Grp_Medicamento
+454,ES100320.xml,pirimetamina,2266,2278,B-Grp_Medicamento
+455,ES100320.xml,fenitoína,2295,2304,B-Grp_Medicamento
+457,ES100320.xml,lesión intracraneal,2399,2418,B-Grp_Enfermedad
+458,ES100320.xml,adenopatía supraclavicular,2449,2475,B-Grp_Enfermedad
+460,ES100320.xml,tumor maligno,2510,2523,B-Grp_Enfermedad
+462,ES100320.xml,VIH,2645,2648,B-Grp_Enfermedad
+466,ES100320.xml,hepatotropos,3000,3012,B-Estructura_Corporal
+470,ES100320.xml,cerebral,3266,3274,B-Estructura_Corporal
+471,ES100320.xml,intestinal,3277,3287,B-Estructura_Corporal
+472,ES100320.xml,ganglionar,3331,3341,B-Estructura_Corporal
+473,ES100320.xml,alfafetoproteina,3373,3389,B-Grp_Medicamento
+475,ES100320.xml,células germinales extragonadal,3447,3478,B-Estructura_Corporal
+477,ES100320.xml,cerebral,3553,3561,B-Estructura_Corporal
+478,ES100320.xml,tumoral,3618,3625,B-Calificador
+479,ES100320.xml,poliquimioterapia,3652,3669,B-Grp_Medicamento
+480,ES100561.xml,BACTEC,181,187,B-Grp_Enfermedad
+481,ES100561.xml,Mycobacterium tuberculosis,218,244,B-Grp_Enfermedad
+482,ES100561.xml,origen español,318,332,B-Grp_Enfermedad
+483,ES100561.xml,cara lateral externa,352,372,B-Estructura_Corporal
+484,ES100561.xml,falange distal,379,393,B-Estructura_Corporal
+485,ES100561.xml,dedo,398,402,B-Estructura_Corporal
+486,ES100561.xml,herida,528,534,B-Grp_Enfermedad
+487,ES100561.xml,VHC,891,894,B-Grp_Enfermedad
+488,ES100561.xml,VIH,896,899,B-Grp_Enfermedad
+489,ES100561.xml,hepatitis B,945,956,B-Grp_Enfermedad
+490,ES100561.xml,tuberculosis,1046,1058,B-Grp_Enfermedad
+492,ES100561.xml,eritematosa,1194,1205,B-Grp_Enfermedad
+494,ES100561.xml,adenopatías axilares,1316,1320,B-Grp_Enfermedad
+495,ES100561.xml,clínica general,1336,1339,B-Grp_Enfermedad
+497,ES100561.xml,lesión,1427,1429,B-Grp_Enfermedad
+498,ES100561.xml,lesión,1560,1561,B-Grp_Enfermedad
+499,ES100561.xml,dermatitis granulomatosa,1618,1632,B-Grp_Enfermedad
+500,ES100561.xml,necrosis,1646,1655,B-Grp_Enfermedad
+501,ES100561.xml,dermatitis tuberculosa,1685,1697,B-Grp_Enfermedad
+502,ES100561.xml,dermatitis granulomatosa,1754,1768,B-Grp_Enfermedad
+503,ES100561.xml,dermatitis tuberculosa,1793,1805,B-Grp_Enfermedad
+504,ES100561.xml,bacilos,1866,1871,B-Grp_Enfermedad
+505,ES100561.xml,BACTEC,1919,1923,B-Grp_Medicamento
+506,ES100561.xml,crecimiento,1955,1957,B-Grp_Enfermedad
+507,ES100561.xml,Mycobacterium tuberculosis,1972,1985,B-Grp_Enfermedad
+508,ES100561.xml,ambas cepas,2170,2176,B-Estructura_Corporal
+510,ES100561.xml,antituberculoso,2391,2406,B-Grp_Medicamento
+511,ES100561.xml,rifampicina,2411,2422,B-Grp_Medicamento
+512,ES100561.xml,isoniazida,2445,2455,B-Grp_Medicamento
+513,ES100561.xml,pirazinamida,2471,2483,B-Grp_Medicamento
+516,ES100561.xml,Enfermedad Profesional,2875,2897,B-Grp_Enfermedad
+519,ES100417.xml,pequeña,114,121,B-Calificador
+521,ES100417.xml,ojo derecho,137,148,B-Estructura_Corporal
+522,ES100417.xml,OD,150,152,B-Estructura_Corporal
+523,ES100417.xml,ojo izquierdo,158,171,B-Estructura_Corporal
+524,ES100417.xml,OI,173,175,B-Estructura_Corporal
+527,ES100417.xml,OD,228,230,B-Estructura_Corporal
+528,ES100417.xml,OI,256,258,B-Estructura_Corporal
+529,ES100417.xml,OI,275,277,B-Estructura_Corporal
+531,ES100417.xml,luminoso,331,339,B-Estructura_Corporal
+533,ES100417.xml,ambos ojos,402,412,B-Estructura_Corporal
+536,ES100417.xml,ambos ojos,704,714,B-Estructura_Corporal
+538,ES100417.xml,ambas máculas,784,797,B-Estructura_Corporal
+539,ES100417.xml,mitad temporal,823,837,B-Estructura_Corporal
+541,ES100417.xml,antigua,870,877,B-Grp_Medicamento
+542,ES100417.xml,OD,907,909,B-Estructura_Corporal
+543,ES100417.xml,tejido glial blanquecino,951,975,B-Grp_Enfermedad
+545,ES100417.xml,OI,1099,1101,B-Estructura_Corporal
+547,ES100417.xml,vasos,1173,1178,B-Estructura_Corporal
+548,ES100417.xml,coroideos,1209,1218,B-Estructura_Corporal
+549,ES100417.xml,pigmento,1251,1259,B-Grp_Enfermedad
+551,ES100417.xml,retina,1301,1307,B-Estructura_Corporal
+554,ES100417.xml,cráneo,1398,1404,B-Estructura_Corporal
+556,ES100417.xml,Toxoplasma,1513,1523,B-Grp_Enfermedad
+557,ES100417.xml,Citomegalovirus,1534,1549,B-Grp_Medicamento
+558,ES100417.xml,Herpes,1552,1558,B-Grp_Enfermedad
+559,ES100417.xml,sífilis,1561,1568,B-Grp_Enfermedad
+560,ES100417.xml,coriomeningitis linfocitaria,1583,1611,B-Grp_Enfermedad
+562,ES100417.xml,EIA,1723,1726,B-Grp_Enfermedad
+564,ES100417.xml,EIA,1815,1818,B-Grp_Enfermedad
+566,ES100417.xml,EIA,1902,1905,B-Grp_Enfermedad
+568,ES100417.xml,EIA,1993,1996,B-Grp_Enfermedad
+569,ES100417.xml,títulos elevados,2056,2072,B-Grp_Enfermedad
+570,ES100417.xml,EIA,2109,2112,B-Grp_Enfermedad
+572,ES100417.xml,EIA,2245,2248,B-Grp_Enfermedad
+573,ES100417.xml,coriomeningitis linfocitaria,2263,2291,B-Grp_Enfermedad
+578,ES100417.xml,ojo,2639,2642,B-Estructura_Corporal
+582,ES100417.xml,OD,2924,2926,B-Estructura_Corporal
+583,ES100417.xml,OI,2976,2978,B-Estructura_Corporal
+584,ES100417.xml,OD,3118,3120,B-Estructura_Corporal
+585,ES100417.xml,coloboma del OD,3194,3209,B-Estructura_Corporal
+586,ES100417.xml,ocular,3249,3255,B-Estructura_Corporal
+590,ES100420.xml,temporal,91,99,B-Estructura_Corporal
+591,ES100420.xml,glucocorticoides,136,152,B-Grp_Medicamento
+593,ES100420.xml,AV,238,240,B-Estructura_Corporal
+597,ES100420.xml,ojo derecho,300,311,B-Estructura_Corporal
+598,ES100420.xml,OD,313,315,B-Estructura_Corporal
+600,ES100420.xml,OD,398,400,B-Estructura_Corporal
+601,ES100420.xml,ojo izquierdo,413,426,B-Estructura_Corporal
+602,ES100420.xml,OI,428,430,B-Estructura_Corporal
+604,ES100420.xml,OD,488,490,B-Estructura_Corporal
+605,ES100420.xml,Existía leve,492,504,B-Grp_Enfermedad
+607,ES100420.xml,OD,568,570,B-Estructura_Corporal
+608,ES100420.xml,vertical,584,592,B-Estructura_Corporal
+609,ES100420.xml,leve,595,599,B-Calificador
+610,ES100420.xml,párpados,627,635,B-Estructura_Corporal
+612,ES100420.xml,intraocular,669,680,B-Estructura_Corporal
+613,ES100420.xml,OD,735,737,B-Estructura_Corporal
+614,ES100420.xml,OI,754,756,B-Estructura_Corporal
+618,ES100420.xml,ambos ojos,863,873,B-Estructura_Corporal
+621,ES100420.xml,músculos recto inferior,1027,1050,B-Estructura_Corporal
+622,ES100420.xml,recto lateral del OD,1053,1073,B-Estructura_Corporal
+623,ES100420.xml,grasa orbitaria,1141,1156,B-Estructura_Corporal
+624,ES100420.xml,celdillas etmoidales posteriores,1184,1216,B-Estructura_Corporal
+625,ES100420.xml,fosa pterigomaxilar,1225,1244,B-Estructura_Corporal
+626,ES100420.xml,metilprednisolona,1285,1302,B-Grp_Medicamento
+629,ES100420.xml,pupilares,1600,1609,B-Estructura_Corporal
+631,ES100420.xml,fosa pterigopalatina,1700,1720,B-Estructura_Corporal
+632,ES100420.xml,vértice,1727,1734,B-Estructura_Corporal
+633,ES100420.xml,leve,1749,1753,B-Calificador
+635,ES100420.xml,músculos recto inferior,1782,1805,B-Estructura_Corporal
+636,ES100420.xml,recto,1808,1813,B-Estructura_Corporal
+640,ES100840.xml,vaginal,173,180,B-Estructura_Corporal
+644,ES100840.xml,abdomen,555,562,B-Estructura_Corporal
+649,ES100840.xml,hemiabdomen derecho,632,651,B-Estructura_Corporal
+650,ES100840.xml,inferior derecho,677,693,I-Estructura_Corporal
+654,ES100840.xml,discreta,836,844,B-Calificador
+656,ES100840.xml,granulocítico,873,886,B-Estructura_Corporal
+657,ES100840.xml,renal,961,966,B-Estructura_Corporal
+658,ES100840.xml,hepáticos,976,985,B-Estructura_Corporal
+659,ES100840.xml,abdominales,1039,1050,B-Estructura_Corporal
+661,ES100840.xml,asas del intestino delgado,1097,1123,B-Estructura_Corporal
+662,ES100840.xml,colon,1175,1180,B-Estructura_Corporal
+663,ES100840.xml,ampolla rectal,1183,1197,B-Estructura_Corporal
+666,ES100840.xml,abdominal,1261,1270,B-Estructura_Corporal
+669,ES100840.xml,asas intestinales,1368,1385,B-Estructura_Corporal
+670,ES100840.xml,abdominal,1397,1406,B-Estructura_Corporal
+672,ES100840.xml,asas de ID,1446,1456,B-Estructura_Corporal
+673,ES100840.xml,ileon terminal,1469,1483,B-Estructura_Corporal
+674,ES100840.xml,ileon preterminal,1501,1518,B-Estructura_Corporal
+675,ES100840.xml,FID,1531,1534,B-Estructura_Corporal
+676,ES100840.xml,colon,1556,1561,B-Estructura_Corporal
+677,ES100840.xml,dilatado,1565,1573,B-Grp_Enfermedad
+679,ES100840.xml,líquido libre,1630,1643,B-Grp_Enfermedad
+680,ES100840.xml,saco de Douglas,1656,1671,B-Estructura_Corporal
+681,ES100840.xml,útero,1673,1678,B-Estructura_Corporal
+682,ES100840.xml,miomatoso,1679,1688,B-Grp_Enfermedad
+684,ES100840.xml,nasogástrica,1779,1791,B-Estructura_Corporal
+688,ES100840.xml,líquido libre seroso,2043,2063,B-Grp_Enfermedad
+690,ES100840.xml,asas de ID,2079,2089,B-Estructura_Corporal
+692,ES100840.xml,ileon terminal,2121,2135,B-Estructura_Corporal
+693,ES100840.xml,válvula ileocecal,2153,2170,B-Estructura_Corporal
+694,ES100840.xml,aspecto tumoral,2175,2190,B-Grp_Enfermedad
+696,ES100840.xml,útero,2293,2298,B-Estructura_Corporal
+697,ES100840.xml,miomatoso,2299,2308,B-Grp_Enfermedad
+698,ES100840.xml,ileocecal,2331,2340,B-Estructura_Corporal
+699,ES100840.xml,fondo de saco de Douglas,2413,2437,B-Estructura_Corporal
+700,ES100840.xml,ileon terminal,2538,2552,B-Estructura_Corporal
+701,ES100840.xml,ciego,2555,2560,B-Estructura_Corporal
+704,ES100840.xml,pared,2613,2618,B-Estructura_Corporal
+705,ES100840.xml,epitelio glandular,2667,2685,B-Estructura_Corporal
+706,ES100840.xml,tipo endometrioide,2689,2707,B-Calificador
+710,ES100840.xml,pared intestinal,2814,2830,B-Estructura_Corporal
+712,ES100840.xml,musculares,2864,2874,B-Estructura_Corporal
+713,ES100840.xml,ganglios linfáticos,2876,2895,B-Estructura_Corporal
+716,ES100840.xml,Obstetricia,3092,3103,B-Grp_Enfermedad
+718,ES100809.xml,medicamentosas,74,88,B-Grp_Medicamento
+719,ES100809.xml,inguinal,123,131,B-Estructura_Corporal
+722,ES100809.xml,respiratoria,495,507,B-Estructura_Corporal
+723,ES100809.xml,hemodinámica,513,525,I-Grp_Enfermedad
+724,ES100809.xml,sanguínea,627,636,B-Grp_Enfermedad
+725,ES100809.xml,tórax,806,811,B-Estructura_Corporal
+727,ES100809.xml,pelvis,877,883,B-Estructura_Corporal
+728,ES100809.xml,cervical,890,898,B-Estructura_Corporal
+729,ES100809.xml,abdominopélvico,901,916,B-Estructura_Corporal
+731,ES100809.xml,rama isquiopubiana izquierda,956,984,B-Estructura_Corporal
+734,ES100809.xml,articulación sacroiliaca derecha,1053,1085,B-Estructura_Corporal
+735,ES100809.xml,pequeña avulsión ósea,1090,1111,B-Calificador
+736,ES100809.xml,iliaco superomedial,1122,1141,B-Estructura_Corporal
+738,ES100809.xml,espacios intersomáticos,1175,1198,B-Estructura_Corporal
+739,ES100809.xml,L4-L5,1202,1204,B-Estructura_Corporal
+740,ES100809.xml,L5-S1,1213,1215,B-Estructura_Corporal
+741,ES100809.xml,pequeña,1233,1240,B-Calificador
+744,ES100809.xml,pupilas,1390,1397,B-Estructura_Corporal
+745,ES100809.xml,respiratoria,1466,1478,B-Estructura_Corporal
+749,ES100809.xml,enzimas hepáticas,1875,1892,B-Grp_Enfermedad
+756,ES100809.xml,región torácica derecha,2588,2611,B-Estructura_Corporal
+757,ES100809.xml,pelvis derecha,2613,2627,B-Estructura_Corporal
+758,ES100809.xml,glútea,2630,2636,B-Estructura_Corporal
+759,ES100809.xml,vegetativa,2750,2760,B-Estructura_Corporal
+760,ES100809.xml,ligera,2870,2876,B-Calificador
+762,ES100809.xml,analgésico,2973,2983,B-Grp_Medicamento
+770,ES100809.xml,doloroso,3442,3450,B-Grp_Enfermedad
+771,ES100650.xml,abdomino-pélvica,256,272,B-Estructura_Corporal
+773,ES100650.xml,disposición retrouterina,332,356,B-Grp_Enfermedad
+774,ES100650.xml,anejo derecho,384,397,B-Estructura_Corporal
+776,ES100650.xml,ciego,530,535,B-Estructura_Corporal
+777,ES100650.xml,blanquecina,576,587,B-Calificador
+778,ES100650.xml,útero,620,625,B-Estructura_Corporal
+779,ES100650.xml,hipoplásico,626,637,B-Grp_Enfermedad
+780,ES100650.xml,abdomen,722,729,B-Estructura_Corporal
+781,ES100650.xml,pelvis,732,738,B-Estructura_Corporal
+783,ES100650.xml,aspecto quístico,789,805,B-Calificador
+784,ES100650.xml,vejiga,849,855,B-Estructura_Corporal
+786,ES100650.xml,órganos vecinos,946,961,B-Estructura_Corporal
+791,ES100650.xml,peritoneo,1150,1159,B-Estructura_Corporal
+792,ES100650.xml,apéndice ileocecal,1400,1418,B-Estructura_Corporal
+793,ES100650.xml,mucoide,1454,1461,B-Estructura_Corporal
+797,ES100650.xml,ganglios linfáticos,1665,1684,B-Estructura_Corporal
+803,ES100605.xml,intensa,221,228,B-Calificador
+809,ES100605.xml,hepático difuso,539,554,B-Estructura_Corporal
+811,ES100605.xml,tercio inferior del esófago,593,620,B-Estructura_Corporal
+812,ES100605.xml,ambos órganos,658,671,B-Estructura_Corporal
+814,ES100605.xml,infección herpética,769,788,B-Grp_Enfermedad
+817,ES100594.xml,disfagia,164,172,B-Grp_Enfermedad
+818,ES100594.xml,sólidos,175,182,B-Grp_Medicamento
+819,ES100594.xml,anorexia,198,206,B-Grp_Enfermedad
+822,ES100594.xml,estenosante,332,343,B-Calificador
+823,ES100594.xml,unión esofagogástrica,362,383,B-Estructura_Corporal
+825,ES100594.xml,neoplasia moderadamente diferenciado,539,575,B-Grp_Enfermedad
+826,ES100594.xml,ulcerado,577,585,B-Calificador
+827,ES100594.xml,infiltrante,588,599,B-Calificador
+828,ES100594.xml,toraco-abdominal,608,624,B-Estructura_Corporal
+830,ES100594.xml,pared esofágica,657,672,B-Estructura_Corporal
+831,ES100594.xml,tercio inferior y unión esófago gástrica,676,716,B-Estructura_Corporal
+834,ES100594.xml,abdominales,866,877,B-Estructura_Corporal
+835,ES100594.xml,esofagogastroduodenal,890,911,B-Estructura_Corporal
+837,ES100594.xml,tercio inferior de esófago,967,993,B-Estructura_Corporal
+839,ES100594.xml,pared esofágica,1098,1113,B-Estructura_Corporal
+840,ES100594.xml,subcarinal,1151,1161,B-Estructura_Corporal
+841,ES100594.xml,grasa periesofágica,1275,1294,B-Estructura_Corporal
+842,ES100594.xml,aorta,1312,1317,B-Estructura_Corporal
+843,ES100594.xml,pleura derecha,1320,1334,B-Estructura_Corporal
+844,ES100594.xml,ganglionar,1384,1394,B-Estructura_Corporal
+845,ES100594.xml,pequeña,1417,1424,B-Calificador
+847,ES100594.xml,aspecto inflamatoria,1450,1470,B-Calificador
+848,ES100594.xml,intratorácica,1541,1554,B-Estructura_Corporal
+852,ES100594.xml,adyuvante quimioterápico,1896,1920,B-Grp_Medicamento
+859,ES100978.xml,miembros inferiores,125,144,B-Estructura_Corporal
+863,ES100978.xml,extremidades superiores,374,397,B-Estructura_Corporal
+865,ES100978.xml,esfínteres,446,456,B-Estructura_Corporal
+873,ES100978.xml,ocular interna,904,918,B-Estructura_Corporal
+876,ES100978.xml,miembros inferiores,994,1013,B-Estructura_Corporal
+880,ES100978.xml,miembros superiores,1122,1141,B-Estructura_Corporal
+885,ES100978.xml,pectorales,1334,1344,B-Estructura_Corporal
+886,ES100978.xml,MMII,1366,1370,B-Estructura_Corporal
+888,ES100978.xml,ambos cuádriceps,1392,1408,B-Estructura_Corporal
+889,ES100978.xml,tobillo-brazo,1458,1471,B-Estructura_Corporal
+890,ES100978.xml,tórax,1613,1618,B-Estructura_Corporal
+893,ES100978.xml,MMII,1857,1861,B-Estructura_Corporal
+894,ES100978.xml,miembro superior derecho,1863,1887,B-Estructura_Corporal
+897,ES100978.xml,Escorial,2128,2136,B-Estructura_Corporal
+898,ES100978.xml,magnética craneal-medular,2186,2211,B-Estructura_Corporal
+899,ES100978.xml,Riluzol,2274,2281,B-Grp_Medicamento
+901,ES100978.xml,MMII,2390,2394,B-Estructura_Corporal
+905,ES100978.xml,miembros superiores,2486,2505,B-Estructura_Corporal
+906,ES100978.xml,MMSS,2507,2511,B-Estructura_Corporal
+910,ES100978.xml,cintura pelviana,2681,2697,B-Grp_Enfermedad
+912,ES100978.xml,muscular,2765,2773,B-Estructura_Corporal
+914,ES100978.xml,musculo esquelético,2877,2896,B-Estructura_Corporal
+917,ES100978.xml,flexión dorsal,3056,3070,B-Estructura_Corporal
+918,ES100978.xml,pie izquierdo,3075,3088,B-Estructura_Corporal
+920,ES100978.xml,mano izquierda,3158,3172,B-Estructura_Corporal
+922,ES100978.xml,segmentos corporales,3213,3233,B-Estructura_Corporal
+923,ES100978.xml,leve,3244,3248,B-Calificador
+926,ES100978.xml,Riluzol,3367,3374,B-Grp_Medicamento
+927,ES100978.xml,respiratoria,3445,3457,B-Estructura_Corporal
+929,ES100978.xml,origen urinario,3541,3556,B-Grp_Enfermedad
+930,ES100978.xml,percutánea,3673,3683,B-Estructura_Corporal
+935,ES100363.xml,pies,151,155,B-Estructura_Corporal
+938,ES100363.xml,articulaciones metacarpofalángicas,260,294,B-Estructura_Corporal
+939,ES100363.xml,metatarso,297,306,B-Estructura_Corporal
+941,ES100363.xml,prednisona,381,391,B-Grp_Medicamento
+944,ES100363.xml,VIH,1068,1071,B-Grp_Enfermedad
+946,ES100363.xml,pies,1349,1353,B-Estructura_Corporal
+948,ES100363.xml,torácica,1396,1404,B-Estructura_Corporal
+949,ES100363.xml,segmento posterior del LSD,1411,1437,B-Estructura_Corporal
+951,ES100363.xml,nodular,1528,1535,B-Grp_Enfermedad
+952,ES100363.xml,LM,1543,1545,B-Estructura_Corporal
+954,ES100363.xml,nodular,1607,1614,B-Grp_Enfermedad
+956,ES100363.xml,broncograma aéreo,1653,1670,B-Grp_Enfermedad
+959,ES100363.xml,pared,1744,1749,B-Estructura_Corporal
+960,ES100363.xml,LII,1758,1761,B-Estructura_Corporal
+962,ES100363.xml,língula,1785,1792,B-Estructura_Corporal
+963,ES100363.xml,pleura,1796,1802,B-Estructura_Corporal
+964,ES100363.xml,abdominal vejiga urinaria,1808,1833,B-Estructura_Corporal
+966,ES100363.xml,suelo vesical,1856,1869,B-Estructura_Corporal
+969,ES100363.xml,árbol bronquial izquierdo,1963,1988,B-Estructura_Corporal
+973,ES100363.xml,árbol bronquial,2077,2092,B-Estructura_Corporal
+974,ES100363.xml,árbol bronquial derecho,2106,2129,B-Estructura_Corporal
+975,ES100363.xml,bronquio,2134,2142,B-Estructura_Corporal
+976,ES100363.xml,LM,2194,2196,B-Estructura_Corporal
+978,ES100363.xml,LM,2246,2248,B-Estructura_Corporal
+980,ES100363.xml,friable,2291,2298,B-Grp_Enfermedad
+981,ES100363.xml,bronquial,2357,2366,B-Estructura_Corporal
+985,ES100363.xml,corticoideo,2610,2621,B-Grp_Medicamento
+987,ES100363.xml,pies,2654,2658,B-Estructura_Corporal
+989,ES100363.xml,Mycobacterium tuberculosis,2752,2778,B-Grp_Enfermedad
+990,ES100363.xml,rifampicina,2802,2813,B-Grp_Medicamento
+991,ES100363.xml,pirazinamida,2816,2828,B-Grp_Medicamento
+992,ES100363.xml,corticoideo,2860,2871,B-Grp_Medicamento
+994,ES100363.xml,corticoides,2977,2988,B-Grp_Medicamento
+996,ES100363.xml,pies,3023,3027,B-Estructura_Corporal
+997,ES100363.xml,corticoideo,3070,3081,B-Grp_Medicamento
+999,ES100797.xml,L4-L5,148,150,B-Estructura_Corporal
+1001,ES100797.xml,cresta ilíaca,289,302,B-Estructura_Corporal
+1002,ES100797.xml,tramadol,372,380,B-Grp_Medicamento
+1003,ES100797.xml,pregabalina,383,394,B-Grp_Medicamento
+1004,ES100797.xml,dolor,425,430,B-Grp_Enfermedad
+1010,ES100797.xml,nervio fémorocutáneo,626,646,B-Estructura_Corporal
+1013,ES100797.xml,región lumbar posterior,744,767,B-Estructura_Corporal
+1015,ES100797.xml,L5-S1,794,796,B-Estructura_Corporal
+1017,ES100797.xml,articulaciones,851,865,B-Estructura_Corporal
+1018,ES100797.xml,lumbares,914,922,B-Estructura_Corporal
+1020,ES100797.xml,nervio fémorocutáneo lateral izquierdo,1053,1091,B-Estructura_Corporal
+1022,ES100797.xml,nervio,1139,1145,B-Estructura_Corporal
+1023,ES100797.xml,Artemisa,1245,1253,B-Grp_Medicamento
+1025,ES100797.xml,cabeza redonda,1436,1450,B-Estructura_Corporal
+1027,ES100797.xml,cicatriz,1546,1554,B-Grp_Enfermedad
+1028,ES100797.xml,cabeza redonda,1719,1733,B-Estructura_Corporal
+1029,ES100797.xml,Artemisa,1807,1815,B-Estructura_Corporal
+1030,ES100797.xml,línea media posterior,1901,1922,B-Estructura_Corporal
+1031,ES100797.xml,depresión,1930,1939,B-Grp_Enfermedad
+1032,ES100797.xml,apófisis espinosa,1946,1963,B-Estructura_Corporal
+1033,ES100797.xml,depresión inferior,2079,2097,B-Grp_Enfermedad
+1034,ES100797.xml,apófisis espinosa,2104,2121,B-Estructura_Corporal
+1035,ES100797.xml,línea media dorsal,2152,2170,B-Estructura_Corporal
+1036,ES100797.xml,pliegue glúteo,2389,2403,B-Estructura_Corporal
+1037,ES100797.xml,distancia,2433,2442,B-Grp_Enfermedad
+1038,ES100797.xml,hueco poplíteo,2494,2508,B-Estructura_Corporal
+1039,ES100797.xml,distancia,2538,2547,B-Grp_Enfermedad
+1040,ES100797.xml,maleolo externo,2616,2631,B-Estructura_Corporal
+1041,ES100797.xml,tendón de Aquiles,2637,2654,B-Estructura_Corporal
+1042,ES100797.xml,depresión inferior,2747,2765,B-Grp_Enfermedad
+1043,ES100797.xml,apófisis espinosa,2772,2789,B-Estructura_Corporal
+1044,ES100797.xml,línea dorsal,2818,2830,B-Estructura_Corporal
+1045,ES100797.xml,línea media,2857,2868,B-Estructura_Corporal
+1046,ES100797.xml,depresión anterior,2936,2954,B-Estructura_Corporal
+1047,ES100797.xml,cabeza del peroné,2970,2987,B-Estructura_Corporal
+1048,ES100797.xml,distancia,3017,3026,B-Grp_Enfermedad
+1049,ES100797.xml,elevación,3100,3109,B-Grp_Enfermedad
+1050,ES100797.xml,maleolo peroneo,3121,3136,B-Estructura_Corporal
+1051,ES100797.xml,peroné,3163,3169,B-Estructura_Corporal
+1052,ES100797.xml,distancia,3199,3208,B-Grp_Enfermedad
+1054,ES100803.xml,ambas extremidades inferiores,68,97,B-Estructura_Corporal
+1056,ES100803.xml,Dolor,148,153,B-Grp_Enfermedad
+1057,ES100803.xml,Pediátrica,187,197,B-Estructura_Corporal
+1058,ES100803.xml,capsaicina,303,313,B-Grp_Medicamento
+1059,ES100079.xml,masa renal,75,85,B-Grp_Enfermedad
+1060,ES100079.xml,mesorrenal izquierda,114,134,B-Estructura_Corporal
+1061,ES100079.xml,crisis renoureteral,183,202,B-Grp_Enfermedad
+1064,ES100079.xml,tórax,415,420,B-Estructura_Corporal
+1065,ES100079.xml,abdomino-pélvica,471,487,B-Estructura_Corporal
+1067,ES100079.xml,vena renal,546,556,B-Estructura_Corporal
+1068,ES100079.xml,vena cava retrohepática,566,589,B-Estructura_Corporal
+1069,ES100079.xml,vena cava inferior,656,674,B-Estructura_Corporal
+1070,ES100079.xml,trombo,728,734,B-Grp_Enfermedad
+1071,ES100079.xml,cardiaca,885,893,B-Estructura_Corporal
+1072,ES100079.xml,resonancia magnética,945,965,B-Grp_Enfermedad
+1073,ES100079.xml,trombo,1120,1126,B-Estructura_Corporal
+1075,ES100079.xml,trombo,1239,1245,B-Estructura_Corporal
+1081,ES100079.xml,cardiaca,1591,1599,B-Estructura_Corporal
+1082,ES100079.xml,subcostal izquierda,1657,1676,B-Estructura_Corporal
+1083,ES100079.xml,ángulo esplénico,1702,1718,B-Estructura_Corporal
+1084,ES100079.xml,colon,1723,1728,B-Estructura_Corporal
+1085,ES100079.xml,retroperitoneo,1751,1765,B-Estructura_Corporal
+1086,ES100079.xml,mesenterio,1778,1788,B-Estructura_Corporal
+1087,ES100079.xml,vena renal trombosada,1873,1894,B-Estructura_Corporal
+1091,ES100079.xml,yugular,2127,2134,B-Estructura_Corporal
+1092,ES100079.xml,pulmón de pequeños trombos,2203,2229,B-Estructura_Corporal
+1093,ES100079.xml,vena renal,2309,2319,B-Estructura_Corporal
+1094,ES100079.xml,ostium,2325,2331,B-Estructura_Corporal
+1097,ES100079.xml,Goretex,2459,2466,B-Grp_Medicamento
+1098,ES100079.xml,dicumarínicos,2528,2541,B-Grp_Medicamento
+1100,ES100079.xml,renal,2723,2728,B-Estructura_Corporal
+1101,ES100079.xml,vena renal,2758,2768,B-Estructura_Corporal
+1102,ES100079.xml,vena cava,2801,2810,B-Estructura_Corporal
+1104,ES100079.xml,tumoral,2858,2865,B-Calificador
+1106,ES100079.xml,vértebra,3021,3029,B-Estructura_Corporal
+1108,ES100079.xml,lesión,3233,3239,B-Grp_Enfermedad
+1111,ES100310.xml,orofaringe G1,71,84,B-Estructura_Corporal
+1112,ES100310.xml,quimioterapia,115,128,B-Grp_Medicamento
+1113,ES100310.xml,radioterapia,131,143,B-Grp_Medicamento
+1115,ES100310.xml,radioterapia,200,212,B-Grp_Medicamento
+1116,ES100310.xml,sólidos,221,228,B-Grp_Medicamento
+1121,ES100445.xml,nuclear cerebral,113,129,B-Estructura_Corporal
+1123,ES100445.xml,extensas,181,189,B-Calificador
+1127,ES100445.xml,ojo derecho,487,498,B-Estructura_Corporal
+1129,ES100445.xml,arcadas vasculares,614,632,B-Estructura_Corporal
+1131,ES100445.xml,ojo izquierdo,697,710,B-Estructura_Corporal
+1132,ES100445.xml,pequeñas,752,760,B-Calificador
+1134,ES100445.xml,renal,841,846,B-Estructura_Corporal
+1135,ES100445.xml,vertebral,849,858,B-Estructura_Corporal
+1136,ES100445.xml,psicomotor muy severo,986,1007,B-Calificador
+1138,ES100410.xml,triple,85,91,B-Grp_Medicamento
+1139,ES100410.xml,aorto-coronario,100,115,B-Estructura_Corporal
+1142,ES100410.xml,cardíaco,291,299,B-Estructura_Corporal
+1145,ES100410.xml,puente de safena a obtusa marginal,391,425,B-Estructura_Corporal
+1146,ES100410.xml,plaquetario,518,529,B-Estructura_Corporal
+1154,ES100410.xml,cardíaco,970,978,B-Estructura_Corporal
+1155,ES100410.xml,pie,1126,1129,B-Estructura_Corporal
+1156,ES100410.xml,ojo,1262,1265,B-Estructura_Corporal
+1159,ES100410.xml,ambos ojos,1355,1365,B-Estructura_Corporal
+1160,ES100410.xml,intraocular,1378,1389,B-Estructura_Corporal
+1161,ES100410.xml,ojo derecho,1428,1439,B-Estructura_Corporal
+1162,ES100410.xml,OD,1441,1443,B-Estructura_Corporal
+1164,ES100410.xml,ojo izquierdo,1546,1559,B-Estructura_Corporal
+1165,ES100410.xml,OI,1561,1563,B-Estructura_Corporal
+1166,ES100410.xml,rama temporal,1598,1611,B-Estructura_Corporal
+1167,ES100410.xml,nasal,1614,1619,B-Estructura_Corporal
+1173,ES100410.xml,estructuras vasculares,1936,1958,B-Estructura_Corporal
+1174,ES100410.xml,tiroides,1962,1970,B-Estructura_Corporal
+1175,ES100410.xml,páncreas,1972,1980,B-Estructura_Corporal
+1176,ES100410.xml,corazón,1982,1989,B-Estructura_Corporal
+1177,ES100410.xml,bazo,1991,1995,B-Estructura_Corporal
+1178,ES100410.xml,hígado,1997,2003,B-Estructura_Corporal
+1179,ES100410.xml,riñones,2006,2013,B-Estructura_Corporal
+1182,ES100030.xml,doloroso,172,180,B-Grp_Enfermedad
+1184,ES100030.xml,sangrantes,248,258,B-Grp_Enfermedad
+1185,ES100030.xml,piel prepucial,273,287,B-Estructura_Corporal
+1187,ES100030.xml,piel peneana,365,377,B-Estructura_Corporal
+1188,ES100030.xml,escroto,384,391,B-Estructura_Corporal
+1192,ES100030.xml,carcinomatosa,701,714,B-Grp_Enfermedad
+1193,ES100030.xml,escaso componente inflamatorio,729,759,B-Calificador
+1196,ES100030.xml,alto grado,864,874,B-Calificador
+1197,ES100030.xml,mitótico,896,904,B-Estructura_Corporal
+1199,ES100947.xml,corona,240,246,B-Grp_Medicamento
+1200,ES100947.xml,leve,334,338,B-Calificador
+1202,ES100947.xml,mucosa,360,366,B-Estructura_Corporal
+1203,ES100947.xml,leve,445,449,B-Calificador
+1205,ES100947.xml,articular,487,496,B-Estructura_Corporal
+1206,ES100947.xml,corona protésica,532,548,B-Estructura_Corporal
+1207,ES100947.xml,hueso marginal,622,636,B-Estructura_Corporal
+1208,ES100947.xml,corona protésica,681,697,B-Estructura_Corporal
+1209,ES100947.xml,colgajo mucoperióstico,729,751,B-Estructura_Corporal
+1210,ES100947.xml,tejido,795,801,B-Estructura_Corporal
+1211,ES100947.xml,aspecto fibroso,812,827,B-Calificador
+1213,ES100947.xml,tejido patológico,913,930,B-Estructura_Corporal
+1214,ES100947.xml,clorhexidina,1050,1062,B-Grp_Medicamento
+1216,ES100947.xml,colgajo,1128,1135,B-Estructura_Corporal
+1218,ES100947.xml,premolares ipsilateral,1203,1225,B-Estructura_Corporal
+1219,ES100947.xml,colgajo,1289,1296,B-Estructura_Corporal
+1222,ES100947.xml,digluconato,1454,1465,B-Grp_Medicamento
+1223,ES100947.xml,clorhexidina,1469,1481,B-Grp_Medicamento
+1225,ES100947.xml,abundante,1592,1601,B-Calificador
+1227,ES100947.xml,zona superficial,1657,1673,B-Estructura_Corporal
+1229,ES100947.xml,escasa células inflamatorias,1721,1749,B-Calificador
+1230,ES100947.xml,ósea marginal,1853,1866,B-Estructura_Corporal
+1231,ES100143.xml,Recién nacida hembra,0,20,B-Grp_Enfermedad
+1233,ES100143.xml,meato uretral,198,211,B-Estructura_Corporal
+1234,ES100143.xml,introito vaginal,246,262,B-Estructura_Corporal
+1236,ES100143.xml,color levemente amarillento,300,327,B-Grp_Enfermedad
+1240,ES100143.xml,perineal,465,473,B-Estructura_Corporal
+1241,ES100143.xml,lesión,515,521,B-Grp_Enfermedad
+1245,ES100760.xml,cansancio,205,214,B-Grp_Enfermedad
+1249,ES100760.xml,piernas,247,254,B-Estructura_Corporal
+1251,ES100760.xml,párpados,266,274,B-Estructura_Corporal
+1253,ES100760.xml,lecho ungueal,315,328,B-Estructura_Corporal
+1254,ES100760.xml,hematológica muy rápida,342,365,B-Grp_Enfermedad
+1255,ES100760.xml,señal molecular,465,480,B-Estructura_Corporal
+1256,ES100760.xml,sangre periférica,522,539,B-Estructura_Corporal
+1257,ES100760.xml,médula ósea,547,558,B-Estructura_Corporal
+1258,ES100760.xml,MO,560,562,B-Estructura_Corporal
+1259,ES100760.xml,tos persistente,852,867,B-Grp_Enfermedad
+1261,ES100760.xml,molecular,900,909,B-Grp_Enfermedad
+1264,ES100760.xml,MO,1024,1026,B-Estructura_Corporal
+1266,ES100760.xml,crisis blástica,1197,1212,B-Grp_Enfermedad
+1276,ES100760.xml,antihipertensivo,1713,1729,B-Grp_Medicamento
+1277,ES100760.xml,molecular,1794,1803,B-Grp_Enfermedad
+1278,ES100760.xml,emparentado,1996,2007,B-Grp_Enfermedad
+1281,ES100002.xml,próstata,77,85,B-Estructura_Corporal
+1285,ES100002.xml,riñón derecho,244,257,B-Estructura_Corporal
+1286,ES100002.xml,riñón derecho,305,318,B-Estructura_Corporal
+1287,ES100002.xml,percutánea derecha,364,382,B-Estructura_Corporal
+1294,ES100002.xml,secuelas,670,678,B-Grp_Enfermedad
+1295,ES100002.xml,Abdomen,731,738,B-Estructura_Corporal
+1298,ES100002.xml,Fosas renales,786,799,B-Estructura_Corporal
+1299,ES100002.xml,Genitales externos,818,836,B-Estructura_Corporal
+1301,ES100002.xml,rectal,867,873,B-Estructura_Corporal
+1302,ES100002.xml,HBP grado I-II,889,903,B-Grp_Enfermedad
+1303,ES100002.xml,URINARIA,1077,1085,B-Estructura_Corporal
+1305,ES100002.xml,células transicionales,1115,1137,B-Estructura_Corporal
+1306,ES100002.xml,bajo grado,1141,1151,B-Calificador
+1309,ES100002.xml,uréter sacro-ilíaco derecho,1236,1263,B-Estructura_Corporal
+1311,ES100002.xml,pared,1335,1340,B-Estructura_Corporal
+1312,ES100002.xml,RIÑON DERECHO,1366,1379,B-Estructura_Corporal
+1314,ES100002.xml,ABDOMINO-PELVICO,1437,1453,B-Estructura_Corporal
+1316,ES100002.xml,Aorta infrarrenal,1468,1485,B-Estructura_Corporal
+1318,ES100002.xml,riñón derecho,1513,1526,B-Estructura_Corporal
+1319,ES100002.xml,intraureterales,1568,1583,B-Estructura_Corporal
+1322,ES100002.xml,uréter derecho,1676,1690,B-Estructura_Corporal
+1324,ES100002.xml,arteriosclerosis,1918,1934,B-Grp_Enfermedad
+1327,ES100002.xml,linfocitos,2012,2022,B-Estructura_Corporal
+1328,ES100002.xml,musculares,2032,2042,B-Estructura_Corporal
+1330,ES100002.xml,urotelio,2055,2063,B-Estructura_Corporal
+1331,ES100002.xml,renal,2153,2158,B-Estructura_Corporal
+1334,ES100280.xml,glomerular,99,109,B-Estructura_Corporal
+1335,ES100280.xml,esteroides,123,133,B-Grp_Medicamento
+1336,ES100280.xml,ciclofosfamida,135,149,B-Grp_Medicamento
+1337,ES100280.xml,DP,219,221,B-Estructura_Corporal
+1339,ES100280.xml,Staphilococcus aureus,251,272,B-Grp_Enfermedad
+1340,ES100280.xml,Candida albicans,292,308,B-Grp_Enfermedad
+1343,ES100280.xml,hipogastrio,509,520,B-Estructura_Corporal
+1346,ES100280.xml,asas,618,622,B-Calificador
+1347,ES100280.xml,gran,630,634,B-Calificador
+1349,ES100280.xml,intestinal,657,667,B-Estructura_Corporal
+1350,ES100280.xml,oclusión intestinal,747,766,B-Grp_Enfermedad
+1358,ES100896.xml,arterial,481,489,B-Estructura_Corporal
+1359,ES100896.xml,cardíaca,518,526,B-Estructura_Corporal
+1364,ES100896.xml,respiratoria,824,836,B-Estructura_Corporal
+1367,ES100896.xml,cardíaca,957,965,B-Estructura_Corporal
+1368,ES100896.xml,orofaringe,981,991,B-Estructura_Corporal
+1371,ES100896.xml,cavum,1033,1038,B-Estructura_Corporal
+1373,ES100896.xml,tórax anteroposterior,1209,1230,B-Estructura_Corporal
+1375,ES100896.xml,anterocardíaco,1305,1319,B-Estructura_Corporal
+1376,ES100896.xml,diafragma,1331,1340,B-Estructura_Corporal
+1378,ES100896.xml,cuello,1385,1391,B-Estructura_Corporal
+1381,ES100896.xml,oxígeno,1532,1539,B-Grp_Medicamento
+1382,ES100896.xml,nasales,1555,1562,B-Estructura_Corporal
+1386,ES100896.xml,tórax,1756,1761,B-Estructura_Corporal
+1388,ES100896.xml,mediastino,1825,1835,B-Estructura_Corporal
+1396,ES100259.xml,catecolaminas,458,471,B-Grp_Medicamento
+1397,ES100259.xml,metanefrinas,474,486,B-Grp_Medicamento
+1398,ES100259.xml,noradrenalina,522,535,B-Grp_Medicamento
+1400,ES100259.xml,abdominal,668,677,B-Estructura_Corporal
+1402,ES100259.xml,abdómino-pélvica,849,865,B-Estructura_Corporal
+1404,ES100259.xml,bifurcación aórtica,956,975,B-Estructura_Corporal
+1405,ES100259.xml,vena cava inferior,995,1013,B-Estructura_Corporal
+1406,ES100259.xml,aorta,1028,1033,B-Estructura_Corporal
+1407,ES100259.xml,arteria mesentérica inferior,1058,1086,B-Estructura_Corporal
+1411,ES100259.xml,tumoración,1445,1455,B-Grp_Enfermedad
+1412,ES100259.xml,cara anterior,1485,1498,B-Estructura_Corporal
+1413,ES100259.xml,cava,1505,1509,B-Estructura_Corporal
+1415,ES100259.xml,plasma,1659,1665,B-Estructura_Corporal
+1416,ES100259.xml,metanefrinas,1693,1705,B-Grp_Medicamento
+1419,ES100259.xml,distancia,1979,1988,B-Grp_Enfermedad
+1422,ES100713.xml,dolorosa,126,134,B-Grp_Enfermedad
+1425,ES100713.xml,órbita izquierda,313,329,B-Estructura_Corporal
+1427,ES100713.xml,polilobulada,454,466,B-Grp_Enfermedad
+1434,ES100713.xml,partes blandas perilesionales,873,902,B-Estructura_Corporal
+1435,ES100713.xml,contraste,926,935,B-Grp_Medicamento
+1437,ES100713.xml,bajo flujo,996,1006,B-Calificador
+1438,ES100713.xml,lesión,1054,1060,B-Grp_Enfermedad
+1439,ES100713.xml,lesión,1091,1097,B-Grp_Enfermedad
+1441,ES100713.xml,subciliar izquierdo,1146,1165,B-Estructura_Corporal
+1442,ES100713.xml,malar,1198,1203,B-Estructura_Corporal
+1444,ES100713.xml,ósea,1600,1604,B-Estructura_Corporal
+1445,ES100713.xml,espacios vasculares,1645,1664,B-Estructura_Corporal
+1446,ES100713.xml,dilatados,1665,1674,B-Grp_Enfermedad
+1449,ES100686.xml,región nasoorbitaria derecha,66,94,B-Estructura_Corporal
+1451,ES100686.xml,surco nasoorbitario,261,280,B-Estructura_Corporal
+1452,ES100686.xml,dorso nasal,283,294,B-Estructura_Corporal
+1455,ES100686.xml,hemangioma fibrosado,551,571,B-Grp_Enfermedad
+1456,ES100686.xml,supracilial,599,610,B-Estructura_Corporal
+1457,ES100304.xml,Argentina,42,51,B-Grp_Medicamento
+1458,ES100304.xml,Enfermedades Metabólicas,98,122,B-Grp_Enfermedad
+1459,ES100304.xml,Ramón,136,141,B-Estructura_Corporal
+1466,ES100304.xml,trastornos,1217,1220,B-Grp_Enfermedad
+1467,ES100304.xml,gen PAH,1346,1352,B-Estructura_Corporal
+1468,ES100304.xml,Fenilcetonuria,1517,1519,B-Grp_Enfermedad
+1469,ES100304.xml,Tetrahidrobiopterina,1577,1580,B-Grp_Medicamento
+1470,ES100304.xml,fenilalanina,2018,2020,B-Grp_Medicamento
+1471,ES100304.xml,cereales,2278,2279,B-Estructura_Corporal
+1472,ES100304.xml,verduras,2368,2369,B-Estructura_Corporal
+1473,ES100304.xml,aceitunas,2424,2425,B-Grp_Medicamento
+1474,ES100304.xml,oligoelementos,2899,2900,B-Grp_Enfermedad
+1475,ES100304.xml,Argentina,3074,3083,B-Grp_Medicamento
+1477,ES100688.xml,labio inferior,282,296,B-Estructura_Corporal
+1478,ES100688.xml,corticoides intralesionales,347,374,B-Grp_Medicamento
+1479,ES100688.xml,orales,377,383,B-Estructura_Corporal
+1480,ES100688.xml,labio inferior,439,453,B-Estructura_Corporal
+1482,ES100688.xml,betametasona,694,706,B-Grp_Medicamento
+1487,ES100688.xml,insulina,895,903,B-Grp_Medicamento
+1493,ES100688.xml,labio inferior,1130,1144,B-Estructura_Corporal
+1494,ES100688.xml,lengua depapilada,1183,1200,B-Grp_Enfermedad
+1496,ES100688.xml,dorso lingual,1240,1253,B-Estructura_Corporal
+1497,ES100688.xml,lengua,1269,1275,B-Estructura_Corporal
+1498,ES100688.xml,discreta,1298,1306,B-Calificador
+1501,ES100688.xml,labio inferior,1390,1404,B-Estructura_Corporal
+1502,ES100688.xml,Triamcinolona,1435,1448,B-Grp_Medicamento
+1503,ES100688.xml,diluida,1460,1467,B-Grp_Enfermedad
+1505,ES100688.xml,infiltración,1538,1550,B-Grp_Enfermedad
+1506,ES100688.xml,labio inferior,1683,1697,B-Estructura_Corporal
+1508,ES100688.xml,labio inferior,1867,1881,B-Estructura_Corporal
+1510,ES100688.xml,estética labial,1921,1936,B-Estructura_Corporal
+1513,ES100819.xml,L5-S1,240,242,B-Estructura_Corporal
+1516,ES100819.xml,orotraqueal,393,404,B-Estructura_Corporal
+1517,ES100819.xml,Propofol,439,447,B-Grp_Medicamento
+1519,ES100819.xml,Renifentanilo,466,479,B-Grp_Medicamento
+1520,ES100819.xml,opioides,510,518,B-Grp_Medicamento
+1521,ES100819.xml,fentanilo,559,568,B-Grp_Medicamento
+1522,ES100819.xml,atracurio,603,612,B-Grp_Medicamento
+1523,ES100819.xml,bloqueador neuromuscular,621,645,B-Grp_Enfermedad
+1526,ES100819.xml,opioides,866,874,B-Grp_Medicamento
+1528,ES100819.xml,trometamol,921,931,B-Grp_Medicamento
+1530,ES100819.xml,región pectoral,1109,1124,B-Estructura_Corporal
+1531,ES100819.xml,crestas ilíacas,1131,1146,B-Estructura_Corporal
+1532,ES100819.xml,abdomen,1239,1246,B-Estructura_Corporal
+1533,ES100819.xml,mamas,1249,1254,B-Estructura_Corporal
+1534,ES100819.xml,cabeza fue,1262,1272,B-Estructura_Corporal
+1535,ES100819.xml,rosco abierto,1321,1334,B-Grp_Enfermedad
+1536,ES100819.xml,ocular,1367,1373,B-Estructura_Corporal
+1537,ES100819.xml,ojos,1379,1383,B-Estructura_Corporal
+1538,ES100819.xml,oculares,1436,1444,B-Estructura_Corporal
+1539,ES100819.xml,cabeza a,1504,1512,B-Estructura_Corporal
+1540,ES100819.xml,ambos ojos,1526,1536,B-Estructura_Corporal
+1541,ES100819.xml,extremidades inferiores,1543,1566,B-Estructura_Corporal
+1542,ES100819.xml,rodillas,1620,1628,B-Estructura_Corporal
+1544,ES100819.xml,tibial,1673,1679,B-Estructura_Corporal
+1545,ES100819.xml,dorso,1722,1727,B-Estructura_Corporal
+1546,ES100819.xml,dedo,1865,1869,B-Estructura_Corporal
+1547,ES100819.xml,línea media,1876,1887,B-Estructura_Corporal
+1548,ES100819.xml,aponeurosis común sacro-lumbar,1900,1930,B-Grp_Enfermedad
+1549,ES100819.xml,musculatura paravertebral,1946,1971,B-Estructura_Corporal
+1550,ES100819.xml,raíz,2002,2006,B-Estructura_Corporal
+1552,ES100819.xml,hernia discal,2021,2034,B-Grp_Enfermedad
+1553,ES100819.xml,extraída,2035,2043,B-Grp_Enfermedad
+1556,ES100819.xml,ojos,2325,2329,B-Estructura_Corporal
+1558,ES100819.xml,cerebral,2495,2503,B-Estructura_Corporal
+1559,ES100819.xml,coroidea intraventricular derecha,2564,2597,B-Estructura_Corporal
+1560,ES100819.xml,yuxtaósea occipital derecha,2641,2668,B-Estructura_Corporal
+1561,ES100819.xml,craneal,2713,2720,B-Estructura_Corporal
+1562,ES100819.xml,áreas posteriores de ambos lóbulos occipitales,2786,2832,B-Estructura_Corporal
+1564,ES100819.xml,dexametasona,3042,3054,B-Grp_Medicamento
+1565,ES100819.xml,vasodilatadores,3057,3072,B-Grp_Medicamento
+1571,ES100736.xml,intratecal,213,223,B-Estructura_Corporal
+1573,ES100736.xml,enfermedad,342,352,B-Grp_Enfermedad
+1574,ES100736.xml,lumbares,407,415,B-Estructura_Corporal
+1575,ES100736.xml,intratecal,450,460,B-Estructura_Corporal
+1576,ES100736.xml,líquido cefalorraquídeo,508,531,B-Estructura_Corporal
+1577,ES100736.xml,plaquetas,674,683,B-Estructura_Corporal
+1578,ES100736.xml,PL,864,866,B-Estructura_Corporal
+1579,ES100736.xml,quimioterapia,953,966,B-Grp_Medicamento
+1580,ES100736.xml,médula ósea,1012,1023,B-Estructura_Corporal
+1582,ES100736.xml,concentrados de plaquetas,1135,1160,B-Grp_Medicamento
+1584,ES100736.xml,trombocitopenia,1321,1336,B-Grp_Enfermedad
+1589,ES100736.xml,ambos MMII,1568,1578,B-Estructura_Corporal
+1591,ES100736.xml,pies,1716,1720,B-Estructura_Corporal
+1592,ES100736.xml,esfínteres,1781,1791,B-Estructura_Corporal
+1593,ES100736.xml,dorsolumbar,1824,1835,B-Estructura_Corporal
+1595,ES100736.xml,medular,1938,1945,B-Estructura_Corporal
+1596,ES100736.xml,D12,1970,1973,B-Estructura_Corporal
+1597,ES100736.xml,L4,1980,1982,B-Estructura_Corporal
+1598,ES100736.xml,contraste,2051,2060,B-Grp_Medicamento
+1600,ES100736.xml,L4,2161,2163,B-Estructura_Corporal
+1602,ES100736.xml,membrana aracnoidea,2269,2288,B-Estructura_Corporal
+1604,ES100736.xml,medular,2384,2391,B-Estructura_Corporal
+1605,ES100736.xml,gran,2459,2463,B-Calificador
+1607,ES100736.xml,membrana aracnoidea,2506,2525,B-Estructura_Corporal
+1609,ES100736.xml,aracnoides,2585,2595,B-Estructura_Corporal
+1610,ES100736.xml,raíces dorsales,2615,2630,B-Estructura_Corporal
+1612,ES100736.xml,nerviosas,2800,2809,B-Estructura_Corporal
+1614,ES100736.xml,hematoma,2882,2890,B-Grp_Enfermedad
+1615,ES100736.xml,plano dural,2941,2952,B-Estructura_Corporal
+1616,ES100736.xml,de la fuerza,3119,3131,B-Calificador
+1619,ES100736.xml,leve,3243,3247,B-Calificador
+1620,ES100736.xml,miembros inferiores,3274,3293,B-Estructura_Corporal
+1621,ES100736.xml,médula ósea,3381,3392,B-Estructura_Corporal
+1624,ES100063.xml,hipocondrio derecho,84,103,B-Estructura_Corporal
+1631,ES100063.xml,cardiopulmonar,460,474,B-Estructura_Corporal
+1632,ES100063.xml,abdomen,489,496,B-Estructura_Corporal
+1633,ES100063.xml,globuloso,500,509,B-Grp_Enfermedad
+1636,ES100063.xml,leve,604,608,B-Calificador
+1639,ES100063.xml,hipocondrio derecho,640,659,B-Estructura_Corporal
+1640,ES100063.xml,Murphy,685,691,B-Grp_Enfermedad
+1641,ES100063.xml,suprarrenal,822,833,B-Estructura_Corporal
+1643,ES100063.xml,área suprarrenal derecha,934,958,B-Estructura_Corporal
+1646,ES100063.xml,vena cava inferior,1093,1111,B-Estructura_Corporal
+1651,ES100063.xml,afectación,1420,1430,B-Grp_Enfermedad
+1652,ES100063.xml,tejidos vecinos,1434,1449,B-Estructura_Corporal
+1656,ES100063.xml,región suprarrenal derecha,1718,1744,B-Estructura_Corporal
+1657,ES100063.xml,voluminosa,1765,1775,B-Calificador
+1659,ES100063.xml,pared lateral,1902,1915,B-Estructura_Corporal
+1660,ES100063.xml,vena cava,1931,1940,B-Estructura_Corporal
+1661,ES100063.xml,venoso proximal,1997,2012,B-Estructura_Corporal
+1662,ES100063.xml,masa,2027,2031,B-Grp_Enfermedad
+1663,ES100063.xml,polipropileno,2049,2062,B-Grp_Enfermedad
+1664,ES100063.xml,pared,2069,2074,B-Estructura_Corporal
+1665,ES100063.xml,vena cava inferior,2081,2099,B-Estructura_Corporal
+1666,ES100063.xml,aspecto carnoso,2344,2359,B-Calificador
+1667,ES100063.xml,pardo-grisácea,2373,2387,B-Grp_Enfermedad
+1668,ES100063.xml,tejido suprarrenal,2412,2430,B-Estructura_Corporal
+1669,ES100063.xml,núcleos pleomórficos,2575,2595,B-Grp_Enfermedad
+1670,ES100063.xml,gran tamaño,2599,2610,B-Calificador
+1671,ES100063.xml,células multinucleadas,2616,2638,B-Grp_Enfermedad
+1673,ES100063.xml,gran aumento,2723,2735,B-Calificador
+1674,ES100063.xml,necrosis intratumoral,2755,2776,B-Grp_Enfermedad
+1675,ES100063.xml,tejido suprarrenal,2791,2809,B-Estructura_Corporal
+1676,ES100063.xml,área periférica,2822,2837,B-Estructura_Corporal
+1678,ES100063.xml,CAVA,2890,2894,B-Estructura_Corporal
+1681,ES100177.xml,Enalapril,83,92,B-Grp_Medicamento
+1684,ES100177.xml,infundíbulo de cáliz superior,145,174,B-Estructura_Corporal
+1685,ES100177.xml,infundíbulo de cáliz inferior de riñón izquierdo,211,259,B-Estructura_Corporal
+1686,ES100177.xml,litiasis,271,279,B-Grp_Enfermedad
+1687,ES100177.xml,renal,335,340,B-Estructura_Corporal
+1700,ES100001.xml,próstata,208,216,B-Estructura_Corporal
+1702,ES100001.xml,transrectal,342,353,B-Estructura_Corporal
+1704,ES100001.xml,lóbulo,450,456,B-Estructura_Corporal
+1705,ES100001.xml,D prostático,457,469,B-Grp_Enfermedad
+1706,ES100001.xml,lesión,506,512,B-Grp_Enfermedad
+1707,ES100001.xml,citrato,582,589,B-Grp_Medicamento
+1709,ES100001.xml,transrectal,719,730,B-Estructura_Corporal
+1715,ES100832.xml,esteroideos,234,245,B-Grp_Enfermedad
+1720,ES100832.xml,antitérmico,446,457,B-Grp_Medicamento
+1727,ES100832.xml,arterial,808,816,B-Estructura_Corporal
+1730,ES100832.xml,nuca,914,918,B-Estructura_Corporal
+1734,ES100832.xml,corticoides,1213,1224,B-Grp_Medicamento
+1736,ES100832.xml,cardiopulmonar,1343,1357,B-Estructura_Corporal
+1738,ES100832.xml,shock,1424,1429,B-Grp_Enfermedad
+1740,ES100832.xml,cefálico,1603,1611,B-Estructura_Corporal
+1741,ES100832.xml,cara anterior del tercio superior del tórax,1620,1663,B-Estructura_Corporal
+1743,ES100832.xml,conjuntiva tarsal de ambos párpados inferiores,1683,1729,B-Estructura_Corporal
+1749,ES100832.xml,tejido subcutáneo retromamario de ambos lados,1990,2035,B-Estructura_Corporal
+1750,ES100832.xml,aspecto purulento,2040,2057,B-Calificador
+1751,ES100832.xml,Hígado,2062,2068,B-Estructura_Corporal
+1752,ES100832.xml,glándulas suprarrenales,2127,2150,B-Estructura_Corporal
+1753,ES100832.xml,encéfalo,2205,2213,B-Estructura_Corporal
+1754,ES100832.xml,congestivo,2234,2244,B-Grp_Enfermedad
+1755,ES100832.xml,edematoso generalizado,2247,2269,B-Grp_Enfermedad
+1756,ES100832.xml,quiste,2297,2303,B-Grp_Enfermedad
+1757,ES100832.xml,lóbulo parietal izquierdo,2310,2335,B-Estructura_Corporal
+1758,ES100832.xml,pulmón,2434,2440,B-Estructura_Corporal
+1759,ES100832.xml,hígado,2442,2448,B-Estructura_Corporal
+1760,ES100832.xml,bazo,2450,2454,B-Estructura_Corporal
+1761,ES100832.xml,suprarrenales,2456,2469,B-Estructura_Corporal
+1762,ES100832.xml,corazón,2471,2478,B-Estructura_Corporal
+1763,ES100832.xml,humor vítreo,2499,2511,B-Grp_Medicamento
+1764,ES100832.xml,líquido pericárdico,2513,2532,B-Estructura_Corporal
+1765,ES100832.xml,intestinal,2544,2554,B-Estructura_Corporal
+1766,ES100832.xml,frotis bronquial,2556,2572,B-Grp_Enfermedad
+1768,ES100832.xml,exudado subcutáneo del pectoral derecho,2614,2653,B-Estructura_Corporal
+1770,ES100832.xml,cadena,2761,2767,B-Estructura_Corporal
+1771,ES100832.xml,polimerasa,2774,2784,B-Estructura_Corporal
+1773,ES100832.xml,escasa cantidad,2893,2908,B-Calificador
+1774,ES100832.xml,encefálico,2918,2928,B-Estructura_Corporal
+1775,ES100832.xml,antibióticos,3017,3029,B-Grp_Medicamento
+1776,ES100832.xml,encéfalo,3138,3146,B-Estructura_Corporal
+1780,ES100832.xml,Ambas suprarrenales,3233,3252,B-Estructura_Corporal
+1782,ES100832.xml,hígado,3284,3290,B-Estructura_Corporal
+1784,ES100832.xml,renal,3353,3358,B-Estructura_Corporal
+1785,ES100832.xml,CID,3392,3395,B-Grp_Enfermedad
+1792,ES100513.xml,gran,38,42,B-Calificador
+1796,ES100513.xml,gran retracción tisular,160,183,B-Calificador
+1799,ES100513.xml,articulación témporomandibular derecha,393,431,B-Estructura_Corporal
+1800,ES100513.xml,cuello condilar,464,479,B-Estructura_Corporal
+1806,ES100571.xml,próstata,155,163,B-Estructura_Corporal
+1807,ES100571.xml,radioterapia,207,219,B-Grp_Medicamento
+1809,ES100571.xml,del ritmo intestinal,396,416,B-Calificador
+1814,ES100571.xml,abdomen,590,597,B-Estructura_Corporal
+1815,ES100571.xml,doloroso,621,629,B-Grp_Enfermedad
+1826,ES100571.xml,fase aguda,1013,1023,B-Calificador
+1828,ES100571.xml,malabsorción,1091,1103,B-Grp_Enfermedad
+1829,ES100571.xml,colestasis,1132,1142,B-Grp_Enfermedad
+1832,ES100571.xml,tórax,1398,1403,B-Estructura_Corporal
+1833,ES100571.xml,mucosa,1485,1491,B-Estructura_Corporal
+1834,ES100571.xml,eritematoso,1558,1569,B-Grp_Enfermedad
+1837,ES100571.xml,crónica,1708,1715,B-Calificador
+1840,ES100571.xml,abdominopélvica,1860,1875,B-Estructura_Corporal
+1843,ES100571.xml,asas de intestino delgado,1936,1961,B-Estructura_Corporal
+1844,ES100571.xml,yeyuno distal,1973,1986,B-Estructura_Corporal
+1845,ES100571.xml,íleon,1989,1994,B-Estructura_Corporal
+1849,ES100571.xml,grasa perirrectal,2137,2154,B-Estructura_Corporal
+1850,ES100571.xml,pared vesical,2156,2169,B-Estructura_Corporal
+1851,ES100571.xml,recto,2175,2180,B-Estructura_Corporal
+1852,ES100571.xml,radioterapia,2206,2218,B-Grp_Medicamento
+1855,ES100571.xml,válvulas,2341,2349,B-Estructura_Corporal
+1856,ES100571.xml,yeyuno,2373,2379,B-Estructura_Corporal
+1857,ES100571.xml,asas de íleon pélvico,2385,2406,B-Estructura_Corporal
+1858,ES100571.xml,calibre disminuido,2410,2428,I-Grp_Enfermedad
+1859,ES100571.xml,yeyuno,2469,2475,B-Estructura_Corporal
+1862,ES100571.xml,asa ileal,2618,2627,B-Estructura_Corporal
+1864,ES100571.xml,abdominal,2769,2778,B-Estructura_Corporal
+1865,ES100571.xml,eosinofilia periférica,2835,2857,B-Grp_Enfermedad
+1866,ES100571.xml,corticoides,2913,2924,B-Grp_Medicamento
+1870,ES100571.xml,eosinofilia,3251,3262,B-Grp_Enfermedad
+1871,ES100571.xml,leucocitos,3376,3386,B-Estructura_Corporal
+1887,ES100091.xml,flanco izquierdo,445,461,B-Estructura_Corporal
+1892,ES100091.xml,diurna,631,637,B-Grp_Medicamento
+1894,ES100091.xml,abdominal,733,742,B-Estructura_Corporal
+1896,ES100091.xml,flanco izquierdo,759,775,B-Estructura_Corporal
+1897,ES100091.xml,Rectal,807,813,B-Estructura_Corporal
+1898,ES100091.xml,próstata grado I-II,815,834,B-Estructura_Corporal
+1901,ES100091.xml,genito urinario,1020,1035,B-Estructura_Corporal
+1903,ES100091.xml,flanco izquierdo,1062,1078,B-Estructura_Corporal
+1904,ES100091.xml,psoas,1104,1109,B-Estructura_Corporal
+1905,ES100091.xml,renal,1135,1140,B-Estructura_Corporal
+1907,ES100091.xml,riñón izquierdo,1163,1178,B-Estructura_Corporal
+1908,ES100091.xml,abdominopélvico,1194,1209,B-Estructura_Corporal
+1910,ES100091.xml,vesículas,1239,1248,B-Estructura_Corporal
+1912,ES100091.xml,renal,1591,1596,B-Estructura_Corporal
+1914,ES100091.xml,Albendazol,1901,1911,B-Grp_Medicamento
+1921,ES100937.xml,eritematoso de pequeños elementos,164,197,B-Grp_Enfermedad
+1928,ES100937.xml,líquido hemorrágico,523,542,B-Grp_Enfermedad
+1930,ES100937.xml,antibiótico,622,633,B-Grp_Medicamento
+1931,ES100937.xml,ampicilina,663,673,B-Grp_Medicamento
+1932,ES100937.xml,herpes simple,774,787,B-Grp_Enfermedad
+1946,ES100937.xml,capilar,1179,1186,B-Estructura_Corporal
+1947,ES100937.xml,tórax,1242,1247,B-Estructura_Corporal
+1950,ES100937.xml,pulmón,1363,1369,B-Estructura_Corporal
+1955,ES100937.xml,parvovirus,1786,1796,B-Grp_Enfermedad
+1960,ES100791.xml,Durogesic,86,95,B-Grp_Medicamento
+1963,ES100791.xml,cuadro doloroso,218,233,B-Grp_Enfermedad
+1965,ES100962.xml,canino inferior izquierdo,168,193,B-Estructura_Corporal
+1966,ES100962.xml,canino temporal,232,247,B-Estructura_Corporal
+1968,ES100962.xml,canino inferior izquierdo,611,636,B-Estructura_Corporal
+1969,ES100962.xml,caninos inferiores,696,714,B-Estructura_Corporal
+1970,ES100962.xml,irritación,1092,1102,B-Grp_Enfermedad
+1971,ES100962.xml,nervio dentario inferior,1107,1131,B-Estructura_Corporal
+1972,ES100962.xml,incisivo lateral izquierdo,1266,1292,B-Estructura_Corporal
+1973,ES100962.xml,nervio mentoniano derecho,1411,1436,B-Estructura_Corporal
+1974,ES100962.xml,saco pericoronario,1556,1574,B-Estructura_Corporal
+1976,ES100962.xml,analgésico,1636,1646,B-Grp_Medicamento
+1984,ES100633.xml,hemiabdomen superior,54,74,B-Estructura_Corporal
+1985,ES100633.xml,abdominal,132,141,B-Estructura_Corporal
+1987,ES100633.xml,colon descendente,192,209,B-Estructura_Corporal
+1989,ES100633.xml,baja actividad mitótica,327,350,B-Grp_Enfermedad
+1990,ES100633.xml,inmunohistoquímico,390,408,B-Calificador
+1992,ES100633.xml,epiplones,517,526,B-Grp_Enfermedad
+1993,ES100633.xml,pared del ciego,544,559,B-Estructura_Corporal
+1996,ES100727.xml,facial,176,182,B-Estructura_Corporal
+1997,ES100727.xml,severa,192,198,B-Calificador
+1999,ES100727.xml,úvula,301,306,B-Estructura_Corporal
+2002,ES100727.xml,pared abdominal,458,473,B-Estructura_Corporal
+2004,ES100727.xml,deglución,705,714,B-Grp_Enfermedad
+2007,ES100727.xml,segmento central,1050,1066,B-Estructura_Corporal
+2008,ES100727.xml,lengua,1085,1091,B-Estructura_Corporal
+2010,ES100727.xml,transversal,1183,1194,B-Grp_Medicamento
+2011,ES100727.xml,sangrado transoperatorio,1293,1317,B-Grp_Enfermedad
+2014,ES100727.xml,orotraqueal,1404,1415,B-Estructura_Corporal
+2015,ES100727.xml,cornetes nasales,1461,1477,B-Grp_Enfermedad
+2016,ES100727.xml,nasotraqueal,1512,1524,B-Estructura_Corporal
+2017,ES100727.xml,extremidades laterales,1633,1655,B-Estructura_Corporal
+2018,ES100727.xml,lengua,1675,1681,B-Estructura_Corporal
+2019,ES100727.xml,tejido del tipo Allis,1726,1747,B-Estructura_Corporal
+2020,ES100727.xml,metileno,1869,1877,B-Grp_Medicamento
+2022,ES100727.xml,epinefrina,1937,1947,B-Grp_Medicamento
+2024,ES100727.xml,lesiones,2157,2163,B-Grp_Enfermedad
+2025,ES100727.xml,ramas del nervio lingual,2176,2192,B-Estructura_Corporal
+2026,ES100727.xml,hematoma lingual,2291,2301,B-Grp_Enfermedad
+2027,ES100727.xml,sangrado,2319,2320,B-Grp_Enfermedad
+2029,ES100727.xml,segmentos fueron,2380,2385,B-Estructura_Corporal
+2031,ES100727.xml,lengua,2650,2656,B-Estructura_Corporal
+2032,ES100727.xml,vía aérea,2678,2687,B-Estructura_Corporal
+2033,ES100727.xml,naturaleza hemorrágica,2733,2755,B-Grp_Enfermedad
+2034,ES100727.xml,infecciosa,2758,2768,B-Calificador
+2035,ES100727.xml,lengua,2899,2905,B-Estructura_Corporal
+2037,ES100727.xml,lengua,3040,3046,B-Estructura_Corporal
+2038,ES100727.xml,sentido transversal,3053,3072,B-Estructura_Corporal
+2039,ES100727.xml,longitudinal,3075,3087,B-Calificador
+2041,ES100727.xml,ortodóncico,3194,3205,B-Estructura_Corporal
+2042,ES100727.xml,discrepancia maxilomandibular,3288,3317,B-Grp_Enfermedad
+2045,ES100521.xml,neumococo,123,132,B-Grp_Enfermedad
+2047,ES100521.xml,renal,166,171,B-Estructura_Corporal
+2048,ES100521.xml,respiratorio,173,185,B-Estructura_Corporal
+2049,ES100521.xml,hematológico,187,199,B-Grp_Enfermedad
+2050,ES100521.xml,hemodinámico,202,214,B-Calificador
+2052,ES100521.xml,extremidades superiores,449,472,B-Estructura_Corporal
+2053,ES100521.xml,prostaglandinas,581,596,B-Grp_Medicamento
+2054,ES100521.xml,riesgo vital,665,677,B-Grp_Enfermedad
+2055,ES100521.xml,lesiones necróticas residuales,784,814,B-Grp_Enfermedad
+2057,ES100521.xml,muslos,919,925,B-Estructura_Corporal
+2062,ES100521.xml,pie derecho,1208,1219,B-Estructura_Corporal
+2065,ES100521.xml,pretibial derecho,1339,1356,B-Estructura_Corporal
+2074,ES100521.xml,pie izquierdo,1660,1673,B-Estructura_Corporal
+2075,ES100521.xml,poliuretano,1797,1808,B-Estructura_Corporal
+2076,ES100521.xml,VAC GranuFoam,1810,1823,B-Grp_Medicamento
+2078,ES100521.xml,mano,2491,2495,B-Estructura_Corporal
+2079,ES100521.xml,tejido de granulación de color rojo,2638,2673,B-Estructura_Corporal
+2081,ES100521.xml,piel,2772,2776,B-Estructura_Corporal
+2083,ES100521.xml,defecto plantar izquierdo,2874,2899,B-Estructura_Corporal
+2084,ES100521.xml,piel,2915,2919,B-Estructura_Corporal
+2085,ES100521.xml,muslo,2950,2955,B-Estructura_Corporal
+2086,ES100521.xml,pie derecho,3008,3019,B-Estructura_Corporal
+2087,ES100521.xml,piel,3033,3037,B-Estructura_Corporal
+2090,ES100521.xml,piel,3295,3299,B-Estructura_Corporal
+2092,ES100521.xml,piel,3588,3592,B-Estructura_Corporal
+2098,ES100663.xml,analgésico,262,272,B-Grp_Medicamento
+2102,ES100663.xml,cervicotoracoabdominal,380,402,B-Estructura_Corporal
+2104,ES100663.xml,esofágico,446,455,B-Estructura_Corporal
+2105,ES100663.xml,digestiva,521,530,B-Estructura_Corporal
+2107,ES100663.xml,esofágico,595,604,B-Estructura_Corporal
+2111,ES100663.xml,dorsal,671,677,B-Estructura_Corporal
+2113,ES100663.xml,D12,730,733,B-Estructura_Corporal
+2115,ES100663.xml,ósea,809,813,B-Estructura_Corporal
+2118,ES100663.xml,origen osteoporótico,918,938,B-Grp_Enfermedad
+2119,ES100663.xml,columna dorsal,942,956,B-Estructura_Corporal
+2122,ES100663.xml,opiáceo,1136,1143,B-Grp_Medicamento
+2124,ES100663.xml,muy mal estado general,1202,1224,B-Calificador
+2125,ES100663.xml,abdomen,1274,1281,B-Estructura_Corporal
+2128,ES100663.xml,columna dorsal,1379,1393,B-Estructura_Corporal
+2130,ES100663.xml,arcada dentaria,1508,1523,B-Estructura_Corporal
+2133,ES100663.xml,abdominal,1656,1665,B-Estructura_Corporal
+2135,ES100663.xml,segmento IV,1716,1727,B-Estructura_Corporal
+2137,ES100663.xml,esofágico,1935,1944,B-Estructura_Corporal
+2143,ES100715.xml,zona anterior mandibular,179,203,B-Estructura_Corporal
+2148,ES100715.xml,alcohol,393,400,B-Grp_Medicamento
+2150,ES100715.xml,zona anterior mandibular,469,493,B-Estructura_Corporal
+2151,ES100715.xml,doloroso,518,526,B-Grp_Enfermedad
+2152,ES100715.xml,piel,546,550,B-Estructura_Corporal
+2153,ES100715.xml,mucosa,553,559,B-Estructura_Corporal
+2156,ES100715.xml,neurológico motor,679,696,B-Estructura_Corporal
+2158,ES100715.xml,canino derecho,916,930,B-Estructura_Corporal
+2159,ES100715.xml,región contralateral,940,960,B-Estructura_Corporal
+2160,ES100715.xml,molar izquierdo,987,1002,B-Estructura_Corporal
+2163,ES100715.xml,tablas óseas,1062,1074,B-Grp_Enfermedad
+2166,ES100715.xml,epitelio poliestratificado,1267,1293,B-Grp_Enfermedad
+2167,ES100715.xml,células cilíndricas,1336,1355,B-Estructura_Corporal
+2168,ES100715.xml,hipercromático dispuesto,1367,1391,B-Grp_Enfermedad
+2175,ES100715.xml,lesión,1960,1966,B-Grp_Enfermedad
+2176,ES100715.xml,tablas óseas,2042,2054,B-Grp_Enfermedad
+2177,ES100715.xml,vestibular,2061,2071,B-Estructura_Corporal
+2178,ES100715.xml,lesión,2251,2257,B-Grp_Enfermedad
+2180,ES100715.xml,mandibular,2442,2452,B-Estructura_Corporal
+2182,ES100715.xml,tejido epitelial anaplásico,2567,2594,B-Estructura_Corporal
+2188,ES100715.xml,tejido conjuntivo subyacente,2831,2859,B-Estructura_Corporal
+2189,ES100715.xml,proliferación epitelial,2926,2949,B-Grp_Enfermedad
+2190,ES100715.xml,pared quística,2970,2984,B-Estructura_Corporal
+2192,ES100715.xml,escamosas intraóseo moderadamente diferenciado,3136,3182,B-Grp_Enfermedad
+2193,ES100715.xml,tórax,3273,3278,B-Estructura_Corporal
+2194,ES100715.xml,ósea,3310,3314,B-Estructura_Corporal
+2201,ES100163.xml,paracavernosa izquierda,397,420,B-Estructura_Corporal
+2202,ES100163.xml,dolorosa,440,448,B-Grp_Enfermedad
+2203,ES100163.xml,fibroelástica,466,479,B-Calificador
+2204,ES100163.xml,partes blandas,506,520,B-Estructura_Corporal
+2206,ES100163.xml,región posterior de cuerpo cavernoso izquierdo,747,793,B-Estructura_Corporal
+2207,ES100163.xml,fascia,831,837,B-Grp_Enfermedad
+2208,ES100163.xml,bacteriológico,867,881,B-Grp_Enfermedad
+2209,ES100163.xml,hematoma,1036,1044,B-Grp_Enfermedad
+2210,ES100051.xml,prostatismo,167,178,B-Grp_Enfermedad
+2211,ES100051.xml,adenomatosa,242,253,B-Grp_Enfermedad
+2213,ES100051.xml,parénquima heterogéneo,328,350,B-Estructura_Corporal
+2215,ES100051.xml,lóbulo derecho,384,398,B-Estructura_Corporal
+2216,ES100051.xml,prostático,454,464,B-Estructura_Corporal
+2218,ES100051.xml,prostática transrectal,562,584,B-Estructura_Corporal
+2220,ES100051.xml,parénquima prostático,683,704,B-Grp_Enfermedad
+2223,ES100051.xml,tipo cuerpo extraño,757,776,B-Calificador
+2232,ES100552.xml,Romberg positiva,314,330,B-Grp_Enfermedad
+2234,ES100552.xml,parálisis facial,348,364,B-Grp_Enfermedad
+2235,ES100552.xml,craneal,404,411,B-Estructura_Corporal
+2236,ES100552.xml,hemifosa posterior dcha,454,477,B-Estructura_Corporal
+2238,ES100552.xml,contraste,551,560,B-Grp_Medicamento
+2239,ES100552.xml,quístico,577,585,B-Calificador
+2240,ES100552.xml,cerebral,612,620,B-Estructura_Corporal
+2242,ES100552.xml,edema,777,782,B-Grp_Enfermedad
+2243,ES100552.xml,hemisferio cerebeloso dcho,798,824,B-Estructura_Corporal
+2246,ES100552.xml,tejido cerebeloso,881,898,B-Estructura_Corporal
+2249,ES100552.xml,tumoración,1059,1069,B-Grp_Enfermedad
+2250,ES100552.xml,hemifosa posterior dcha,1102,1125,B-Estructura_Corporal
+2251,ES100552.xml,cerebral,1227,1235,B-Estructura_Corporal
+2252,ES100552.xml,tumoración,1281,1291,B-Grp_Enfermedad
+2253,ES100552.xml,hemisferio cerebeloso dcho,1342,1368,B-Estructura_Corporal
+2254,ES100552.xml,tronco del encéfalo,1379,1398,B-Estructura_Corporal
+2256,ES100552.xml,grado IV,1471,1479,B-Calificador
+2257,ES100552.xml,OMS,1501,1504,B-Estructura_Corporal
+2262,ES100552.xml,fosa posterior,1702,1716,B-Estructura_Corporal
+2264,ES100552.xml,Cancer,1904,1910,B-Grp_Enfermedad
+2265,ES100552.xml,cerebral,2001,2009,B-Estructura_Corporal
+2270,ES100659.xml,hemiabdomen izquierdo,176,197,B-Estructura_Corporal
+2272,ES100659.xml,gran,260,264,B-Calificador
+2274,ES100659.xml,hemiabdomen izquierdo,279,300,B-Estructura_Corporal
+2277,ES100659.xml,concentrados de hematíes,528,552,B-Grp_Medicamento
+2281,ES100946.xml,osteolítica,154,165,B-Estructura_Corporal
+2282,ES100946.xml,rama horizontal mandibular,196,222,B-Estructura_Corporal
+2284,ES100946.xml,cortical ósea,306,319,B-Estructura_Corporal
+2286,ES100946.xml,lesión,419,425,B-Grp_Enfermedad
+2287,ES100946.xml,mandíbula,471,480,B-Estructura_Corporal
+2289,ES100946.xml,nervio dentario inferior,602,626,B-Estructura_Corporal
+2290,ES100946.xml,cavidad ósea,661,673,B-Estructura_Corporal
+2291,ES100946.xml,mandíbula,692,701,B-Estructura_Corporal
+2292,ES100946.xml,mucosa,717,723,B-Estructura_Corporal
+2293,ES100946.xml,parafina,988,990,B-Grp_Medicamento
+2294,ES100946.xml,hematoxilina-eosina,1102,1121,B-Grp_Medicamento
+2295,ES100946.xml,membrana epitelial,1287,1305,B-Estructura_Corporal
+2296,ES100946.xml,EMA,1306,1309,B-Grp_Enfermedad
+2299,ES100946.xml,músculo liso,1589,1601,B-Estructura_Corporal
+2302,ES100946.xml,pred,1697,1701,B-Grp_Medicamento
+2303,ES100946.xml,LSI,1943,1946,B-Estructura_Corporal
+2304,ES100946.xml,VYSIS Inc,1956,1965,B-Grp_Enfermedad
+2305,ES100946.xml,triple banda,2119,2131,B-Calificador
+2306,ES100946.xml,fragmentos tumorales,2220,2240,B-Grp_Enfermedad
+2307,ES100946.xml,células alargadas,2266,2283,B-Grp_Enfermedad
+2308,ES100946.xml,bulbo,2378,2383,B-Estructura_Corporal
+2309,ES100946.xml,celular,2409,2416,B-Estructura_Corporal
+2310,ES100946.xml,estroma intercelular,2423,2443,B-Grp_Enfermedad
+2311,ES100946.xml,células dispuestas,2522,2540,B-Grp_Enfermedad
+2314,ES100946.xml,tronco nervioso mandibular,2690,2716,B-Estructura_Corporal
+2318,ES100946.xml,músculo liso,2983,2995,B-Estructura_Corporal
+2319,ES100946.xml,células de Schwann,3017,3035,B-Estructura_Corporal
+2320,ES100946.xml,nervio dentario,3220,3235,B-Estructura_Corporal
+2321,ES100946.xml,perineurio,3309,3319,B-Estructura_Corporal
+2323,ES100946.xml,brazo,3411,3416,B-Estructura_Corporal
+2324,ES100946.xml,células tumorales,3478,3495,B-Estructura_Corporal
+2326,ES100924.xml,miembros inferiores,157,176,B-Estructura_Corporal
+2328,ES100924.xml,distribución lineal,278,297,B-Grp_Enfermedad
+2329,ES100924.xml,raíz de ambos miembros inferiores,307,340,B-Estructura_Corporal
+2330,ES100924.xml,parduzco,404,412,B-Estructura_Corporal
+2333,ES100924.xml,solución alcohólica,695,714,B-Grp_Enfermedad
+2335,ES100423.xml,ventrículoperitoneal,133,153,B-Estructura_Corporal
+2336,ES100423.xml,higroma subdural temporal,160,185,B-Grp_Enfermedad
+2337,ES100423.xml,absceso occipital craneal,188,213,B-Grp_Enfermedad
+2338,ES100423.xml,subaguda,270,278,B-Calificador
+2339,ES100423.xml,medular,349,356,B-Estructura_Corporal
+2342,ES100423.xml,leve,483,487,B-Calificador
+2350,ES100423.xml,ambos ojos,867,877,B-Estructura_Corporal
+2351,ES100423.xml,pupilares,894,903,B-Estructura_Corporal
+2354,ES100423.xml,ojo,1053,1056,B-Estructura_Corporal
+2356,ES100423.xml,vítrea bilateral,1103,1119,B-Estructura_Corporal
+2357,ES100423.xml,ocular,1186,1192,B-Estructura_Corporal
+2358,ES100423.xml,ojo derecho,1292,1303,B-Estructura_Corporal
+2359,ES100423.xml,OD,1305,1307,B-Estructura_Corporal
+2361,ES100423.xml,hialoides posterior,1448,1467,B-Estructura_Corporal
+2362,ES100423.xml,cavidad vítrea,1513,1527,B-Estructura_Corporal
+2363,ES100423.xml,ojo izquierdo,1570,1583,B-Estructura_Corporal
+2364,ES100423.xml,OI,1585,1587,B-Estructura_Corporal
+2366,ES100423.xml,OD,1666,1668,B-Estructura_Corporal
+2367,ES100423.xml,OI,1681,1683,B-Estructura_Corporal
+2369,ES100423.xml,OI,1765,1767,B-Estructura_Corporal
+2372,ES100423.xml,progresiva,1896,1906,B-Calificador
+2373,ES100423.xml,ocular,1936,1942,B-Estructura_Corporal
+2377,ES100642.xml,vitamina B,271,281,B-Grp_Medicamento
+2378,ES100642.xml,gastroyeyunal,356,369,B-Estructura_Corporal
+2379,ES100642.xml,cutánea,422,429,B-Estructura_Corporal
+2380,ES100642.xml,tiamina,495,502,B-Grp_Medicamento
+2387,ES100642.xml,tiamina,749,756,B-Grp_Medicamento
+2389,ES100631.xml,coluria,143,150,B-Grp_Enfermedad
+2393,ES100631.xml,hipergammaglobulinemia,521,524,B-Grp_Enfermedad
+2394,ES100631.xml,SMA,700,701,B-Grp_Enfermedad
+2395,ES100631.xml,F-actina,716,717,B-Grp_Medicamento
+2396,ES100631.xml,bacterias,754,755,B-Calificador
+2397,ES100631.xml,VHB,763,764,B-Grp_Enfermedad
+2398,ES100631.xml,VHC,768,769,B-Grp_Enfermedad
+2399,ES100631.xml,CMV,778,779,B-Grp_Enfermedad
+2400,ES100631.xml,VEB,783,784,B-Grp_Enfermedad
+2401,ES100631.xml,Borrelia,852,853,B-Grp_Enfermedad
+2402,ES100631.xml,Leishmania,874,875,B-Grp_Enfermedad
+2403,ES100631.xml,Rickettsias,888,889,B-Grp_Enfermedad
+2404,ES100631.xml,Toxoplasma,900,901,B-Grp_Enfermedad
+2406,ES100631.xml,dilatación,961,963,B-Grp_Enfermedad
+2407,ES100631.xml,vía biliar,971,983,B-Estructura_Corporal
+2408,ES100631.xml,extrahepática,987,1000,I-Estructura_Corporal
+2409,ES100631.xml,páncreas aumentado,1029,1047,B-Grp_Enfermedad
+2411,ES100631.xml,cabeza,1098,1104,B-Estructura_Corporal
+2412,ES100631.xml,leve,1107,1111,B-Calificador
+2414,ES100631.xml,conducto pancreático,1137,1157,B-Estructura_Corporal
+2415,ES100631.xml,toracoabdominal,1166,1181,B-Estructura_Corporal
+2416,ES100631.xml,páncreas aumentado,1201,1219,B-Estructura_Corporal
+2417,ES100631.xml,peripancreático,1266,1281,B-Estructura_Corporal
+2419,ES100631.xml,grasa peripancreática,1330,1351,B-Estructura_Corporal
+2420,ES100631.xml,retroperitoneal,1364,1379,B-Estructura_Corporal
+2421,ES100631.xml,iliaco bilateral,1436,1452,B-Estructura_Corporal
+2422,ES100631.xml,estructuras vasculares,1486,1508,B-Estructura_Corporal
+2428,ES100631.xml,colédoco distal,1765,1780,B-Estructura_Corporal
+2434,ES100631.xml,vía biliar,2202,2212,B-Estructura_Corporal
+2437,ES100631.xml,corticoides,2383,2394,B-Grp_Medicamento
+2438,ES100631.xml,metilprednisolona,2396,2413,B-Grp_Medicamento
+2439,ES100631.xml,percutáneo,2459,2469,B-Estructura_Corporal
+2440,ES100631.xml,abdominal,2653,2662,B-Estructura_Corporal
+2442,ES100631.xml,aspecto pancreático,2770,2789,B-Estructura_Corporal
+2443,ES100631.xml,fibrosis retroperitoneal,2811,2835,B-Grp_Enfermedad
+2444,ES100631.xml,corticoides,2849,2860,B-Grp_Medicamento
+2446,ES100631.xml,pancreatitis autoinmune,3103,3126,B-Grp_Enfermedad
+2447,ES100631.xml,fibrosis retroperitoneal,3136,3160,B-Grp_Enfermedad
+2456,ES100273.xml,humerocefálica izquierda,323,347,B-Estructura_Corporal
+2461,ES100273.xml,Staphylococcus,624,638,B-Grp_Enfermedad
+2462,ES100273.xml,aureus,645,651,B-Grp_Enfermedad
+2464,ES100273.xml,PEC,673,676,B-Estructura_Corporal
+2465,ES100273.xml,aureus,755,761,I-Grp_Enfermedad
+2466,ES100273.xml,Enterococcus faecalis,764,785,B-Grp_Enfermedad
+2467,ES100273.xml,bacteriológicamente,878,897,B-Calificador
+2469,ES100526.xml,engrosamiento,102,115,B-Grp_Enfermedad
+2470,ES100526.xml,grasa,195,200,B-Estructura_Corporal
+2475,ES100526.xml,grasa,734,739,B-Estructura_Corporal
+2478,ES100526.xml,vasos linfáticos,957,973,B-Estructura_Corporal
+2479,ES100526.xml,ganglios regionales,980,999,B-Estructura_Corporal
+2480,ES100526.xml,tumoraciones,1084,1096,B-Grp_Enfermedad
+2483,ES100526.xml,vesical,1192,1199,B-Estructura_Corporal
+2484,ES100526.xml,uretra,1276,1282,B-Grp_Medicamento
+2485,ES100526.xml,cuerpo esponjoso,1308,1324,B-Estructura_Corporal
+2486,ES100526.xml,línea media ventral,1363,1382,B-Estructura_Corporal
+2488,ES100526.xml,tumoraciones,1573,1585,B-Grp_Enfermedad
+2491,ES100526.xml,grasa,1901,1906,B-Estructura_Corporal
+2492,ES100526.xml,citoesteatonecrosis,1953,1972,B-Grp_Enfermedad
+2495,ES100178.xml,renal,173,178,B-Estructura_Corporal
+2496,ES100178.xml,riñón derecho de menor,198,220,B-Estructura_Corporal
+2498,ES100178.xml,litiasis,264,272,B-Grp_Enfermedad
+2499,ES100178.xml,cáliz inferior de riñón,284,307,B-Estructura_Corporal
+2501,ES100178.xml,flanco derecho,404,418,B-Estructura_Corporal
+2502,ES100178.xml,discreto,453,461,B-Calificador
+2505,ES100178.xml,concentrados de hematíes,551,575,B-Grp_Medicamento
+2506,ES100178.xml,hematoma,623,631,B-Grp_Enfermedad
+2509,ES100775.xml,mano izquierda,185,199,B-Estructura_Corporal
+2514,ES100775.xml,fiebre,393,399,B-Grp_Enfermedad
+2517,ES100775.xml,rifampicina,547,558,B-Grp_Medicamento
+2526,ES100042.xml,tracto urinario,399,414,B-Estructura_Corporal
+2529,ES100042.xml,leucocituria,609,616,B-Grp_Enfermedad
+2530,ES100042.xml,células uroteliales,740,751,B-Estructura_Corporal
+2531,ES100042.xml,atipias,764,767,B-Grp_Enfermedad
+2532,ES100042.xml,leucocitos polimorfonucleares neutrófilos,778,818,B-Estructura_Corporal
+2533,ES100042.xml,antibioteparia,858,861,B-Grp_Medicamento
+2534,ES100042.xml,anticolinérgico,877,878,B-Grp_Medicamento
+2535,ES100042.xml,tolterodina,895,896,B-Grp_Medicamento
+2536,ES100042.xml,disuria,1009,1011,B-Grp_Enfermedad
+2537,ES100042.xml,polaquiuria,1020,1021,B-Grp_Enfermedad
+2542,ES100042.xml,tracto urinario superior,1332,1351,B-Estructura_Corporal
+2544,ES100042.xml,discretamente,1550,1551,B-Calificador
+2545,ES100042.xml,enrojecidas,1552,1565,B-Grp_Enfermedad
+2546,ES100042.xml,edema,1600,1602,B-Grp_Enfermedad
+2547,ES100042.xml,parte inferior de ambas caras laterales,1633,1664,B-Estructura_Corporal
+2548,ES100042.xml,factores de riesgo para TBC,1730,1759,B-Grp_Enfermedad
+2549,ES100042.xml,lesiones vesicales macroscópicamente,1942,1964,B-Grp_Enfermedad
+2550,ES100042.xml,bacilo,2049,2053,B-Grp_Enfermedad
+2551,ES100042.xml,lesiones,2117,2120,B-Grp_Enfermedad
+2552,ES100042.xml,anestesia,2140,2144,B-Grp_Medicamento
+2554,ES100042.xml,mucosa,2206,2208,B-Estructura_Corporal
+2555,ES100042.xml,infiltrado inflamatorio crónico,2220,2254,B-Grp_Enfermedad
+2557,ES100042.xml,células plasmáticas,2308,2318,B-Estructura_Corporal
+2558,ES100042.xml,linfocitos,2331,2332,B-Estructura_Corporal
+2560,ES100042.xml,células maduras,2534,2545,B-Grp_Enfermedad
+2561,ES100042.xml,linfocitos,2554,2555,B-Estructura_Corporal
+2562,ES100042.xml,células plasmáticas,2566,2575,B-Estructura_Corporal
+2563,ES100042.xml,linfocitos,2603,2606,B-Estructura_Corporal
+2564,ES100042.xml,corona,2628,2629,B-Grp_Medicamento
+2566,ES100042.xml,ciprofloxacino,2867,2870,B-Grp_Medicamento
+2567,ES100042.xml,prednisona,2924,2925,B-Grp_Medicamento
+2568,ES100042.xml,digestiva,3070,3079,B-Estructura_Corporal
+2569,ES100042.xml,omeprazol,3084,3093,B-Grp_Medicamento
+2573,ES100634.xml,colon ascendente,150,166,B-Estructura_Corporal
+2575,ES100634.xml,hepática,253,261,B-Estructura_Corporal
+2577,ES100634.xml,metástasis hepáticas,582,602,B-Grp_Enfermedad
+2579,ES100634.xml,distancia,686,695,B-Grp_Enfermedad
+2580,ES100182.xml,vía pública,53,64,B-Estructura_Corporal
+2582,ES100182.xml,extremidades superior e inferior derechas,109,150,B-Estructura_Corporal
+2583,ES100182.xml,costales,153,161,B-Estructura_Corporal
+2586,ES100182.xml,pelvis,318,324,B-Estructura_Corporal
+2589,ES100182.xml,vejiga,414,420,B-Estructura_Corporal
+2591,ES100182.xml,pared vesical anterior,626,648,B-Estructura_Corporal
+2593,ES100182.xml,vejiga,710,716,B-Estructura_Corporal
+2594,ES100182.xml,fragmento óseo,730,744,B-Grp_Enfermedad
+2599,ES100214.xml,intravascular,186,199,B-Estructura_Corporal
+2602,ES100214.xml,Streptococcus pyogenes,241,263,B-Grp_Enfermedad
+2605,ES100214.xml,peritoneo,1269,1278,B-Estructura_Corporal
+2606,ES100214.xml,hipertónica,1310,1321,B-Grp_Enfermedad
+2607,ES100214.xml,renal,1631,1636,B-Estructura_Corporal
+2609,ES100214.xml,catéter peritoneal,1827,1845,B-Estructura_Corporal
+2612,ES100778.xml,insulina,90,98,B-Grp_Medicamento
+2617,ES100778.xml,rodilla,231,238,B-Estructura_Corporal
+2618,ES100778.xml,L3-L4,395,397,B-Estructura_Corporal
+2620,ES100778.xml,fentanilo,693,702,B-Grp_Medicamento
+2621,ES100778.xml,morfina,972,979,B-Grp_Medicamento
+2622,ES100778.xml,metamizol,992,1001,B-Grp_Medicamento
+2627,ES100778.xml,morfina,1300,1307,B-Grp_Medicamento
+2628,ES100778.xml,metamizol,1320,1329,B-Grp_Medicamento
+2632,ES100064.xml,ocular,119,125,B-Estructura_Corporal
+2639,ES100064.xml,flutamida,584,593,B-Grp_Medicamento
+2641,ES100064.xml,labio superior,807,821,B-Estructura_Corporal
+2643,ES100064.xml,ocular,887,893,B-Estructura_Corporal
+2645,ES100064.xml,ocular,933,939,B-Estructura_Corporal
+2647,ES100064.xml,ojo,1077,1080,B-Estructura_Corporal
+2650,ES100064.xml,VI pares izquierdos,1139,1158,B-Estructura_Corporal
+2651,ES100064.xml,mitad derecha,1218,1231,B-Estructura_Corporal
+2652,ES100064.xml,cara,1238,1242,B-Estructura_Corporal
+2653,ES100064.xml,neurológica motora,1278,1296,B-Estructura_Corporal
+2654,ES100064.xml,cerebral,1452,1460,B-Estructura_Corporal
+2657,ES100064.xml,músculo recto superior,1643,1665,B-Estructura_Corporal
+2659,ES100064.xml,seno frontal izquierdo,1705,1727,B-Estructura_Corporal
+2663,ES100064.xml,grasa,1890,1895,B-Estructura_Corporal
+2664,ES100064.xml,grasa extraconal superior,1902,1927,B-Estructura_Corporal
+2668,ES100064.xml,seno maxilar derecho,2032,2052,B-Estructura_Corporal
+2670,ES100064.xml,partes blandas,2100,2114,B-Estructura_Corporal
+2671,ES100064.xml,órbita derecha,2156,2170,B-Estructura_Corporal
+2673,ES100064.xml,espacio extraconal inferior,2186,2213,B-Estructura_Corporal
+2674,ES100064.xml,músculo recto inferior,2245,2267,B-Estructura_Corporal
+2675,ES100064.xml,óseo,2402,2406,B-Estructura_Corporal
+2678,ES100064.xml,adenocarcinoma prostático,2513,2538,B-Grp_Enfermedad
+2679,ES100064.xml,seno maxilar derecho,2542,2562,B-Estructura_Corporal
+2680,ES100064.xml,seno frontal izquierdo,2565,2587,B-Estructura_Corporal
+2684,ES100064.xml,docetaxel,2843,2852,B-Grp_Medicamento
+2686,ES100064.xml,docetaxel,3081,3090,B-Grp_Medicamento
+2688,ES100064.xml,proptosis ocular izquierda,3130,3156,B-Grp_Enfermedad
+2689,ES100064.xml,docetaxel,3359,3368,B-Grp_Medicamento
+2690,ES100064.xml,prednisona,3371,3381,B-Grp_Medicamento
+2694,ES100112.xml,flanco derecho,118,132,B-Estructura_Corporal
+2695,ES100112.xml,cerebro vascular,196,212,B-Estructura_Corporal
+2696,ES100112.xml,cerebral media,233,247,B-Estructura_Corporal
+2699,ES100112.xml,dicumarínicos,365,378,B-Grp_Medicamento
+2700,ES100112.xml,amiodarona,388,398,B-Grp_Medicamento
+2705,ES100112.xml,flanco,549,555,B-Estructura_Corporal
+2706,ES100112.xml,fosa renal derecha,558,576,B-Estructura_Corporal
+2707,ES100112.xml,hemiabdomen derecho,649,668,B-Estructura_Corporal
+2710,ES100112.xml,normocrómica,772,784,B-Calificador
+2712,ES100112.xml,abdominal,911,920,B-Estructura_Corporal
+2716,ES100112.xml,cuerpo,1114,1120,B-Estructura_Corporal
+2718,ES100112.xml,riñón derecho,1201,1214,B-Estructura_Corporal
+2720,ES100112.xml,músculo psoas,1246,1259,B-Estructura_Corporal
+2724,ES100112.xml,arteria renal,1452,1465,B-Estructura_Corporal
+2725,ES100112.xml,gran,1547,1551,B-Calificador
+2727,ES100112.xml,dependiente,1565,1576,B-Grp_Enfermedad
+2728,ES100112.xml,riñón derecho,1581,1594,B-Estructura_Corporal
+2729,ES100112.xml,músculo psoas,1613,1626,B-Estructura_Corporal
+2731,ES100112.xml,grasa perirrenal,1734,1750,B-Estructura_Corporal
+2733,ES100112.xml,venoso,1794,1800,B-Estructura_Corporal
+2735,ES100112.xml,tipo sarcomatoide grado 4,1878,1903,B-Calificador
+2738,ES100112.xml,venoso,1999,2005,B-Estructura_Corporal
+2739,ES100112.xml,pT3 G3 N0 M0,2007,2019,B-Grp_Enfermedad
+2741,ES100112.xml,heterogéneas,2244,2256,B-Grp_Enfermedad
+2742,ES100112.xml,espacio retroperitoneal,2260,2283,B-Estructura_Corporal
+2743,ES100112.xml,músculo psoas,2309,2322,B-Estructura_Corporal
+2745,ES100112.xml,colon ascendente,2399,2415,B-Estructura_Corporal
+2746,ES100112.xml,músculo psoas,2459,2472,B-Estructura_Corporal
+2748,ES100112.xml,ósea,2611,2615,B-Estructura_Corporal
+2749,ES100112.xml,cuerpo,2619,2625,B-Estructura_Corporal
+2754,ES100112.xml,gran,2884,2888,B-Calificador
+2756,ES100112.xml,intenso componente hemorrágico,2915,2945,B-Calificador
+2758,ES100112.xml,tumoración quística hemorrágica,3044,3075,B-Grp_Enfermedad
+2759,ES100112.xml,lóbulo,3089,3095,B-Estructura_Corporal
+2760,ES100112.xml,hígado,3108,3114,B-Estructura_Corporal
+2762,ES100112.xml,fusocelular de alto grado,3185,3210,B-Grp_Enfermedad
+2763,ES100112.xml,quística,3225,3233,B-Calificador
+2764,ES100112.xml,recidiva,3250,3258,B-Grp_Enfermedad
+2779,ES100519.xml,ambas piernas,461,474,B-Estructura_Corporal
+2784,ES100519.xml,miembros inferiores,810,829,B-Estructura_Corporal
+2789,ES100519.xml,lesiones,1009,1017,B-Grp_Enfermedad
+2795,ES100519.xml,ambos miembros inferiores,1369,1394,B-Estructura_Corporal
+2796,ES100519.xml,plano muscular,1401,1415,B-Estructura_Corporal
+2798,ES100519.xml,infección,1524,1533,B-Grp_Enfermedad
+2799,ES100519.xml,miembros inferiores,1541,1560,B-Estructura_Corporal
+2801,ES100519.xml,miembro inferior izquierdo,1609,1635,B-Estructura_Corporal
+2802,ES100519.xml,tejido,1856,1862,B-Estructura_Corporal
+2803,ES100519.xml,desbridado,1863,1873,B-Grp_Enfermedad
+2807,ES100519.xml,fascia,2004,2010,B-Estructura_Corporal
+2808,ES100519.xml,vasos,2016,2021,B-Estructura_Corporal
+2809,ES100519.xml,trombosados,2022,2033,B-Grp_Enfermedad
+2810,ES100519.xml,piel,2065,2069,B-Estructura_Corporal
+2811,ES100519.xml,tejido celular subcutáneo,2075,2100,B-Estructura_Corporal
+2812,ES100519.xml,abdomen agudo,2239,2252,B-Estructura_Corporal
+2813,ES100519.xml,necrosis,2325,2333,B-Grp_Enfermedad
+2814,ES100519.xml,colon sigmoide,2340,2354,B-Estructura_Corporal
+2817,ES100519.xml,miembro inferior izquierdo,2549,2575,B-Estructura_Corporal
+2818,ES100519.xml,miembro inferior izquierdo,2712,2738,B-Estructura_Corporal
+2819,ES100519.xml,desbridamiento,2832,2846,B-Grp_Enfermedad
+2820,ES100519.xml,antibiótico,2927,2938,B-Grp_Medicamento
+2821,ES100519.xml,piperacilina-tazobactam,2959,2982,B-Grp_Medicamento
+2822,ES100519.xml,vancomicina,3031,3042,B-Grp_Medicamento
+2823,ES100519.xml,imipenem,3045,3053,B-Grp_Medicamento
+2824,ES100519.xml,abdomen,3100,3107,B-Estructura_Corporal
+2825,ES100519.xml,agudo,3108,3113,B-Grp_Enfermedad
+2826,ES100519.xml,tejido,3157,3163,B-Estructura_Corporal
+2827,ES100519.xml,Clostridium species,3239,3258,B-Grp_Enfermedad
+2829,ES100284.xml,corticoides,225,236,B-Grp_Medicamento
+2833,ES100284.xml,rodillas,427,435,B-Estructura_Corporal
+2835,ES100284.xml,cabezas femorales,507,524,B-Estructura_Corporal
+2836,ES100284.xml,cadera,554,560,B-Estructura_Corporal
+2837,ES100284.xml,rodilla izquierda,617,634,B-Estructura_Corporal
+2839,ES100284.xml,vitamina D,878,888,B-Grp_Medicamento
+2843,ES100284.xml,columna lumbar,984,998,B-Estructura_Corporal
+2845,ES100284.xml,cuello femoral,1035,1049,B-Estructura_Corporal
+2846,ES100284.xml,grado II,1128,1136,B-Calificador
+2847,ES100284.xml,ambas cabezas femorales,1140,1163,B-Estructura_Corporal
+2848,ES100284.xml,rodillas,1206,1214,B-Estructura_Corporal
+2850,ES100284.xml,cóndilo femoral,1258,1273,B-Estructura_Corporal
+2851,ES100284.xml,rodilla izquierda,1288,1305,B-Estructura_Corporal
+2853,ES100284.xml,articular,1343,1352,B-Estructura_Corporal
+2855,ES100284.xml,necrosis,1411,1419,B-Grp_Enfermedad
+2856,ES100284.xml,ambas cabezas femorales,1423,1446,B-Estructura_Corporal
+2857,ES100284.xml,rodillas,1458,1466,B-Estructura_Corporal
+2858,ES100284.xml,femoral,1503,1510,B-Estructura_Corporal
+2859,ES100284.xml,cadera derecha,1617,1631,B-Estructura_Corporal
+2860,ES100284.xml,alendronato,1664,1675,B-Grp_Medicamento
+2861,ES100284.xml,vitamina D,1702,1712,B-Grp_Medicamento
+2864,ES100284.xml,articulaciones afectadas,1807,1831,B-Estructura_Corporal

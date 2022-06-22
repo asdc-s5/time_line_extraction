@@ -1,0 +1,298 @@
+,file,string,begin,end,type
+0,ES100447.xml,nefrolitiasis complicada,1405,1429,B-Grp_Enfermedad
+1,ES100447.xml,absceso intrarrenal,1431,1450,B-Grp_Enfermedad
+2,ES100447.xml,sangrado intenso,1499,1515,B-Grp_Enfermedad
+3,ES100686.xml,masa pedunculada,217,233,B-Grp_Enfermedad
+4,ES100686.xml,hemangioma fibrosado,551,571,B-Grp_Enfermedad
+5,ES100526.xml,deformidad peneana,45,63,B-Grp_Enfermedad
+6,ES100042.xml,polaquiuria intensas,228,248,B-Grp_Enfermedad
+7,ES100042.xml,infección,385,394,B-Grp_Enfermedad
+8,ES100650.xml,masa dependiente,510,526,B-Grp_Enfermedad
+9,ES100650.xml,mucocele,1068,1076,B-Grp_Enfermedad
+10,ES100650.xml,tumor mucinoso,1506,1520,B-Grp_Enfermedad
+11,ES100650.xml,calcificación parietal,1632,1654,B-Grp_Enfermedad
+12,ES100320.xml,disnea de intensidad progresiva,94,125,B-Grp_Enfermedad
+13,ES100320.xml,adenopatías cervicales bilaterales menores,420,462,B-Grp_Enfermedad
+14,ES100320.xml,crepitantes bibasales,556,577,B-Grp_Enfermedad
+15,ES100320.xml,masa mediastínica anterior derecha,1103,1137,B-Grp_Enfermedad
+16,ES100320.xml,infiltrado alveolo-intersticial bilateral,1178,1219,B-Grp_Enfermedad
+17,ES100320.xml,adenopatías axilares bilaterales,1326,1358,B-Grp_Enfermedad
+18,ES100320.xml,insuficiencia respiratoria progresiva,1771,1808,B-Grp_Enfermedad
+19,ES100320.xml,crisis tónico-clónica,2002,2023,B-Grp_Enfermedad
+20,ES100320.xml,adenopatía supraclavicular,2449,2475,B-Grp_Enfermedad
+21,ES100320.xml,neumonía difusa,3146,3161,B-Grp_Enfermedad
+22,ES100320.xml,linfoma diseminado,3218,3236,B-Grp_Enfermedad
+23,ES100320.xml,tumor,3438,3443,B-Grp_Enfermedad
+24,ES100280.xml,engrosamiento peritoneal,541,565,B-Grp_Enfermedad
+25,ES100280.xml,dilatación gástrica,635,654,B-Grp_Enfermedad
+26,ES100519.xml,dolor,918,923,B-Grp_Enfermedad
+27,ES100519.xml,fascitis necrosante bilateral,1098,1127,B-Grp_Enfermedad
+28,ES100519.xml,caída,1246,1251,B-Grp_Enfermedad
+29,ES100519.xml,absceso intraparietal,2360,2381,B-Grp_Enfermedad
+30,ES100727.xml,defecto,444,451,B-Grp_Enfermedad
+31,ES100727.xml,sangrado transoperatorio,1293,1317,B-Grp_Enfermedad
+32,ES100727.xml,pérdida sensitiva,3103,3120,B-Grp_Enfermedad
+33,ES100727.xml,discrepancia maxilomandibular,3288,3317,B-Grp_Enfermedad
+34,ES100848.xml,úlcera de aspecto necrótico,139,166,B-Grp_Enfermedad
+35,ES100848.xml,adenopatías laterocervicales,310,338,B-Grp_Enfermedad
+36,ES100848.xml,tumoración ulcerada,1226,1245,B-Grp_Enfermedad
+37,ES100848.xml,carcinoma,1440,1449,B-Grp_Enfermedad
+38,ES100445.xml,epilepsia,249,258,B-Grp_Enfermedad
+39,ES100445.xml,hipsarritmia asimétrica,402,425,B-Grp_Enfermedad
+40,ES100079.xml,crisis renoureteral,183,202,B-Grp_Enfermedad
+41,ES100079.xml,infiltración vascular tumoral,1140,1169,B-Grp_Enfermedad
+42,ES100079.xml,infiltración vascular,1271,1292,B-Grp_Enfermedad
+43,ES100079.xml,neoformación renal estadio T3bN0M0,1464,1498,B-Grp_Enfermedad
+44,ES100079.xml,lesión lítica,2981,2994,B-Grp_Enfermedad
+45,ES100737.xml,estrabismo,270,280,B-Grp_Enfermedad
+46,ES100737.xml,estrabismo,449,459,B-Grp_Enfermedad
+47,ES100737.xml,edema perilesional,867,885,B-Grp_Enfermedad
+48,ES100737.xml,proliferación neoplásica,1178,1202,B-Grp_Enfermedad
+49,ES100051.xml,nevus azul prostático,645,666,B-Grp_Enfermedad
+50,ES100521.xml,lesiones necróticas,426,445,B-Grp_Enfermedad
+51,ES100521.xml,lesiones necróticas residuales,784,814,B-Grp_Enfermedad
+52,ES100521.xml,lesiones de pequeño tamaño,869,895,B-Grp_Enfermedad
+53,ES100521.xml,necrosis plantar izquierda,1027,1053,B-Grp_Enfermedad
+54,ES100521.xml,úlcera pretibial derecha,1222,1246,B-Grp_Enfermedad
+55,ES100521.xml,heridas cicatrizaron,3124,3144,B-Grp_Enfermedad
+56,ES100736.xml,paraparesia bilateral,1613,1634,B-Grp_Enfermedad
+57,ES100736.xml,hematoma ventral intradural extraparenquimatoso,1871,1918,B-Grp_Enfermedad
+58,ES100736.xml,lesión subyacente,2074,2091,B-Grp_Enfermedad
+59,ES100736.xml,hematoma ventral,2464,2480,B-Grp_Enfermedad
+60,ES100736.xml,lesiones macroscópicas,2828,2850,B-Grp_Enfermedad
+61,ES100050.xml,tumoración ligeramente,75,97,B-Grp_Enfermedad
+62,ES100050.xml,nódulos tumorales,371,388,B-Grp_Enfermedad
+63,ES100050.xml,nódulo era sólido,537,554,B-Grp_Enfermedad
+64,ES100050.xml,carcinoma,863,872,B-Grp_Enfermedad
+65,ES100050.xml,masas pardo-blanquecinas,925,949,B-Grp_Enfermedad
+66,ES100050.xml,seminoma clásico,1069,1085,B-Grp_Enfermedad
+67,ES100642.xml,deterioro neurológico,523,544,B-Grp_Enfermedad
+68,ES100091.xml,dolor lumbar izquierdo,93,115,B-Grp_Enfermedad
+69,ES100091.xml,quistes,1152,1159,B-Grp_Enfermedad
+70,ES100091.xml,lesiones quísticas,1216,1234,B-Grp_Enfermedad
+71,ES100091.xml,enfermedad hidatídica renal,1271,1298,B-Grp_Enfermedad
+72,ES100278.xml,amiloidosis renal,110,127,B-Grp_Enfermedad
+73,ES100278.xml,edemas bimaleolares,492,511,B-Grp_Enfermedad
+74,ES100278.xml,afectación,2591,2601,B-Grp_Enfermedad
+75,ES100278.xml,depósito,3023,3031,B-Grp_Enfermedad
+76,ES100578.xml,varices esofágicas,801,819,B-Grp_Enfermedad
+77,ES100587.xml,Amigdalitis de repetición,128,153,B-Grp_Enfermedad
+78,ES100587.xml,atrofia moderada,378,394,B-Grp_Enfermedad
+79,ES100587.xml,infiltrado inflamatorio importante,443,477,B-Grp_Enfermedad
+80,ES100182.xml,enfisema subcutáneo intenso,167,194,B-Grp_Enfermedad
+81,ES100182.xml,hematuria leve,198,212,B-Grp_Enfermedad
+82,ES100633.xml,dolor,45,50,B-Grp_Enfermedad
+83,ES100633.xml,recidiva doble,468,482,B-Grp_Enfermedad
+84,ES100631.xml,ictericia mucocutánea,111,132,B-Grp_Enfermedad
+85,ES100631.xml,tabaquismo leve,295,310,B-Grp_Enfermedad
+86,ES100631.xml,lesión estenosante,1743,1761,B-Grp_Enfermedad
+87,ES100631.xml,estenosis regular,2231,2248,B-Grp_Enfermedad
+88,ES100143.xml,lesión tenía aspecto quístico,267,296,B-Grp_Enfermedad
+89,ES100143.xml,quiste parauretral,554,572,B-Grp_Enfermedad
+90,ES100552.xml,dismetría derecha,278,295,B-Grp_Enfermedad
+91,ES100552.xml,masa era,831,839,B-Grp_Enfermedad
+92,ES100552.xml,recidiva del tumor,2051,2069,B-Grp_Enfermedad
+93,ES100778.xml,complicaciones crónicas,103,126,B-Grp_Enfermedad
+94,ES100803.xml,SDRC,60,64,B-Grp_Enfermedad
+95,ES100634.xml,síndrome,46,54,B-Grp_Enfermedad
+96,ES100634.xml,metástasis hepáticas bilobares,171,201,B-Grp_Enfermedad
+97,ES100634.xml,recidiva,666,674,B-Grp_Enfermedad
+98,ES100797.xml,lumbociatalgia izquierda,472,496,B-Grp_Enfermedad
+99,ES100797.xml,deshidratación discal,769,790,B-Grp_Enfermedad
+100,ES100797.xml,cambios degenerativos,802,823,B-Grp_Enfermedad
+101,ES100797.xml,neuropatía,1112,1122,B-Grp_Enfermedad
+102,ES100797.xml,cicatriz disestésica,1374,1394,B-Grp_Enfermedad
+103,ES100594.xml,pérdida de peso progresiva,209,235,B-Grp_Enfermedad
+104,ES100594.xml,masa mamelonada,314,329,B-Grp_Enfermedad
+105,ES100594.xml,neoplasia moderadamente diferenciado,539,575,B-Grp_Enfermedad
+106,ES100594.xml,adenopatía subcarinal,1425,1446,B-Grp_Enfermedad
+107,ES100594.xml,cáncer infiltrante,1651,1669,B-Grp_Enfermedad
+108,ES100423.xml,pérdida,71,78,B-Grp_Enfermedad
+109,ES100423.xml,higroma subdural temporal,160,185,B-Grp_Enfermedad
+110,ES100423.xml,absceso occipital craneal,188,213,B-Grp_Enfermedad
+111,ES100423.xml,Malformación,361,373,B-Grp_Enfermedad
+112,ES100423.xml,nistagmus vertical leve,568,591,B-Grp_Enfermedad
+113,ES100423.xml,defecto pupilar,921,936,B-Grp_Enfermedad
+114,ES100423.xml,nistagmus,970,979,B-Grp_Enfermedad
+115,ES100030.xml,aumento del tamaño,144,162,B-Grp_Enfermedad
+116,ES100030.xml,linfedema hipogástrico,335,357,B-Grp_Enfermedad
+117,ES100030.xml,metástasis subcutáneas prepuciales,485,519,B-Grp_Enfermedad
+118,ES100030.xml,tumor infiltrante,794,811,B-Grp_Enfermedad
+119,ES100030.xml,adenocarcinoma moderadamente diferenciado,818,859,B-Grp_Enfermedad
+120,ES100178.xml,hematoma subcapsular,462,482,B-Grp_Enfermedad
+121,ES100420.xml,arteritis,75,84,B-Grp_Enfermedad
+122,ES100420.xml,defecto pupilar,439,454,B-Grp_Enfermedad
+123,ES100420.xml,cataratas incipientes,878,899,B-Grp_Enfermedad
+124,ES100420.xml,pseudotumor,1837,1848,B-Grp_Enfermedad
+125,ES100363.xml,lesiones erosivas,1367,1384,B-Grp_Enfermedad
+126,ES100363.xml,infiltrado pulmonar,1454,1473,B-Grp_Enfermedad
+127,ES100363.xml,engrosamiento,1768,1781,B-Grp_Enfermedad
+128,ES100363.xml,infiltración mucosa,2208,2227,B-Grp_Enfermedad
+129,ES100363.xml,masa de aspecto necrótico,2259,2284,B-Grp_Enfermedad
+130,ES100001.xml,lesión hipointensa,381,399,B-Grp_Enfermedad
+131,ES100001.xml,lesión neoplásica,653,670,B-Grp_Enfermedad
+132,ES100571.xml,adenocarcinoma,137,151,B-Grp_Enfermedad
+133,ES100571.xml,estenosis regular fibrótica,1575,1602,B-Grp_Enfermedad
+134,ES100571.xml,inflamación aguda,1688,1705,B-Grp_Enfermedad
+135,ES100571.xml,colitis actínica,1833,1849,B-Grp_Enfermedad
+136,ES100571.xml,enteritis actínica,2579,2597,B-Grp_Enfermedad
+137,ES100571.xml,eosinofilia periférica,2835,2857,B-Grp_Enfermedad
+138,ES100571.xml,enteritis actínica,3496,3514,B-Grp_Enfermedad
+139,ES100571.xml,eosinofilia periférica,3517,3539,B-Grp_Enfermedad
+140,ES100809.xml,contusión pulmonar leve,827,850,B-Grp_Enfermedad
+141,ES100809.xml,irritación peritoneal,1580,1601,B-Grp_Enfermedad
+142,ES100410.xml,enfermedad coronaria de tres vasos,316,350,B-Grp_Enfermedad
+143,ES100410.xml,obstrucción no revascularizable,355,386,B-Grp_Enfermedad
+144,ES100410.xml,insuficiencia renal moderada,547,575,B-Grp_Enfermedad
+145,ES100410.xml,obnubilación progresiva,1783,1806,B-Grp_Enfermedad
+146,ES100412.xml,dolor ocular intenso,72,92,B-Grp_Enfermedad
+147,ES100412.xml,pérdida visual progresiva,107,132,B-Grp_Enfermedad
+148,ES100412.xml,masa pigmentada,194,209,B-Grp_Enfermedad
+149,ES100412.xml,melanoma,797,805,B-Grp_Enfermedad
+150,ES100412.xml,invasión escleral,1180,1197,B-Grp_Enfermedad
+151,ES100412.xml,masa circunferencial,1551,1571,B-Grp_Enfermedad
+152,ES100412.xml,proliferación de células fusiformes,1720,1755,B-Grp_Enfermedad
+153,ES100002.xml,hipertrofia benigna,54,73,B-Grp_Enfermedad
+154,ES100002.xml,hematuria monosintomática,109,134,B-Grp_Enfermedad
+155,ES100002.xml,ureteropielocaliectasia grado II,208,240,B-Grp_Enfermedad
+156,ES100002.xml,Aneurisma carotídeo intracerebral,632,665,B-Grp_Enfermedad
+157,ES100002.xml,signos patológicos,841,859,B-Grp_Enfermedad
+158,ES100002.xml,HBP grado I-II,889,903,B-Grp_Enfermedad
+159,ES100002.xml,carcinoma,1102,1111,B-Grp_Enfermedad
+160,ES100002.xml,Defecto,1203,1210,B-Grp_Enfermedad
+161,ES100002.xml,Aneurisma,1455,1464,B-Grp_Enfermedad
+162,ES100002.xml,Atrofia,1487,1494,B-Grp_Enfermedad
+163,ES100002.xml,adenopatías paravesicales,1593,1618,B-Grp_Enfermedad
+164,ES100002.xml,tumor,1659,1664,B-Grp_Enfermedad
+165,ES100002.xml,lesión inflamatoria ureteral,1945,1973,B-Grp_Enfermedad
+166,ES100002.xml,erosión,2044,2051,B-Grp_Enfermedad
+167,ES100002.xml,HBP sintomática,2220,2235,B-Grp_Enfermedad
+168,ES100994.xml,osteoporosis densitométrica lumbar,195,229,B-Grp_Enfermedad
+169,ES100994.xml,dolor,690,695,B-Grp_Enfermedad
+170,ES100994.xml,fractura,915,923,B-Grp_Enfermedad
+171,ES100994.xml,fractura,1921,1929,B-Grp_Enfermedad
+172,ES100163.xml,hematoma perineal dependiente de porción proximal de cuerpo cavernoso izquierdo,555,634,B-Grp_Enfermedad
+173,ES100177.xml,Litiasis cálcica,117,133,B-Grp_Enfermedad
+174,ES100177.xml,dolor lumbar intenso,440,460,B-Grp_Enfermedad
+175,ES100177.xml,abombamiento lumbar,524,543,B-Grp_Enfermedad
+176,ES100177.xml,hematoma subcapsular,603,623,B-Grp_Enfermedad
+177,ES100177.xml,Palidez cutaneomucosa intensa,645,674,B-Grp_Enfermedad
+178,ES100417.xml,lesiones ovales,765,780,B-Grp_Enfermedad
+179,ES100417.xml,atrofia parapapilar temporal,1063,1091,B-Grp_Enfermedad
+180,ES100417.xml,atrofia,1110,1117,B-Grp_Enfermedad
+181,ES100417.xml,infección ocular intrauterina,1437,1466,B-Grp_Enfermedad
+182,ES100417.xml,coloboma macular atípico bilateral,2547,2581,B-Grp_Enfermedad
+183,ES100832.xml,rigidez,903,910,B-Grp_Enfermedad
+184,ES100832.xml,exantema cutáneo generalizado,1552,1581,B-Grp_Enfermedad
+185,ES100832.xml,Congestión pulmonar moderada,1789,1817,B-Grp_Enfermedad
+186,ES100832.xml,edema pulmonar importante de características alveolar,1822,1875,B-Grp_Enfermedad
+187,ES100832.xml,Derrame pleural derecho,1916,1939,B-Grp_Enfermedad
+188,ES100832.xml,Derrame pericárdico leve,1941,1965,B-Grp_Enfermedad
+189,ES100832.xml,edematoso generalizado,2247,2269,B-Grp_Enfermedad
+190,ES100832.xml,hemorragia grave,3263,3279,B-Grp_Enfermedad
+191,ES100832.xml,shock en fase,3320,3333,B-Grp_Enfermedad
+192,ES100832.xml,miocarditis neutrofílica,3444,3468,B-Grp_Enfermedad
+193,ES100775.xml,adenopatía axilar izquierda,93,120,B-Grp_Enfermedad
+194,ES100775.xml,Enfermedad,444,454,B-Grp_Enfermedad
+195,ES100946.xml,tumefacción mandibular derecha,29,59,B-Grp_Enfermedad
+196,ES100946.xml,lesión expansiva,120,136,B-Grp_Enfermedad
+197,ES100946.xml,lesión expansiva,267,283,B-Grp_Enfermedad
+198,ES100946.xml,tumoración carnosa,537,555,B-Grp_Enfermedad
+199,ES100946.xml,pleomorfimso celular,2572,2592,B-Grp_Enfermedad
+200,ES100947.xml,enrojecimiento,339,353,B-Grp_Enfermedad
+201,ES100947.xml,infiltrado linfo-plasmocitario yuxtaepitelial,1602,1647,B-Grp_Enfermedad
+202,ES100760.xml,lesiones blanquecinas,290,311,B-Grp_Enfermedad
+203,ES100760.xml,infiltración blástica,996,1017,B-Grp_Enfermedad
+204,ES100760.xml,crisis blástica linfoide,1059,1083,B-Grp_Enfermedad
+205,ES100760.xml,crisis blástica,1197,1212,B-Grp_Enfermedad
+206,ES100819.xml,hernia discal L5-S1,111,127,B-Grp_Enfermedad
+207,ES100819.xml,pérdida hemática fue mínima,2048,2075,B-Grp_Enfermedad
+208,ES100819.xml,discromatopsias desaparecieron,3362,3392,B-Grp_Enfermedad
+209,ES100789.xml,espondiloartrosis grave,113,136,B-Grp_Enfermedad
+210,ES100978.xml,debilidad cervical,967,985,B-Grp_Enfermedad
+211,ES100978.xml,enfermedad,1657,1667,B-Grp_Enfermedad
+212,ES100978.xml,atrofia muscular de ambos muslos,2411,2443,B-Grp_Enfermedad
+213,ES100978.xml,miopatía,2699,2707,B-Grp_Enfermedad
+214,ES100978.xml,enfermedad primaria,2853,2872,B-Grp_Enfermedad
+215,ES100978.xml,trastorno adaptativo secundario,3692,3723,B-Grp_Enfermedad
+216,ES100937.xml,infección bacteriana grave,566,592,B-Grp_Enfermedad
+217,ES100937.xml,mal color,850,859,B-Grp_Enfermedad
+218,ES100937.xml,infiltrados alveolointersticiales bilaterales,1250,1295,B-Grp_Enfermedad
+219,ES100937.xml,edema agudo,1348,1359,B-Grp_Enfermedad
+220,ES100937.xml,infección,1772,1781,B-Grp_Enfermedad
+221,ES100513.xml,hipoplasia facial derecha,72,97,B-Grp_Enfermedad
+222,ES100513.xml,anquílosis mandibular,124,145,B-Grp_Enfermedad
+223,ES100063.xml,dolor,75,80,B-Grp_Enfermedad
+224,ES100063.xml,obesidad moderada,329,346,B-Grp_Enfermedad
+225,ES100063.xml,infiltración parietal,1538,1559,B-Grp_Enfermedad
+226,ES100063.xml,necrosis intratumoral,2755,2776,B-Grp_Enfermedad
+227,ES100659.xml,pancreatitis aguda alitiásica moderada,94,132,B-Grp_Enfermedad
+228,ES100659.xml,dolor agudo,161,172,B-Grp_Enfermedad
+229,ES100659.xml,irritación peritoneal,305,326,B-Grp_Enfermedad
+230,ES100659.xml,pseudoquiste pancreático,616,640,B-Grp_Enfermedad
+231,ES100840.xml,mioma uterino calcificado,67,92,B-Grp_Enfermedad
+232,ES100840.xml,dolor abdominal cólico,208,230,B-Grp_Enfermedad
+233,ES100840.xml,irritación peritoneal,709,730,B-Grp_Enfermedad
+234,ES100840.xml,calcificaciones uterinas,1199,1223,B-Grp_Enfermedad
+235,ES100840.xml,calcificaciones grumosas,1693,1717,B-Grp_Enfermedad
+236,ES100840.xml,líquido libre seroso,2043,2063,B-Grp_Enfermedad
+237,ES100840.xml,engrosamiento estenosante,2092,2117,B-Grp_Enfermedad
+238,ES100840.xml,adenopatías mesentéricas,2233,2257,B-Grp_Enfermedad
+239,ES100713.xml,tumoración malar izquierda progresiva,84,121,B-Grp_Enfermedad
+240,ES100713.xml,lesión malar,430,442,B-Grp_Enfermedad
+241,ES100713.xml,calcificación parcial,472,493,B-Grp_Enfermedad
+242,ES100713.xml,lesión medular,571,585,B-Grp_Enfermedad
+243,ES100713.xml,lesión osteolítica malar,753,777,B-Grp_Enfermedad
+244,ES100713.xml,infiltración,857,869,B-Grp_Enfermedad
+245,ES100713.xml,hemangioma intraóseo,1730,1750,B-Grp_Enfermedad
+246,ES100896.xml,tos escasa,81,91,B-Grp_Enfermedad
+247,ES100896.xml,sibilancias espiratorias bilaterales,881,917,B-Grp_Enfermedad
+248,ES100896.xml,hiperemia timpánica bilateral,1073,1102,B-Grp_Enfermedad
+249,ES100896.xml,atrapamiento,1264,1276,B-Grp_Enfermedad
+250,ES100064.xml,proptosis,99,108,B-Grp_Enfermedad
+251,ES100064.xml,poliposis laríngea,265,283,B-Grp_Enfermedad
+252,ES100064.xml,dolor facial,917,929,B-Grp_Enfermedad
+253,ES100064.xml,lesiones isquémicas supratentoriales,1489,1525,B-Grp_Enfermedad
+254,ES100064.xml,ocupación,1691,1700,B-Grp_Enfermedad
+255,ES100064.xml,obliteración,1871,1883,B-Grp_Enfermedad
+256,ES100064.xml,proptosis ocular,1965,1981,B-Grp_Enfermedad
+257,ES100064.xml,masa expansiva,2003,2017,B-Grp_Enfermedad
+258,ES100064.xml,infiltración blástico-lítica vertebral,2411,2449,B-Grp_Enfermedad
+259,ES100064.xml,proptosis ocular izquierda,3130,3156,B-Grp_Enfermedad
+260,ES100273.xml,infecciones,455,466,B-Grp_Enfermedad
+261,ES100273.xml,infección,660,669,B-Grp_Enfermedad
+262,ES100924.xml,placas lineales,230,245,B-Grp_Enfermedad
+263,ES100688.xml,aumento,259,266,B-Grp_Enfermedad
+264,ES100688.xml,dolor post,1527,1537,B-Grp_Enfermedad
+265,ES100663.xml,disfagia progresiva,316,335,B-Grp_Enfermedad
+266,ES100663.xml,masa de color marrón-negro,549,575,B-Grp_Enfermedad
+267,ES100663.xml,adenopatías periféricas,1618,1641,B-Grp_Enfermedad
+268,ES100663.xml,metástasis hepáticas,1974,1994,B-Grp_Enfermedad
+269,ES100715.xml,lesión era,576,586,B-Grp_Enfermedad
+270,ES100715.xml,tumor odontogénico,1467,1485,B-Grp_Enfermedad
+271,ES100715.xml,pleomorfismo celular,2650,2670,B-Grp_Enfermedad
+272,ES100715.xml,proliferación neoplásica,2763,2787,B-Grp_Enfermedad
+273,ES100715.xml,carcinoma de células,3115,3135,B-Grp_Enfermedad
+274,ES100715.xml,tumores primarios,3366,3383,B-Grp_Enfermedad
+275,ES100098.xml,EPOC moderado,37,50,B-Grp_Enfermedad
+276,ES100098.xml,proliferación fibroblástica reactiva,1343,1379,B-Grp_Enfermedad
+277,ES100098.xml,tumor fibroso,1386,1399,B-Grp_Enfermedad
+278,ES100098.xml,pleomorfismo celular,1675,1695,B-Grp_Enfermedad
+279,ES100098.xml,necrosis intratumoral,1706,1727,B-Grp_Enfermedad
+280,ES100098.xml,necrosis celular,1752,1768,B-Grp_Enfermedad
+281,ES100259.xml,eritema malar,342,355,B-Grp_Enfermedad
+282,ES100259.xml,tumor intracava,1527,1542,B-Grp_Enfermedad
+283,ES100112.xml,pérdida,443,450,B-Grp_Enfermedad
+284,ES100112.xml,dolor súbito,533,545,B-Grp_Enfermedad
+285,ES100112.xml,masa dolorosa,670,683,B-Grp_Enfermedad
+286,ES100112.xml,anemia normocítica,751,769,B-Grp_Enfermedad
+287,ES100112.xml,masa renal derecha,931,949,B-Grp_Enfermedad
+288,ES100112.xml,masa mixta,1149,1159,B-Grp_Enfermedad
+289,ES100112.xml,infiltración perirrenal,1920,1943,B-Grp_Enfermedad
+290,ES100112.xml,masas quísticas,2228,2243,B-Grp_Enfermedad
+291,ES100112.xml,infiltración hepática,2372,2393,B-Grp_Enfermedad
+292,ES100112.xml,lesiones metastásicas,2648,2669,B-Grp_Enfermedad
+293,ES100112.xml,hematoma retroperitoneal,2993,3017,B-Grp_Enfermedad
+294,ES100112.xml,tumoración quística hemorrágica,3044,3075,B-Grp_Enfermedad
+295,ES100112.xml,hematoma retroperitoneal,3331,3355,B-Grp_Enfermedad
+296,ES100310.xml,carcinoma epidermoide infiltrante,34,67,B-Grp_Enfermedad
