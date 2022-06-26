@@ -1,13 +1,13 @@
 # Information Extraction on Clinical Domain
 
-Here is avaliable the all the code developed in the frame of the TFM 'Information Extraction on Clinical Domain: Temporal Expresiones, Events and Temporal Relations'.
+Here is avaliable the all the code developed in the frame of the TFM **_'Information Extraction on Clinical Domain: Temporal Expresiones, Events and Temporal Relations'_**.
 
 The code is divided into to main frames, the <b>scripts</b> used to preprocess the data and the <b>notebooks</b> used for training the transformer-based models. Both had been written in Python.
 All the code is annotated with descriptions explaining all the methods and the process, in case someone wants to read and check the code. 
 
 The notebooks are the main part of the code, becasuse it can be reused in many ways, the scripts are really specific to the corpus used. 
 For reuse the notebooks they just have to been downloaded and executed in a prepared enviorment. All the necessary libraries for the code to work are specified in the notebooks.
-It is recommended to export them into some platform like _google colab_ because the models used have are large in size and they need from powerfull hardware to work properlly.
+It is recommended to export them into some platform like _google colab_ because the models used are large in size and they need from powerfull hardware to work properlly.
 
 All the datasets extracted from the corpus are also avaliable together with the data obtained from the classifications of the models.
 Each model has needed specific dataset with specific format so the project counts with a lot of files with similar information. The necessary documents for each part are specified in the code.
