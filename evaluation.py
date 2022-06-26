@@ -206,7 +206,7 @@ def evaluacion_heidel(file_heidel, file_e3c):
                     break
     
     """
-    #Esto es para sacar qué clase de expresiones anota mal el heidel cuando coje la extensión parcial
+    #Esto es para sacar qué clase de expresiones anota mal el heidel cuando coge la extensión parcial
     lista_final = []
     lista_final.append(lista_inicial_bien)
     lista_final.append(lista_inicial_mal)
@@ -230,7 +230,7 @@ def evaluacion_heidel(file_heidel, file_e3c):
         write.writerows(lista_completa_mal)
     """
     """
-    #Esto es para sacar qué clase de expresiones anota mal el heidel cuando coje la extensión completa
+    #Esto es para sacar qué clase de expresiones anota mal el heidel cuando coge la extensión completa
     df_attr_completo = pd.read_csv('bien_mal_completo.csv')
     attr_completo_mal = df_attr_completo[df_attr_completo['B/M'] == 'MAL']
     attr_completo_mal_uniques = attr_completo_mal.heidel_type.unique()
@@ -284,7 +284,6 @@ def evaluacion_heidel(file_heidel, file_e3c):
                             df_heidel_final.drop(index = _, inplace=True)
                         else:
                             fp_attr_contenido+=1
-        #break
     #print(df_e3c_final)
     #print(len(df_e3c_final.index))
     #print(df_heidel_final)
@@ -300,6 +299,8 @@ def evaluacion_heidel(file_heidel, file_e3c):
     tp_attr_relaxed = tp_attr_relaxed_final + tp_attr_relaxed_principio + tp_attr_relaxed_contenido + tp_attr_strict
     tp_extent_relaxed = tp_extent_relaxed_final + tp_extent_relaxed_principio  + tp_attr_relaxed_contenido        
     
+   
+   #Las siguientes líneas muestran por línea de comandos los resultados
     """
     print('Final mal:' + str(lista_final_mal))
     print()
@@ -399,6 +400,7 @@ def file_dif(file_1, file_2):
 #                                                           IXAMED
 #
 #--------------------------------------------------------------------------------------------------------------------------------------------#
+#Se tokenizan los textos con spicy
 def pre_process_ixamed():
 
     nlp = Spanish()
@@ -473,11 +475,11 @@ def pre_process_ixamed():
 -Fallo si el begin no está
 
 Para cada expresion del ixa buscar en el corpus si hay alguna con el mismo begin -> entonces borrar coincidencias
-tp -> se coincide el begin
+tp -> si coincide el begin
 fp -> los remanentes del ixa
 fn -> los remanentes del e3c
 """
-
+#Se cuadran los tokens de ixamed con los tokens del corpus
 def expresiones_ixamed():
     #strings guarda los eventos detectados. strings_temp se utiliza para almacenar las palabras que componen un evento mayor. Tipos guarda de forma binaria si una palabra está anotada (1) o no (0) 
     strings = []
@@ -663,7 +665,7 @@ def expresiones_ixamed():
             end_final.clear()
             f.close()
 
-
+#Evalúa las anotaciones IxaMed con los clinentity del corpus
 def evaluacion_ixamed_clinentity():
     
     df_ixa = pd.read_csv('events_ixamed_con_begin.csv')
@@ -744,12 +746,12 @@ def evaluacion_ixamed_clinentity():
     print('PRECISION: ' + str(precision_total))
     print('RECALL: ' + str(recall_total)) 
     print('F1: ' + str(F1))
-    #Evaluación de eventos
     
-    
+        
     #df_corpus.to_csv('events_sinTLINK.csv', index=False)
     #df_corpus_con.to_csv('events_conTLINK.csv', index=False)
 
+#Evalúa las anotaciones de IxaMed sobre el conjunto EVENT del corpus
 def evaluacion_ixamed_events():
     df_events_corpus = pd.read_csv('events.csv')
     df_events_corpus_aux = df_events_corpus.copy()
@@ -812,6 +814,7 @@ def evaluacion_ixamed_events():
 
     False
 
+#Calcula el número de entidades que son eventos y los que no 
 def clinentity_events_join():
     df_clinentity = pd.read_csv('clinentity.csv')
     df_events = pd.read_csv('events.csv')
@@ -844,7 +847,7 @@ def clinentity_events_join():
     print('Número de entidades clínicas que son eventos: ' + str(len(df_clinentity_events.index)))
     print('Número de entidades clínicas que NO son eventos: ' + str(int(len(df_clinentity.index)) - len(df_clinentity_events.index)))
 
-
+#Se utiliza para crear los csv con las columnas que se quieran
 def create_csv(filename_e3c, fields_e3c):
 
     with open(filename_e3c, 'w') as csvfile: 
@@ -869,6 +872,7 @@ def write_ixamed_to_csv(file, output_clear, type):
         #writing the data rows 
         csvwriter.writerows(rows)
 
+#Los siguientes métodos sacan gráficos de los resultados de los modelos de transformers
 def results_roberta_to_img():
 
     df_results_completo = pd.read_csv('resultados_train_24.csv', delimiter=';')
@@ -1181,19 +1185,6 @@ def resultados_epoch_relaciones():
     plt.legend(fontsize = 'small')
     plt.show()
     """
-
-def prueba():
-    df_4 = pd.read_csv('/Users/asdc/Proyectos/time_line_extraction/relaciones_resultados/class_report_bioRoberta_bs16_epoch4_dataset_1.csv')
-    df_8 = pd.read_csv('/Users/asdc/Proyectos/time_line_extraction/relaciones_resultados/class_report_bioRoberta_bs16_epoch8_dataset_1.csv')
-    df_12 = pd.read_csv('/Users/asdc/Proyectos/time_line_extraction/relaciones_resultados/class_report_bioRoberta_bs16_epoch12_dataset_1.csv')
-
-    avr_4 = df_4['f1-score'].iloc[len(df_4)-1]
-    avr_8 = df_8['f1-score'].iloc[len(df_8)-1]
-    avr_12 = df_12['f1-score'].iloc[len(df_12)-1]
-
-    print(avr_4/4)
-    print(avr_8/8)
-    print(avr_12/12)
     
 def main():
     #insert_file_id('/Users/asdc/Proyectos/time_line_extraction/time_expresions_heidel.csv', '/Users/asdc/Proyectos/time_line_extraction/time_expresions_heidel_conID.csv')
@@ -1226,7 +1217,9 @@ def main():
 
     resultados_epoch_relaciones()
     
-    #prueba()
+
+
+
     False
 if __name__ == "__main__":
     main()

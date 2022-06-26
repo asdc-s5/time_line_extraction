@@ -26,6 +26,7 @@ import random
 from itertools import combinations
 from zmq import EVENT_CLOSE_FAILED
 
+#Esta línea carga HeidelTime como una librería, si se mueve de ubicación cambiar esta línea
 sys.path.insert(0, '/Users/asdc/Proyectos/time_line_extraction/python_heideltime/python_heideltime')
 
 from python_heideltime import Heideltime
@@ -36,10 +37,6 @@ FIELDS_E3C = ['file', 'id', 'string','begin', 'end', 'value', 'timex3Class', 'ti
 FILENAME_E3C = "time_expresions.csv"
 PATH = '/Users/asdc/Library/CloudStorage/OneDrive-UNED/E3C-Corpus-2.0.0/data_annotation/Spanish/layer1/'
 PATH_HEIDEL = '/Users/asdc/Library/CloudStorage/OneDrive-UNED/E3C-Corpus-2.0.0/data_annotation_heidel/'
-
-
-#SACAR LA FECHA DE REGISTRO DEL FICHERO PARA PASARSELA COMO REFERENCIA EL HEIDEL#
-#ESTRUCTURAR EL CÓDIGO CON MAIN Y MÉTODO PARA EXTRAER TEXTO Y EXPRESIONES DEL DATASET Y RESULTADOS DEL HEIDELTIME#
 
     
 #------EXTRACT_TEXT-----#
@@ -127,7 +124,7 @@ def extract_events():
             #print(df_event)
             write_events_to_csv(file, df_event['id'], output_clear, df_event['begin'], df_event['end'], df_event['ALINK'], df_event['TLINK'], df_event['contextualAspect'], df_event['contextualModality'], df_event['degree'], df_event['docTimeRel'], df_event['eventType'], df_event['permanence'], df_event['polarity'])
         
-    #La forma original con la que sacaba los eventos. Mucho más enrevesado y menos eficiente.
+    #La forma original con la que sacaba los eventos.
     """
     dfcols = ['begin', 'end']
     df_event = pd.DataFrame(columns=dfcols)
@@ -183,15 +180,10 @@ def extract_clienentity():
             strings.append(output_clear)
     """
 
-    #print(df_prueba)
+    #Para guardarlo en un csv 
     #create_csv(filename_e3c='clinentity.csv', fields_e3c=['begin', 'end', 'CLINENTITY'])
     #df_prueba.to_csv('clinentity.csv')
-
-#------EXTRACT_TLINKS()-----#
-def extract_tlinks():
     
-
-    False      
 
 #------EXTRACT_TIMEX3-----#
 """
@@ -295,7 +287,7 @@ def write_tlink_to_csv():
 
 #------CREATE_CSV()-----#
 """
-Crea un csv según los parametros definidos en las constantes globales
+Crea un csv según los parametros
 """
 def create_csv(filename_e3c, fields_e3c):
 
@@ -364,20 +356,10 @@ def get_tokens_events():
     abs_path = '/Users/asdc/Library/CloudStorage/OneDrive-UNED/E3C-Corpus-2.0.0/data_annotation/Spanish/layer1/'
     file_output = '/Users/asdc/Proyectos/time_line_extraction/tokens_event_tagged.csv'
     create_csv(filename_e3c=file_output, fields_e3c=['file', 'string', 'begin', 'end', 'tag'])
-    #create_csv(filename_e3c=file_output, fields_e3c=['string', 'begin', 'end', 'tag'])
     for file in  os.listdir(abs_path): 
         path = abs_path + file
         if path != abs_path + '.DS_Store':
             df = pd.read_xml(path)
-            """
-            input_id = df.loc[df['id'] == 1]
-            input_id = input_id['sofa']
-            input_id = int(input_id.values[0])
-
-
-            input_ = df.loc[df['id'] == input_id]
-            input_ = input_['sofaString']
-            """
             beginings_token = []
             endings_token = []
             tokens = []
@@ -400,19 +382,6 @@ def get_tokens_events():
 
             tags_pos = []
             tags = []
-            """
-            beginings_token_ = beginings_token
-            for begin_event in beginings_events:
-                for begin_token in beginings_token_:
-                    if begin_token == begin_event:
-                        tags.append(1)
-                        #beginings_token_.pop(0)
-                        beginings_token_ = beginings_token_[1:]
-                    else:
-                        tags.append(0)
-                        beginings_token_.pop(0)
-                        beginings_token_ = beginings_token_[1:]
-            """
 
             for begin_event in beginings_events:
                 i = 0 
@@ -427,34 +396,13 @@ def get_tokens_events():
                 else:
                     tags.append(0)
                 j += 1
-            #print(tokens)
-            #print(beginings_events)
             rows = [[file, tokens, beginings_token, endings_token, tags]]
-            #rows.append(file)
-            
+            rows.append(file)
             df_row = pd.DataFrame(rows, columns = ['file','string', 'begin', 'end', 'tag'])
-            print(rows)
-            #print(df_row)
+            #Para guardarlo en un CSV
             #df_row.to_csv('tokens_event_tagged.csv', mode = 'a', index = False, header=False)
             
-
-
-            #Generates the rows for the csv
-            """
-            for beg, end_, tag, output in zip(beginings_token, endings_token, tags, tokens):
-                row = [str(file), str(output), str(int(beg)), str(int(end_)), str(tag)]
-                rows.append(row)
-            
-
-            # writing to csv file 
-            with open(file_output, 'a') as csvfile: 
-                #creating a csv writer object 
-                csvwriter = csv.writer(csvfile) 
-                    
-                #writing the data rows 
-                csvwriter.writerows(rows)
-            """
-
+#Hace la división entre train, dev y test en base a la distribución de ficheros que se le indica para los EVENT
 def train_test():
     df = pd.read_csv('tokens_event_tagged.csv')
     list_test = ['ES100001.xml', 'ES100002.xml', 'ES100030.xml', 'ES100042.xml', 'ES100079.xml', 'ES100143.xml', 'ES100163.xml', 'ES100178.xml', 'ES100214.xml', 'ES100363.xml', 'ES100410.xml', 'ES100412.xml', 'ES100417.xml', 'ES100445.xml', 'ES100513.xml', 'ES100526.xml', 'ES100569.xml', 'ES100594.xml', 'ES100634.xml', 'ES100642.xml', 'ES100686.xml', 'ES100688.xml', 'ES100705.xml', 'ES100713.xml', 'ES100715.xml', 'ES100727.xml', 'ES100737.xml', 'ES100775.xml', 'ES100778.xml', 'ES100803.xml', 'ES100819.xml', 'ES100832.xml', 'ES100840.xml', 'ES100848.xml', 'ES100937.xml', 'ES100947.xml']
@@ -469,17 +417,15 @@ def train_test():
     df_test = df[df_filter]
     df_filter = df['file'].isin(list_dev)
     df_dev = df[df_filter]
+    #Se puede comprobar el número de filas con el len de los dataframes
     #print(len(df_train))
     #print(len(df_test))
     #print(len(df))
     df_train.to_csv('events_train.csv',index = False)
     df_test.to_csv('events_test.csv',index = False)
     df_dev.to_csv('events_dev.csv', index = False)
-    #df_comprobar = pd.read_csv('events_train.csv')
-    #df_comprobar_ = pd.to_numeric(df_comprobar['tag'])
-    #df_comprobar_ = df_comprobar['tag'].astype(str).astype(int)
-    #print(df_comprobar_.dtypes)
 
+#Calcula el número de tokens que hay en cada dataset: test, train y dev
 def numero_tokens_train_test():
     df_train = pd.read_csv('events_train.csv', converters={'string': ast.literal_eval, 'tag': ast.literal_eval, 'begin': ast.literal_eval, 'end': ast.literal_eval})
     df_test = pd.read_csv('events_test.csv', converters={'string': ast.literal_eval, 'tag': ast.literal_eval, 'begin': ast.literal_eval, 'end': ast.literal_eval})
@@ -519,6 +465,7 @@ def numero_tokens_train_test():
     #print(len(df_train['file']))
     #print(len(df_dev['file']))
 
+#Saca todos los eventos, timex, sentences y tlinks con su file, id, begin y end
 def sacar_eventos_total():
     abs_path = '/Users/asdc/Library/CloudStorage/OneDrive-UNED/E3C-Corpus-2.0.0/data_annotation/Spanish/layer1/'
     create_csv(filename_e3c='eventos_sentence_completo.csv', fields_e3c=['file','id_event','begin_event','end_event','tlink','alink','contextualAspect','contextualModality','degree','docTimeRel','eventType','permanence','polarity','id_sentence', 'begin_sentence', 'end_sentence','id_timex', 'begin_timex', 'end_timex', 'tlink_timex'])
@@ -631,9 +578,9 @@ def sacar_eventos_total():
                 df_row_timex = pd.DataFrame(rows_timex, columns=['file','id', 'type', 'role', 'target'])
                 df_row_timex.to_csv('tlink_completo.csv', mode='a', index=False, header=False)
 
-            
-def estadísticas_eventos():
-    df_eventos = pd.read_csv('prueba.csv')
+#Muestra por consola las estadísticas de los eventos del fichero que se le pase.
+def estadísticas_eventos(file):
+    df_eventos = pd.read_csv(file)
 
     print('----------contextualAspect----------')
     contextual_aspect = df_eventos['contextualAspect'].unique().tolist()
@@ -723,7 +670,7 @@ def estadísticas_eventos():
             print(len(df_eventos[df_eventos['polarity'] == i]))
     print()
 
-
+#Crea las parejas de evento-evento, evento-timex, timex-evento y timex-timex
 def get_event_timex_pairs():
     
     create_csv('event_timex_pairs.csv',['file', 'id_sentence', 'sentence_begin', 'sentence_end', 'link', 'pairs_events'])
@@ -868,8 +815,8 @@ def get_event_timex_pairs():
                 df_temp.to_csv('sentences_no_pairs.csv', mode='a', header=False, index=False)
                 
     
-    #Asignar tags
 
+#Extrae los enlaces temporales del corpus, guardando el id de la relación, el par de entidades que la componen, el rol y el tipo
 def get_tlink():
     create_csv('pairs_tlink_tagged.csv', ['file', 'id_tlink', 'id_pairs', 'role', 'type'])
     df_events_con_tlink = pd.read_csv('events_conTLINK.csv')
@@ -949,6 +896,7 @@ def pairs_tagged():
                 df_row = pd.DataFrame([[row_tagged['file'], row_untagged['id_sentence'], -1, np.array(pair_), -1, row_tagged['type']]], columns=columnas)
             df_row.to_csv('events_timex_pairs_tagged.csv', header=False, mode='a', index=False)
     
+#Extrae el texto de cada enunciado de cada documento, así como su begin y su end
 def sentence_strings():
     create_csv('sentence_strings.csv', ['file','id_sentence','string_sentence', 'begin', 'end'])
     for file in  os.listdir(PATH):
@@ -964,6 +912,7 @@ def sentence_strings():
                     df_row = pd.DataFrame([[file, id_sentence, str(sentence), row.attrib['begin'], row.attrib['end']]], columns=['file','id_sentence','string_sentence', 'begin', 'end'])
                     df_row.to_csv('sentence_strings.csv', mode='a', index=False, header=False)
 
+#Guarda únicamente los enunciados que tienen enlaces temporales
 def sentence_strings_con_pair():
     create_csv('sentence_strings_con_pair.csv', ['file', 'id_sentence', 'string_sentence', 'begin', 'end'])
     df_all_sentences = pd.read_csv('sentence_strings.csv')
@@ -981,7 +930,7 @@ def sentence_strings_con_pair():
         
 
 
-#NO SÉ PORQUÉ SE DESCUADRA Y A VECES COGE FRASES Y LAS METE DONDE NO ES 
+#Empareja los enunciados con todas las parejas que lo componen
 def pairs_tagged_string():
     #SE PUEDE MIRAR QUE SI EL EVENTO PRINCIPAL VA DESPUÉS QUE EL SEGUNDO EVENTO EN EL TEXTO NO SE DESORDENEN
     columnas = ['file', 'sentence', 'type', 'tag']
@@ -1010,35 +959,7 @@ def pairs_tagged_string():
         df_row = pd.DataFrame([[row['file'], new_string_sentence, row['type'], row['role']]], columns=columnas)
         df_row.to_csv('sentence_event_timex_tagged.csv', mode='a', header=False, index=False)
 
-#HAY QUE LIMPIAR LAS SENTENCES QUE NO TIENEN EVENTOS Y EQUILIBRAR EL DATASET
-
-def prueba():        
-    df_train = pd.read_csv('dataset_link_train_DOS.csv')
-    df_test = pd.read_csv('dataset_link_test_DOS.csv')
-    df_dev = pd.read_csv('dataset_link_dev_DOS.csv')
-    df = pd.read_csv('dataset_link_final_DOS.csv')
-
-    uniques = df_train['labels'].unique()
-    for unique in uniques:
-        print(unique)
-        print(len(df[df['labels'] == unique]))
-    
-    values_replace = ['-1', 'CONTAINS', 'OVERLAP', 'BEFORE', 'BEGINS-ON', 'ENDS-ON', 'SIMULTANEOUS']
-    values = ['0', '1', '2', '3', '4', '5', '6']
-    
-    
-    for unique in uniques:
-        print(unique)
-        print('TRAIN: ')
-        print(len(df_train[df_train['labels'] == unique]))
-        print('TEST: ')
-        print(len(df_test[df_test['labels'] == unique]))
-        print('DEV: ')
-        print(len(df_dev[df_dev['labels'] == unique]))
-        print()
-    
-    False
-
+#Extrae todos los eventos y las expresiones temporales en un mismo documento
 def get_events_timex():
     columnas = ['file','id','begin','end', 'type']
     create_csv('events_timex.csv', columnas)
@@ -1055,7 +976,8 @@ def get_events_timex():
                     df_row = pd.DataFrame([row], columns=columnas)
                     df_row.to_csv('events_timex.csv', columns=columnas, mode='a', header=False, index=False)
 
-#GUARDAR UNA COPIA DEL DATASET CAMBIANDO LAS ETIQUETAS DEL TAG POR NÚMEROS (0-6) PARA LUEGO PODER PASARLO A INT Y QUE LO MAPEE EL CLASSLABEL
+
+#Reduce la dimensionalidad del dataset 
 def clear_sentence_event_timex_tagged():
     #df = pd.read_csv('sentence_event_timex_tagged.csv')
     #Para generar el segundo dataset hay que partir del primero 
@@ -1071,7 +993,7 @@ def clear_sentence_event_timex_tagged():
     print(len(df_))
     df_.to_csv('dataset_link_final_DOS.csv', columns=['file', 'sentence', 'type', 'labels'])
 
-
+#Cambia los valores del tipo de relación para asignar unos valores numéricos
 def change_tag_column():
     df = pd.read_csv('dataset_link.csv')
     columnas = ['file', 'sentence', 'type', 'labels']
@@ -1090,6 +1012,7 @@ def change_tag_column():
 
     df.to_csv('dataset_link_final.csv', mode='a', index=False, header=False)
 
+#Split en los tres datasets para el equilibrado parcial
 def split_train_test_tlink():
     df = pd.read_csv('dataset_link_final.csv')
     #df = pd.read_csv('dataset_link.csv')
@@ -1171,7 +1094,8 @@ def split_train_test_tlink():
                 if sum(list(var)) in rango:
                     print(list(var)) 
     """
-    
+
+#Split en los tres datasets para el equilibrado total    
 def split_train_test_tlink_2():
     df = pd.read_csv('dataset_link_final_DOS.csv')
 
@@ -1224,24 +1148,7 @@ def split_train_test_tlink_2():
             lista_train.append(unique)
         if suma > 2300:
             lista_dev.append(unique)
-
-def prueba2():
-    nSamples = [4608, 2287, 367, 147, 553, 192, 224]
-
-    weights_ = [1 - (x / sum(nSamples)) for x in nSamples]
-
-    weights = [1 / (x / sum(nSamples)) for x in nSamples]
-
-    weights = [(x / sum(nSamples)) for x in nSamples]
     
-    print(weights)
-
-    print(weights_)
-
-
-    
-    
-
 
 def main():
 
@@ -1308,44 +1215,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-
-#------PRUEBAS------#
-"""
-def pruebas():
-
-    PATH = '/Users/asdc/Library/CloudStorage/OneDrive-UNED/E3C-Corpus-2.0.0/data_annotation/Spanish/layer1/ES100688.xml'
-    df = pd.read_xml(PATH)
-    input_id = df.loc[df['id'] == 1]
-    input_id = input_id['sofa']
-    input_id = int(input_id.values[0])
-    print(input_id)
-
-    input_ = df.loc[df['id'] == input_id]
-    input_ = input_['sofaString']
-    if input_.values[0] == None:
-        input_clear = input_.values[1]#.replace("\n\t", "  ")
-    else: 
-        input_clear = input_.values[0]#.replace("\n\t", "  ")
-
-    print("TEXTO:" + str(input_clear))
-"""
-#------ESTAS LÍNEAS VALEN SI SE EJECUTA EN PYTHON2.X------#
-#clear_input = clear_input.replace("ñ", "\xc3\xb1")
-#clear_input = clear_input.decode("utf-8")
-#clear_input = unidecode.unidecode(clear_input)
-
-#------SUSTITUYE LOS SALTOS DE LÍNEA SI SE COPIA EL TEXTO DEL XML A MANO. EL &#13;&#10; REPRESENTA \n\t-----#
-#input="Presentamos el caso de una mujer de 70 años, con antecedentes de hipertensión arterial, hernia de hiato, estreñimiento e histerectomía que consultó por síndrome miccional irritativo desde hacía 8 meses, consistente en disuria y polaquiuria intensas con urgencias miccionales ocasionales sin otra sintomatología urológica añadida. En los últimos 6 meses había presentado 3 episodios de infección del tracto urinario bajo con urocultivos positivos a E. coli tratados por su médico de cabecera.&#13;&#10;El estudio inicial incluyó bioquímica sanguínea que fue normal, orina y estudio de sedimento de orina que mostraron intensa leucocituria, urocultivo que fue de nuevo positivo a E.coli y una citología urinaria por micción espontánea cuyo resultado fue células uroteliales sin atipias y abundantes leucocitos polimorfonucleares neutrófilos. Se prescribió tratamiento con antibioteparia y anticolinérgico (tolterodina).&#13;&#10;A los 3 meses la paciente fue revisada en consulta externa, persistiendo la sintomatología basada en disuria y polaquiuria, si bien había mejorado bastante de las urgencias con el anticolinérgico, e incluso días antes dela revisión había tenido nuevo episodio de infección urinaria.&#13;&#10;Ante la escasa respuesta encontrada, se inició un estudio más avanzado, solicitando urografía intravenosa para descartar tumor urotelial del tracto urinario superior, la cual fue rigurosamente normal, y ecografía urológica que también fue normal, por lo que se realizó cistoscopia en consulta, hallando lesiones nodulares, sobreelevadas, de aspecto sólido, discretamente enrojecidas, con áreas adyacentes de edema, localizadas en trígono y parte inferior de ambas caras laterales. Debido a este hallazgo, a pesar de que la paciente no tenía factores de riesgo para TBC y la urografía fue rigurosamente normal, se realizó baciloscopia en orina y cultivo Lowenstein-Jensen de 6 muestras de la primera orina de la mañana en días consecutivos, ya que las lesiones vesicales macroscópicamente podrían tratarse de tuberculomas, siendo estos estudios negativos para bacilo de Koch, por lo que se realizó resección endoscópica de las lesiones descritas bajo anestesia. El estudio anatomopatológico reveló ulceración de la mucosa con importante infiltrado inflamatorio crónico y congestión vascular, así como la presencia de células plasmáticas y linfocitos constituyendo folículos linfoides, los cuales están divididos en una zona central donde abundan linfoblastos e inmunoblastos, llamado centro germinativo claro, y una zona periférica formada por células maduras (linfocitos y células plasmáticas) dando lugar a los linfocitos del manto o corona radiada, como también se les denomina.&#13;&#10;&#13;&#10;A la paciente se le indicó medidas higiénico-dietéticas y profilaxis antibiótica mantenida ciclo largo a dosis única diaria nocturna 3 meses y posteriormente días alternos durante 6 meses con ciprofloxacino, vitamina A dosis única diaria 6 meses, prednisona 30mg durante 45 días y posteriormente en días alternos durante otros 45 días hasta su suspensión definitiva, y por último protección digestiva con omeprazol. La paciente experimentó clara mejoría con desaparición progresiva de la clínica, sobre todo a partir del tercer mes de tratamiento.&#13;&#10;Actualmente (al año de finalización del tratamiento), se encuentra asintomática con cistoscopia de control normal y urocultivos negativos."
-#clear_input = input.replace("&#13;&#10;", "  ")
-
-#a = "Presentamos el caso de una mujer de 70 años, con antecedentes de hipertensión arterial, hernia de hiato, estreñimiento e histerectomía que consultó por síndrome miccional irritativo desde hacía 8 meses, consistente en disuria y polaquiuria intensas con urgencias miccionales ocasionales sin otra sintomatología urológica añadida. En los últimos 6 meses había presentado 3 episodios de infección del tracto urinario bajo con urocultivos positivos a E. coli tratados por su médico de cabecera.&#13;&#10;El estudio inicial incluyó bioquímica sanguínea que fue normal, orina y estudio de sedimento de orina que mostraron intensa leucocituria, urocultivo que fue de nuevo positivo a E.coli y una citología urinaria por micción espontánea cuyo resultado fue células uroteliales sin atipias y abundantes leucocitos polimorfonucleares neutrófilos. Se prescribió tratamiento con antibioteparia y anticolinérgico (tolterodina).&#13;&#10;A los 3 meses la paciente fue revisada en consulta externa, persistiendo la sintomatología basada en disuria y polaquiuria, si bien había mejorado bastante de las urgencias con el anticolinérgico, e incluso días antes dela revisión había tenido nuevo episodio de infección urinaria.&#13;&#10;Ante la escasa respuesta encontrada, se inició un estudio más avanzado, solicitando urografía intravenosa para descartar tumor urotelial del tracto urinario superior, la cual fue rigurosamente normal, y ecografía urológica que también fue normal, por lo que se realizó cistoscopia en consulta, hallando lesiones nodulares, sobreelevadas, de aspecto sólido, discretamente enrojecidas, con áreas adyacentes de edema, localizadas en trígono y parte inferior de ambas caras laterales. Debido a este hallazgo, a pesar de que la paciente no tenía factores de riesgo para TBC y la urografía fue rigurosamente normal, se realizó baciloscopia en orina y cultivo Lowenstein-Jensen de 6 muestras de la primera orina de la mañana en días consecutivos, ya que las lesiones vesicales macroscópicamente podrían tratarse de tuberculomas, siendo estos estudios negativos para bacilo de Koch, por lo que se realizó resección endoscópica de las lesiones descritas bajo anestesia. El estudio anatomopatológico reveló ulceración de la mucosa con importante infiltrado inflamatorio crónico y congestión vascular, así como la presencia de células plasmáticas y linfocitos constituyendo folículos linfoides, los cuales están divididos en una zona central donde abundan linfoblastos e inmunoblastos, llamado centro germinativo claro, y una zona periférica formada por células maduras (linfocitos y células plasmáticas) dando lugar a los linfocitos del manto o corona radiada, como también se les denomina.&#13;&#10;&#13;&#10;A la paciente se le indicó medidas higiénico-dietéticas y profilaxis antibiótica mantenida ciclo largo a dosis única diaria nocturna 3 meses y posteriormente días alternos durante 6 meses con ciprofloxacino, vitamina A dosis única diaria 6 meses, prednisona 30mg durante 45 días y posteriormente en días alternos durante otros 45 días hasta su suspensión definitiva, y por último protección digestiva con omeprazol. La paciente experimentó clara mejoría con desaparición progresiva de la clínica, sobre todo a partir del tercer mes de tratamiento.&#13;&#10;Actualmente (al año de finalización del tratamiento), se encuentra asintomática con cistoscopia de control normal y urocultivos negativos."
-#clear_a = a.replace("&#13;&#10;", " ") #QUITA LOS SALTOS DE LÍNA EN EL FORMATO EN EL QUE APARECEN EN EL XML
-#clear_a = ' '.join(clear_a.split())
-#clear_a = unidecode.unidecode(clear_a)
-#b = "Presentamos el caso de una mujer de 70 años, con antecedentes de hipertensión arterial, hernia de hiato, estreñimiento e histerectomía que consultó por síndrome miccional irritativo desde hacía 8 meses, consistente en disuria y polaquiuria intensas con urgencias miccionales ocasionales sin otra sintomatología urológica añadida. En los últimos 6 meses había presentado 3 episodios de infección del tracto urinario bajo con urocultivos positivos a E. coli tratados por su médico de cabecera. El estudio inicial incluyó bioquímica sanguínea que fue normal, orina y estudio de sedimento de orina que mostraron intensa leucocituria, urocultivo que fue de nuevo positivo a E.coli y una citología urinaria por micción espontánea cuyo resultado fue células uroteliales sin atipias y abundantes leucocitos polimorfonucleares neutrófilos. Se prescribió tratamiento con antibioteparia y anticolinérgico (tolterodina). A los 3 meses la paciente fue revisada en consulta externa, persistiendo la sintomatología basada en disuria y polaquiuria, si bien había mejorado bastante de las urgencias con el anticolinérgico, e incluso días antes dela revisión había tenido nuevo episodio de infección urinaria. Ante la escasa respuesta encontrada, se inició un estudio más avanzado, solicitando urografía intravenosa para descartar tumor urotelial del tracto urinario superior, la cual fue rigurosamente normal, y ecografía urológica que también fue normal, por lo que se realizó cistoscopia en consulta, hallando lesiones nodulares, sobreelevadas, de aspecto sólido, discretamente enrojecidas, con áreas adyacentes de edema, localizadas en trígono y parte inferior de ambas caras laterales. Debido a este hallazgo, a pesar de que la paciente no tenía factores de riesgo para TBC y la urografía fue rigurosamente normal, se realizó baciloscopia en orina y cultivo Lowenstein-Jensen de 6 muestras de la primera orina de la mañana en días consecutivos, ya que las lesiones vesicales macroscópicamente podrían tratarse de tuberculomas, siendo estos estudios negativos para bacilo de Koch, por lo que se realizó resección endoscópica de las lesiones descritas bajo anestesia. El estudio anatomopatológico reveló ulceración de la mucosa con importante infiltrado inflamatorio crónico y congestión vascular, así como la presencia de células plasmáticas y linfocitos constituyendo folículos linfoides, los cuales están divididos en una zona central donde abundan linfoblastos e inmunoblastos, llamado centro germinativo claro, y una zona periférica formada por células maduras (linfocitos y células plasmáticas) dando lugar a los linfocitos del manto o corona radiada, como también se les denomina. A la paciente se le indicó medidas higiénico-dietéticas y profilaxis antibiótica mantenida ciclo largo a dosis única diaria nocturna 3 meses y posteriormente días alternos durante 6 meses con ciprofloxacino, vitamina A dosis única diaria 6 meses, prednisona 30mg durante 45 días y posteriormente en días alternos durante otros 45 días hasta su suspensión definitiva, y por último protección digestiva con omeprazol. La paciente experimentó clara mejoría con desaparición progresiva de la clínica, sobre todo a partir del tercer mes de tratamiento. Actualmente (al año de finalización del tratamiento), se encuentra asintomática con cistoscopia de control normal y urocultivos negativos."
-
-#------COMPUTA LA DIFERENCIA ENTRE DOS STRINGS-----#
-#diff = dl.context_diff(clear_a, b)
-#for diff in dl.context_diff(clear_a, b):
-#    print(diff)
